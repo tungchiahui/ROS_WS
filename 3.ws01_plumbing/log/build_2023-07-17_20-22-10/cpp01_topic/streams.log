@@ -1,0 +1,64 @@
+[0.009s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp02_service:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[0.025s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.152s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.154s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.223s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.224s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.412s] -- Found base_interfaces_demo: 0.0.0 (/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.423s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.476s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.476s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/cpp01_topic/include>
+[0.476s] -- Configured cppcheck exclude dirs and/or files: 
+[0.476s] -- Added test 'lint_cmake' to check CMake code style
+[0.477s] -- Added test 'uncrustify' to check C / C++ code style
+[0.477s] -- Configured uncrustify additional arguments: 
+[0.477s] -- Added test 'xmllint' to check XML markup files
+[0.478s] -- Configuring done
+[0.494s] -- Generating done
+[0.495s] -- Build files have been written to: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic
+[0.514s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.514s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.514s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.514s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.526s] [ 50%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[0.526s] [ 50%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[0.526s] [ 50%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[0.526s] [ 50%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.696s] [ 62%] Built target demo01_talker_str
+[0.854s] [ 75%] Built target demo02_listener_str
+[3.773s] [ 87%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[3.895s] [ 87%] Built target demo03_talker_stu
+[6.431s] [100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[6.677s] [100%] Built target demo04_listener_stu
+[6.684s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp02_service:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[6.705s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp02_service:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic
+[6.710s] -- Install configuration: ""
+[6.711s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[6.712s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[6.713s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[6.715s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""
+[6.715s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[6.716s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[6.717s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[6.720s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""
+[6.720s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[6.720s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[6.720s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[6.720s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[6.720s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[6.720s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[6.721s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[6.721s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[6.721s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[6.721s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[6.721s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[6.721s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[6.721s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[6.721s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[6.721s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[6.725s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp02_service:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic

@@ -1,0 +1,11 @@
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/uninstall.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/opencv_demo2_0_video_capture_uninstall.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/read_video_node.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/read_camera_video_node.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/test.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/edit_cache.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/rebuild_cache.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/list_install_components.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/install.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/install/local.dir
+/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture/CMakeFiles/install/strip.dir

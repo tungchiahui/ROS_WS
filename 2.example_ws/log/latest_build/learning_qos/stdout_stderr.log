@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/learning_qos/learning_qos.egg-info
+writing ../../../build/learning_qos/learning_qos.egg-info/PKG-INFO
+writing dependency_links to ../../../build/learning_qos/learning_qos.egg-info/dependency_links.txt
+writing entry points to ../../../build/learning_qos/learning_qos.egg-info/entry_points.txt
+writing requirements to ../../../build/learning_qos/learning_qos.egg-info/requires.txt
+writing top-level names to ../../../build/learning_qos/learning_qos.egg-info/top_level.txt
+writing manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+reading manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+writing manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib/learning_qos
+copying learning_qos/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib/learning_qos
+copying learning_qos/qos_helloworld_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib/learning_qos
+copying learning_qos/qos_helloworld_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib/learning_qos
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib/learning_qos/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib/learning_qos/qos_helloworld_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/build/lib/learning_qos/qos_helloworld_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos/qos_helloworld_sub.py to qos_helloworld_sub.cpython-310.pyc
+byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos/qos_helloworld_pub.py to qos_helloworld_pub.cpython-310.pyc
+running install_data
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/share/ament_index
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/share/ament_index/resource_index
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/share/ament_index/resource_index/packages
+copying resource/learning_qos -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/share/ament_index/resource_index/packages
+copying package.xml -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/share/learning_qos
+running install_egg_info
+Copying ../../../build/learning_qos/learning_qos.egg-info to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing qos_helloworld_pub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/learning_qos
+Installing qos_helloworld_sub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_qos/lib/learning_qos
+writing list of installed files to '/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_qos/install.log'

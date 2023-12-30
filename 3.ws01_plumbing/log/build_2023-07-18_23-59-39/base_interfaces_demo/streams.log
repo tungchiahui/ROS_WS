@@ -1,0 +1,314 @@
+[0.008s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo -- -j16 -l16
+[0.022s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.111s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.374s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.666s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.679s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.679s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.679s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.691s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.700s] -- Configuring done
+[0.729s] -- Generating done
+[0.730s] -- Build files have been written to: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo
+[0.746s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.752s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.759s] [  4%] Built target ament_cmake_python_copy_base_interfaces_demo
+[0.899s] running egg_info
+[0.900s] writing base_interfaces_demo.egg-info/PKG-INFO
+[0.900s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[0.900s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[0.902s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[0.902s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[0.918s] [  4%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[1.109s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_c[0m
+[1.112s] [  4%] Built target base_interfaces_demo__cpp
+[1.115s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o[0m
+[1.115s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o[0m
+[1.115s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o[0m
+[1.117s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.117s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.118s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.211s] [ 19%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[1.246s] [ 19%] Built target base_interfaces_demo__rosidl_generator_c
+[1.253s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.253s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.253s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.378s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_cpp[0m
+[1.378s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_cpp[0m
+[1.386s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[1.386s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.cpp.o[0m
+[1.387s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[1.387s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o[0m
+[1.387s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[1.387s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/progress__type_support.cpp.o[0m
+[1.463s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp[0m
+[1.475s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/add_ints__type_support.cpp.o[0m
+[1.476s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[1.476s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/progress__type_support.cpp.o[0m
+[1.562s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c[0m
+[1.573s] [ 48%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[1.573s] [ 48%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[1.581s] [ 51%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[1.635s] [ 53%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[1.636s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c[0m
+[1.648s] [ 55%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o[0m
+[1.650s] [ 57%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o[0m
+[1.651s] [ 59%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o[0m
+[1.694s] [ 59%] Built target base_interfaces_demo__rosidl_typesupport_c
+[1.712s] [ 61%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[1.744s] [ 61%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[1.808s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c[0m
+[1.820s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/add_ints__type_support_c.cpp.o[0m
+[1.820s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/progress__type_support_c.cpp.o[0m
+[1.820s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o[0m
+[1.910s] [ 70%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[1.921s] [ 72%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[1.958s] [ 72%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[1.971s] [ 72%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[1.990s] [ 74%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.052s] [ 74%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[2.092s] [ 76%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[2.142s] [ 76%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[2.154s] [ 76%] Built target base_interfaces_demo
+[2.166s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.766s] [ 78%] Built target base_interfaces_demo__py
+[2.771s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_py[0m
+[2.779s] [ 80%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o[0m
+[2.779s] [ 82%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c.o[0m
+[2.779s] [ 85%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/action/_progress_s.c.o[0m
+[2.882s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so[0m
+[2.908s] [ 87%] Built target base_interfaces_demo__rosidl_generator_py
+[2.915s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext[0m
+[2.915s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.915s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c__pyext[0m
+[2.923s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[2.923s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.923s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.003s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.003s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.014s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.030s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[3.033s] [100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[3.046s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[3.054s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo -- -j16 -l16
+[3.106s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo
+[3.110s] -- Install configuration: ""
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[3.111s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.111s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h
+[3.111s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.h
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[3.111s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.h
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.h
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.c
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.h
+[3.112s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.112s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[3.112s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[3.112s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[3.112s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[3.113s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[3.113s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+[3.113s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.113s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.113s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.113s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h
+[3.113s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[3.113s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[3.114s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[3.114s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.114s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.114s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.114s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[3.114s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[3.114s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[3.114s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.114s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.114s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.114s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[3.115s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
+[3.115s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[3.115s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[3.115s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
+[3.115s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.c
+[3.115s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.115s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.115s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.115s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[3.115s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[3.115s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[3.115s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+[3.116s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[3.116s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+[3.116s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.116s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.116s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp
+[3.116s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.116s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp
+[3.116s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp
+[3.116s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp
+[3.116s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[3.116s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.hpp
+[3.117s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.hpp
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__traits.hpp
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__builder.hpp
+[3.117s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[3.117s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[3.117s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.117s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.117s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.117s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.117s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[3.118s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/dds_fastrtps
+[3.118s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.118s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[3.118s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[3.118s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.118s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp
+[3.119s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[3.119s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.cpp
+[3.119s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.119s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[3.119s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[3.119s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[3.120s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+[3.120s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[3.120s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[3.120s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info
+[3.120s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+[3.120s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.120s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.120s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[3.120s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo
+[3.120s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.120s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints_s.c
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress_s.c
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py
+[3.121s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg
+[3.121s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c
+[3.122s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py
+[3.122s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py
+[3.122s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+[3.122s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[3.149s] Listing '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...
+[3.150s] Compiling '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...
+[3.150s] Listing '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action'...
+[3.150s] Compiling '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py'...
+[3.150s] Compiling '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py'...
+[3.150s] Listing '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...
+[3.150s] Compiling '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...
+[3.150s] Compiling '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...
+[3.150s] Listing '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...
+[3.150s] Compiling '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py'...
+[3.150s] Compiling '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py'...
+[3.153s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.153s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.153s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.153s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.154s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.154s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.154s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[3.154s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""
+[3.154s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[3.154s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl
+[3.154s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.idl
+[3.154s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.srv
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Request.msg
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Response.msg
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.action
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[3.155s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[3.155s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake].
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[3.155s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[3.156s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.156s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.156s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake].
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[3.156s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.156s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.156s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.157s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake].
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[3.157s] -- Old export file "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake].
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.157s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.157s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[3.157s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[3.157s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.157s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.157s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[3.157s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[3.158s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[3.159s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/base_interfaces_demo

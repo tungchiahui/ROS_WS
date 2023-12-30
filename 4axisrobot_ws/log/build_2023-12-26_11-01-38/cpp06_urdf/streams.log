@@ -1,0 +1,66 @@
+[0.035s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf
+[0.424s] -- The C compiler identification is GNU 11.4.0
+[2.261s] -- The CXX compiler identification is GNU 11.4.0
+[2.290s] -- Detecting C compiler ABI info
+[2.356s] -- Detecting C compiler ABI info - done
+[2.360s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.366s] -- Detecting C compile features
+[2.378s] -- Detecting C compile features - done
+[2.400s] -- Detecting CXX compiler ABI info
+[3.939s] -- Detecting CXX compiler ABI info - done
+[3.943s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.944s] -- Detecting CXX compile features
+[3.944s] -- Detecting CXX compile features - done
+[3.950s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.089s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.292s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.353s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.353s] -- Added test 'lint_cmake' to check CMake code style
+[4.353s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.354s] -- Added test 'xmllint' to check XML markup files
+[4.356s] -- Configuring done
+[4.357s] -- Generating done
+[4.459s] -- Build files have been written to: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf
+[4.462s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf
+[4.464s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf -- -j16 -l16
+[4.478s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.568s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.608s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.609s] -- Added test 'lint_cmake' to check CMake code style
+[4.609s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.609s] -- Added test 'xmllint' to check XML markup files
+[4.610s] -- Configuring done
+[5.083s] -- Generating done
+[5.086s] -- Build files have been written to: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf
+[5.101s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf -- -j16 -l16
+[5.121s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf
+[5.126s] -- Install configuration: ""
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/launch
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/4axis_robot.urdf
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/4axis_robot.csv
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/test.urdf
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/rviz
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes
+[5.126s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link3.STL
+[5.128s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link4.STL
+[5.132s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/base_link.STL
+[5.132s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link2.STL
+[5.134s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link1.STL
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+[5.140s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+[5.141s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+[5.141s] -- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/package.xml
+[5.142s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf

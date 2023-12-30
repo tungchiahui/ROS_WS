@@ -1,0 +1,347 @@
+[0.534s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.534s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f202895ffa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f202895f520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f202895f520>>)
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.561s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ros'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['cmake', 'python']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'cmake'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo1_0_show_image) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_demo1_0_show_image' with type 'ros.ament_cmake' and name 'opencv_demo1_0_show_image'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo2_0_video_capture) by extension 'ros'
+[0.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_demo2_0_video_capture' with type 'ros.ament_cmake' and name 'opencv_demo2_0_video_capture'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_0_save_media_file) by extension 'ros'
+[0.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_demo3_0_save_media_file' with type 'ros.ament_cmake' and name 'opencv_demo3_0_save_media_file'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_demo3_1_color_space) by extension 'ros'
+[0.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_demo3_1_color_space' with type 'ros.ament_cmake' and name 'opencv_demo3_1_color_space'
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.642s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install
+[0.650s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'cmake_target' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo1_0_show_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_demo1_0_show_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image', 'merge_install': False, 'path': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_0_show_image', 'symlink_install': False, 'test_result_base': None}
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo2_0_video_capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.718s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_demo2_0_video_capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture', 'merge_install': False, 'path': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo2_0_video_capture', 'symlink_install': False, 'test_result_base': None}
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'cmake_target' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'cmake_clean_cache' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'cmake_clean_first' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'cmake_force_configure' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'ament_cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'catkin_cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_0_save_media_file' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.726s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_demo3_0_save_media_file' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file', 'merge_install': False, 'path': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_0_save_media_file', 'symlink_install': False, 'test_result_base': None}
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'cmake_target' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'cmake_clean_cache' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'cmake_clean_first' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'cmake_force_configure' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'ament_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'catkin_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'opencv_demo3_1_color_space' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.734s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_demo3_1_color_space' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space', 'merge_install': False, 'path': '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_1_color_space', 'symlink_install': False, 'test_result_base': None}
+[0.741s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.749s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_0_show_image' with build type 'ament_cmake'
+[0.749s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_0_show_image'
+[0.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.786s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo2_0_video_capture' with build type 'ament_cmake'
+[0.787s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo2_0_video_capture'
+[0.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.823s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_0_save_media_file' with build type 'ament_cmake'
+[0.823s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_0_save_media_file'
+[0.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.860s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_1_color_space' with build type 'ament_cmake'
+[0.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_1_color_space'
+[0.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image -- -j16 -l16
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture -- -j16 -l16
+[0.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file -- -j16 -l16
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space -- -j16 -l16
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture -- -j16 -l16
+[0.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image -- -j16 -l16
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file -- -j16 -l16
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image
+[0.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo2_0_video_capture)
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo2_0_video_capture
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture' for CMake module files
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture' for CMake config files
+[0.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo2_0_video_capture', 'cmake_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/hook/cmake_prefix_path.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/hook/cmake_prefix_path.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/hook/cmake_prefix_path.sh'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/lib'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/bin'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/lib/pkgconfig/opencv_demo2_0_video_capture.pc'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/lib/python3.10/site-packages'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/bin'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.sh'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.bash'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.zsh'
+[1.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/colcon-core/packages/opencv_demo2_0_video_capture)
+[1.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo3_0_save_media_file)
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_0_save_media_file
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file' for CMake module files
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file' for CMake config files
+[1.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo3_0_save_media_file', 'cmake_prefix_path')
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/hook/cmake_prefix_path.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/hook/cmake_prefix_path.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/hook/cmake_prefix_path.sh'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/lib'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/bin'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/lib/pkgconfig/opencv_demo3_0_save_media_file.pc'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/lib/python3.10/site-packages'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/bin'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.sh'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.bash'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.zsh'
+[1.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/colcon-core/packages/opencv_demo3_0_save_media_file)
+[1.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo1_0_show_image)
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image' for CMake module files
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image' for CMake config files
+[1.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo1_0_show_image', 'cmake_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/hook/cmake_prefix_path.ps1'
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/hook/cmake_prefix_path.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/hook/cmake_prefix_path.sh'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/bin'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/pkgconfig/opencv_demo1_0_show_image.pc'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/python3.10/site-packages'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/bin'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.sh'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.bash'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.zsh'
+[1.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/colcon-core/packages/opencv_demo1_0_show_image)
+[1.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo2_0_video_capture)
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture' for CMake module files
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture' for CMake config files
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo2_0_video_capture', 'cmake_prefix_path')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/hook/cmake_prefix_path.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/hook/cmake_prefix_path.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/hook/cmake_prefix_path.sh'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/lib'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/bin'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/lib/pkgconfig/opencv_demo2_0_video_capture.pc'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/lib/python3.10/site-packages'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/bin'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.sh'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.bash'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/opencv_demo2_0_video_capture/package.zsh'
+[1.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_0_video_capture/share/colcon-core/packages/opencv_demo2_0_video_capture)
+[1.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo3_0_save_media_file)
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file' for CMake module files
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file' for CMake config files
+[1.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo3_0_save_media_file', 'cmake_prefix_path')
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/hook/cmake_prefix_path.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/hook/cmake_prefix_path.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/hook/cmake_prefix_path.sh'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/lib'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/bin'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/lib/pkgconfig/opencv_demo3_0_save_media_file.pc'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/lib/python3.10/site-packages'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/bin'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.sh'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.bash'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/opencv_demo3_0_save_media_file/package.zsh'
+[1.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_0_save_media_file/share/colcon-core/packages/opencv_demo3_0_save_media_file)
+[1.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo1_0_show_image)
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image' for CMake module files
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image' for CMake config files
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo1_0_show_image', 'cmake_prefix_path')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/hook/cmake_prefix_path.ps1'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/hook/cmake_prefix_path.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/pkgconfig/opencv_demo1_0_show_image.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/python3.10/site-packages'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/bin'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.dsv'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.sh'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.bash'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.zsh'
+[1.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/colcon-core/packages/opencv_demo1_0_show_image)
+[4.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space -- -j16 -l16
+[4.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space
+[4.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo3_1_color_space)
+[4.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space' for CMake module files
+[4.081s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space' for CMake config files
+[4.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo3_1_color_space', 'cmake_prefix_path')
+[4.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/hook/cmake_prefix_path.ps1'
+[4.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/hook/cmake_prefix_path.dsv'
+[4.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/hook/cmake_prefix_path.sh'
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib'
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/bin'
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/pkgconfig/opencv_demo3_1_color_space.pc'
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/python3.10/site-packages'
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/bin'
+[4.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.ps1'
+[4.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.dsv'
+[4.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.sh'
+[4.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.bash'
+[4.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.zsh'
+[4.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/colcon-core/packages/opencv_demo3_1_color_space)
+[4.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_demo3_1_color_space)
+[4.134s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space' for CMake module files
+[4.134s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space' for CMake config files
+[4.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_demo3_1_color_space', 'cmake_prefix_path')
+[4.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/hook/cmake_prefix_path.ps1'
+[4.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/hook/cmake_prefix_path.dsv'
+[4.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/hook/cmake_prefix_path.sh'
+[4.143s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib'
+[4.143s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/bin'
+[4.143s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/pkgconfig/opencv_demo3_1_color_space.pc'
+[4.143s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/python3.10/site-packages'
+[4.143s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/bin'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.ps1'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.dsv'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.sh'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.bash'
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.zsh'
+[4.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/colcon-core/packages/opencv_demo3_1_color_space)
+[4.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.152s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.164s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.164s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.164s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.180s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/local_setup.ps1'
+[4.190s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/_local_setup_util_ps1.py'
+[4.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/setup.ps1'
+[4.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/local_setup.sh'
+[4.200s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/_local_setup_util_sh.py'
+[4.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/setup.sh'
+[4.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/local_setup.bash'
+[4.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/setup.bash'
+[4.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/local_setup.zsh'
+[4.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/setup.zsh'

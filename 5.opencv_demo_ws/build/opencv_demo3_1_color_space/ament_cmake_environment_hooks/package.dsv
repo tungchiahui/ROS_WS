@@ -1,0 +1,4 @@
+source;share/opencv_demo3_1_color_space/local_setup.bash
+source;share/opencv_demo3_1_color_space/local_setup.dsv
+source;share/opencv_demo3_1_color_space/local_setup.sh
+source;share/opencv_demo3_1_color_space/local_setup.zsh

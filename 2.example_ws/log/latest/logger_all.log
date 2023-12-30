@@ -1,0 +1,218 @@
+[0.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tungchiahui/mysource/ros2src/2.example_ws']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/tungchiahui/mysource/ros2src/2.example_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0569585e70>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f0569529000>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f0569529000>>)
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.239s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tungchiahui/mysource/ros2src/2.example_ws'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/build) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/log) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/docs) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action' with type 'ros.ament_python' and name 'learning_action'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo' with type 'ros.ament_python' and name 'learning_gazebo'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface' with type 'ros.ament_cmake' and name 'learning_interface'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_launch' with type 'ros.ament_python' and name 'learning_launch'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_node' with type 'ros.ament_python' and name 'learning_node'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_parameter' with type 'ros.ament_python' and name 'learning_parameter'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_c' with type 'ros.ament_cmake' and name 'learning_pkg_c'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_qos' with type 'ros.ament_python' and name 'learning_qos'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_service' with type 'ros.ament_python' and name 'learning_service'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_tf' with type 'ros.ament_python' and name 'learning_tf'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic' with type 'ros.ament_python' and name 'learning_topic'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_urdf' with type 'ros.ament_python' and name 'learning_urdf'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/python) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,43 @@
+[0.674s] Invoking command in '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action': AMENT_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface LD_LIBRARY_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/prefix_override:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build install --record /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/install.log --single-version-externally-managed
+[0.810s] running egg_info
+[0.810s] creating ../../../build/learning_action/learning_action.egg-info
+[0.810s] writing ../../../build/learning_action/learning_action.egg-info/PKG-INFO
+[0.810s] writing dependency_links to ../../../build/learning_action/learning_action.egg-info/dependency_links.txt
+[0.811s] writing entry points to ../../../build/learning_action/learning_action.egg-info/entry_points.txt
+[0.811s] writing requirements to ../../../build/learning_action/learning_action.egg-info/requires.txt
+[0.811s] writing top-level names to ../../../build/learning_action/learning_action.egg-info/top_level.txt
+[0.811s] writing manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.812s] reading manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.813s] running build_py
+[0.813s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build
+[0.813s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib
+[0.813s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib/learning_action
+[0.813s] copying learning_action/action_move_server.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib/learning_action
+[0.813s] copying learning_action/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib/learning_action
+[0.813s] copying learning_action/action_move_client.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib/learning_action
+[0.813s] running install
+[0.813s] running install_lib
+[0.813s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.813s]   warnings.warn(
+[0.814s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action
+[0.814s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib/learning_action/action_move_server.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action
+[0.814s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib/learning_action/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action
+[0.814s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build/lib/learning_action/action_move_client.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action
+[0.814s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action/action_move_server.py to action_move_server.cpython-310.pyc
+[0.815s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action/__init__.py to __init__.cpython-310.pyc
+[0.815s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action/action_move_client.py to action_move_client.cpython-310.pyc
+[0.815s] running install_data
+[0.815s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/share/ament_index
+[0.815s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/share/ament_index/resource_index
+[0.815s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/share/ament_index/resource_index/packages
+[0.815s] copying resource/learning_action -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/share/ament_index/resource_index/packages
+[0.815s] copying package.xml -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/share/learning_action
+[0.815s] running install_egg_info
+[0.816s] Copying ../../../build/learning_action/learning_action.egg-info to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages/learning_action-0.0.0-py3.10.egg-info
+[0.816s] running install_scripts
+[0.830s] Installing action_move_client script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/learning_action
+[0.830s] Installing action_move_server script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/learning_action
+[0.830s] writing list of installed files to '/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/install.log'
+[0.851s] Invoked command in '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_action' returned '0': AMENT_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface LD_LIBRARY_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/prefix_override:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_action/lib/python3.10/site-packages:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/build install --record /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_action/install.log --single-version-externally-managed

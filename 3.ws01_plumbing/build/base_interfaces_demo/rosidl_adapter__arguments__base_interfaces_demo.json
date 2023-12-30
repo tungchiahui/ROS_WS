@@ -1,0 +1,8 @@
+{
+  "package_name": "base_interfaces_demo",
+  "non_idl_tuples": [
+    "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
+    "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv",
+    "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/base_interfaces_demo:action/Progress.action"
+  ]
+}

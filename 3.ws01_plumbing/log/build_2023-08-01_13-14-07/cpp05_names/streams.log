@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names -- -j16 -l16
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[2.514s] [100%] [32m[1mLinking CXX executable demo01_names[0m
+[2.610s] [100%] Built target demo01_names
+[2.616s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names -- -j16 -l16
+[2.636s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names
+[2.640s] -- Install configuration: ""
+[2.640s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names
+[2.641s] -- Set runtime path of "/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names" to ""
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/launch
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo03_names_launch.yaml
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo02_names_launch.xml
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo01_names_launch.py
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.sh
+[2.641s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.bash
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.sh
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[2.642s] -- Installing: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/package.dsv
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[2.642s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp05_names/share/cpp05_names/package.xml
+[2.643s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names

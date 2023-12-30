@@ -1,0 +1,32 @@
+[0.042s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space -- -j16 -l16
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target image_split_and_merge_node[0m
+[0.083s] [ 50%] Built target image_convert_color_space
+[0.087s] [ 75%] [32mBuilding CXX object CMakeFiles/image_split_and_merge_node.dir/src/image_split_and_merge_node.cpp.o[0m
+[1.971s] [01m[K/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_1_color_space/src/image_split_and_merge_node.cpp:[m[K In member function ‘[01m[Kbool OpenCV_Node::Vector_Split_merge(const string&)[m[K’:
+[1.971s] [01m[K/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_1_color_space/src/image_split_and_merge_node.cpp:73:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.971s]    73 | [01;35m[K}[m[K
+[1.971s]       | [01;35m[K^[m[K
+[2.622s] [100%] [32m[1mLinking CXX executable image_split_and_merge_node[0m
+[2.743s] [100%] Built target image_split_and_merge_node
+[2.751s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space -- -j16 -l16
+[2.776s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space
+[2.781s] -- Install configuration: ""
+[2.781s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/opencv_demo3_1_color_space/image_split_and_merge_node
+[2.781s] -- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/opencv_demo3_1_color_space/image_split_and_merge_node" to ""
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/opencv_demo3_1_color_space/image_convert_color_space
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/ament_index/resource_index/package_run_dependencies/opencv_demo3_1_color_space
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/ament_index/resource_index/parent_prefix_path/opencv_demo3_1_color_space
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/ament_prefix_path.sh
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/ament_prefix_path.dsv
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/path.sh
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/path.dsv
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.bash
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.sh
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.zsh
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.dsv
+[2.781s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.dsv
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/ament_index/resource_index/packages/opencv_demo3_1_color_space
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/cmake/opencv_demo3_1_color_spaceConfig.cmake
+[2.781s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/cmake/opencv_demo3_1_color_spaceConfig-version.cmake
+[2.782s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.xml
+[2.782s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space

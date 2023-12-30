@@ -1,0 +1,25 @@
+[0.044s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space -- -j16 -l16
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/opencv_node.dir/src/opencv_node.cpp.o[0m
+[0.100s] [100%] [32m[1mLinking CXX executable opencv_node[0m
+[0.424s] [100%] Built target opencv_node
+[0.432s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space -- -j16 -l16
+[0.456s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space
+[0.462s] -- Install configuration: ""
+[0.462s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/opencv_demo3_1_color_space/opencv_node
+[0.463s] -- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/lib/opencv_demo3_1_color_space/opencv_node" to ""
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/ament_index/resource_index/package_run_dependencies/opencv_demo3_1_color_space
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/ament_index/resource_index/parent_prefix_path/opencv_demo3_1_color_space
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/ament_prefix_path.sh
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/ament_prefix_path.dsv
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/path.sh
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/environment/path.dsv
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.bash
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.sh
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.zsh
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/local_setup.dsv
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.dsv
+[0.463s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/ament_index/resource_index/packages/opencv_demo3_1_color_space
+[0.464s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/cmake/opencv_demo3_1_color_spaceConfig.cmake
+[0.464s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/cmake/opencv_demo3_1_color_spaceConfig-version.cmake
+[0.464s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_1_color_space/share/opencv_demo3_1_color_space/package.xml
+[0.465s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_1_color_space

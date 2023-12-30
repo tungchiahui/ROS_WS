@@ -1,0 +1,83 @@
+[0.108s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_0_show_image -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.187s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.509s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.512s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.577s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.665s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.718s] -- Looking for pthread.h
+[0.765s] -- Looking for pthread.h - found
+[0.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.816s] -- Found Threads: TRUE  
+[0.928s] -- Found CUDA: /usr/local/cuda-11.8 (found suitable exact version "11.8") 
+[0.938s] -- Found OpenCV: /usr/local/opencv-4.8.1 (found version "4.8.1") 
+[0.938s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.023s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.029s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[1.064s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.112s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.112s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_0_show_image/include>
+[1.112s] -- Configured cppcheck exclude dirs and/or files: 
+[1.112s] -- Added test 'lint_cmake' to check CMake code style
+[1.113s] -- Added test 'uncrustify' to check C / C++ code style
+[1.113s] -- Configured uncrustify additional arguments: 
+[1.113s] -- Added test 'xmllint' to check XML markup files
+[1.114s] -- Configuring done
+[1.131s] -- Generating done
+[1.132s] -- Build files have been written to: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image
+[1.142s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_0_show_image -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image
+[1.143s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image -- -j16 -l16
+[1.177s] [ 50%] [32mBuilding CXX object CMakeFiles/show_image_instantiation_node.dir/src/show_image_instantiation_node.cpp.o[0m
+[1.177s] [ 50%] [32mBuilding CXX object CMakeFiles/show_image_CUDA.dir/src/show_image_CUDA.cpp.o[0m
+[1.177s] [ 50%] [32mBuilding CXX object CMakeFiles/show_image_inheritance_node.dir/src/show_image_inheritance_node.cpp.o[0m
+[4.377s] [ 66%] [32m[1mLinking CXX executable show_image_instantiation_node[0m
+[4.405s] [ 83%] [32m[1mLinking CXX executable show_image_inheritance_node[0m
+[4.610s] [ 83%] Built target show_image_instantiation_node
+[4.614s] [ 83%] Built target show_image_inheritance_node
+[5.510s] [100%] [32m[1mLinking CXX executable show_image_CUDA[0m
+[5.666s] [100%] Built target show_image_CUDA
+[5.678s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image -- -j16 -l16
+[5.705s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image
+[5.714s] -- Install configuration: ""
+[5.714s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/opencv_demo1_0_show_image/show_image_instantiation_node
+[5.714s] -- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/opencv_demo1_0_show_image/show_image_instantiation_node" to ""
+[5.714s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/opencv_demo1_0_show_image/show_image_inheritance_node
+[5.714s] -- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/opencv_demo1_0_show_image/show_image_inheritance_node" to ""
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/opencv_demo1_0_show_image/show_image_CUDA
+[5.715s] -- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/lib/opencv_demo1_0_show_image/show_image_CUDA" to ""
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/ament_index/resource_index/package_run_dependencies/opencv_demo1_0_show_image
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/ament_index/resource_index/parent_prefix_path/opencv_demo1_0_show_image
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/environment/ament_prefix_path.sh
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/environment/ament_prefix_path.dsv
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/environment/path.sh
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/environment/path.dsv
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/local_setup.bash
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/local_setup.sh
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/local_setup.zsh
+[5.715s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/local_setup.dsv
+[5.716s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.dsv
+[5.716s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/ament_index/resource_index/packages/opencv_demo1_0_show_image
+[5.716s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/cmake/opencv_demo1_0_show_imageConfig.cmake
+[5.716s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/cmake/opencv_demo1_0_show_imageConfig-version.cmake
+[5.716s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_0_show_image/share/opencv_demo1_0_show_image/package.xml
+[5.719s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_0_show_image

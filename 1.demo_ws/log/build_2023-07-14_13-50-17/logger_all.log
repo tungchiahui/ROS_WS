@@ -1,0 +1,190 @@
+[0.175s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.175s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f013e19e410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f013e9863b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f013e9863b0>>)
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.194s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tungchiahui/mysource/ros2src/1.demo_ws'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_helloworld_cpp) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg01_helloworld_cpp' with type 'ros.ament_cmake' and name 'pkg01_helloworld_cpp'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg02_helloworld_py) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg02_helloworld_py' with type 'ros.ament_python' and name 'pkg02_helloworld_py'
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pkg01_helloworld_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'pkg01_helloworld_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp', 'merge_install': False, 'path': '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg01_helloworld_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pkg02_helloworld_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'pkg02_helloworld_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg02_helloworld_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py', 'merge_install': False, 'path': '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg02_helloworld_py', 'symlink_install': False, 'test_result_base': None}
+[0.254s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg01_helloworld_cpp' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg01_helloworld_cpp'
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg02_helloworld_py' with build type 'ament_python'
+[0.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg02_helloworld_py', 'ament_prefix_path')
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/hook/ament_prefix_path.ps1'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/hook/ament_prefix_path.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/hook/ament_prefix_path.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp -- -j16 -l16
+[0.403s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg02_helloworld_py'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp -- -j16 -l16
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp
+[0.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg01_helloworld_cpp)
+[0.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg01_helloworld_cpp
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp' for CMake module files
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp' for CMake config files
+[0.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_helloworld_cpp', 'cmake_prefix_path')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.sh'
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/lib'
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/bin'
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/lib/pkgconfig/pkg01_helloworld_cpp.pc'
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/lib/python3.10/site-packages'
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/bin'
+[0.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.sh'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.bash'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.zsh'
+[0.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/colcon-core/packages/pkg01_helloworld_cpp)
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg01_helloworld_cpp)
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp' for CMake module files
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp' for CMake config files
+[0.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_helloworld_cpp', 'cmake_prefix_path')
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/hook/cmake_prefix_path.sh'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/lib'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/bin'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/lib/pkgconfig/pkg01_helloworld_cpp.pc'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/lib/python3.10/site-packages'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/bin'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.sh'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.bash'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.zsh'
+[0.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg01_helloworld_cpp/share/colcon-core/packages/pkg01_helloworld_cpp)
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg02_helloworld_py': PYTHONPATH=/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg02_helloworld_py/prefix_override:/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg02_helloworld_py/build install --record /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg02_helloworld_py/install.log --single-version-externally-managed
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py' for CMake module files
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/src/pkg02_helloworld_py' returned '0': PYTHONPATH=/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg02_helloworld_py/prefix_override:/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg02_helloworld_py/build install --record /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg02_helloworld_py/install.log --single-version-externally-managed
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py' for CMake config files
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/lib'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/lib/pkgconfig/pkg02_helloworld_py.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg02_helloworld_py', 'pythonpath')
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/hook/pythonpath.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/hook/pythonpath.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/hook/pythonpath.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg02_helloworld_py)
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/package.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/pkg02_helloworld_py/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py/share/colcon-core/packages/pkg02_helloworld_py)
+[0.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.744s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.747s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.761s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/local_setup.ps1'
+[0.763s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/_local_setup_util_ps1.py'
+[0.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/setup.ps1'
+[0.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/local_setup.sh'
+[0.766s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/_local_setup_util_sh.py'
+[0.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/setup.sh'
+[0.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/local_setup.bash'
+[0.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/setup.bash'
+[0.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/local_setup.zsh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/mysource/ros2src/1.demo_ws/install/setup.zsh'

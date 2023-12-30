@@ -1,0 +1,4 @@
+source;share/opencv_demo3_0_save_media_file/local_setup.bash
+source;share/opencv_demo3_0_save_media_file/local_setup.dsv
+source;share/opencv_demo3_0_save_media_file/local_setup.sh
+source;share/opencv_demo3_0_save_media_file/local_setup.zsh

@@ -1,0 +1,64 @@
+[1.618s] Invoking command in '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo': PYTHONPATH=/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/prefix_override:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/build install --record /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/install.log --single-version-externally-managed
+[1.884s] running egg_info
+[1.885s] creating ../../../build/learning_gazebo/learning_gazebo.egg-info
+[1.885s] writing ../../../build/learning_gazebo/learning_gazebo.egg-info/PKG-INFO
+[1.885s] writing dependency_links to ../../../build/learning_gazebo/learning_gazebo.egg-info/dependency_links.txt
+[1.886s] writing entry points to ../../../build/learning_gazebo/learning_gazebo.egg-info/entry_points.txt
+[1.886s] writing requirements to ../../../build/learning_gazebo/learning_gazebo.egg-info/requires.txt
+[1.886s] writing top-level names to ../../../build/learning_gazebo/learning_gazebo.egg-info/top_level.txt
+[1.886s] writing manifest file '../../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[1.888s] reading manifest file '../../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[1.889s] writing manifest file '../../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[1.889s] running build
+[1.890s] running build_py
+[1.890s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/build
+[1.890s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/build/lib
+[1.890s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/build/lib/learning_gazebo
+[1.890s] copying learning_gazebo/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/build/lib/learning_gazebo
+[1.890s] running install
+[1.890s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.890s]   warnings.warn(
+[1.890s] running install_lib
+[1.891s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo
+[1.891s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/build/lib/learning_gazebo/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo
+[1.892s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo/__init__.py to __init__.cpython-310.pyc
+[1.892s] running install_data
+[1.892s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/ament_index
+[1.893s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/ament_index/resource_index
+[1.893s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/ament_index/resource_index/packages
+[1.893s] copying resource/learning_gazebo -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/ament_index/resource_index/packages
+[1.893s] copying package.xml -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo
+[1.893s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/load_mbot_laser_into_gazebo.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/load_mbot_rgbd_into_gazebo.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/mbot.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/load_mbot_camera_into_gazebo.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/mbot_camera.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/mbot_rgbd.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/mbot_laser.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] copying launch/load_urdf_into_gazebo.launch.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/launch
+[1.893s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf
+[1.893s] copying urdf/mbot_with_kinect_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf
+[1.893s] copying urdf/mbot_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf
+[1.894s] copying urdf/mbot_base_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf
+[1.894s] copying urdf/two_wheeled_robot_nav2.urdf -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf
+[1.894s] copying urdf/mbot_with_laser_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf
+[1.894s] copying urdf/mbot_with_camera_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf
+[1.894s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/meshes
+[1.896s] copying meshes/kinect.tga -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/meshes
+[1.896s] copying meshes/kinect.jpg -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/meshes
+[1.896s] copying meshes/kinect.dae -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/meshes
+[1.896s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.896s] copying urdf/sensors/lidar_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.896s] copying urdf/sensors/kinect_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.896s] copying urdf/sensors/camera_gazebo.xacro -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[1.897s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/worlds
+[1.897s] copying worlds/neighborhood.world -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/worlds
+[1.897s] copying worlds/empty_world.model -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/worlds
+[1.897s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/rviz
+[1.897s] copying rviz/urdf_gazebo_config.rviz -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/share/learning_gazebo/rviz
+[1.897s] running install_egg_info
+[1.898s] Copying ../../../build/learning_gazebo/learning_gazebo.egg-info to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo-0.0.0-py3.10.egg-info
+[1.899s] running install_scripts
+[1.917s] writing list of installed files to '/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/install.log'
+[1.940s] Invoked command in '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_gazebo' returned '0': PYTHONPATH=/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/prefix_override:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/build install --record /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_gazebo/install.log --single-version-externally-managed

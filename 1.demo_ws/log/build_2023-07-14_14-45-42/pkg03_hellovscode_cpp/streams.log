@@ -1,0 +1,23 @@
+[0.159s] Invoking command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp -- -j16 -l16
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target hellovscode[0m
+[0.189s] [100%] Built target hellovscode
+[0.311s] Invoked command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp -- -j16 -l16
+[0.337s] Invoking command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp
+[0.342s] -- Install configuration: ""
+[0.342s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode
+[0.342s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/pkg03_hellovscode_cpp
+[0.342s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/pkg03_hellovscode_cpp
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.sh
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.dsv
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.sh
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.dsv
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.bash
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.sh
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.zsh
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.dsv
+[0.343s] -- Installing: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.dsv
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/packages/pkg03_hellovscode_cpp
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig.cmake
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig-version.cmake
+[0.343s] -- Up-to-date: /home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.xml
+[0.345s] Invoked command in '/home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tungchiahui/mysource/ros2src/1.demo_ws/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/mysource/ros2src/1.demo_ws/build/pkg03_hellovscode_cpp

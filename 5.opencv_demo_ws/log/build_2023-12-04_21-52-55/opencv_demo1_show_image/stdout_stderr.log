@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_show_image/CMakeCache.txt is different than the directory /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo1_show_image where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_show_image" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

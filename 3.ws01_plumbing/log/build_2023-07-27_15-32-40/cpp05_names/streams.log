@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names -- -j16 -l16
+[0.028s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.197s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.197s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/cpp05_names/include>
+[0.197s] -- Configured cppcheck exclude dirs and/or files: 
+[0.197s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.197s] -- Added test 'lint_cmake' to check CMake code style
+[0.198s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.198s] -- Added test 'uncrustify' to check C / C++ code style
+[0.198s] -- Configured uncrustify additional arguments: 
+[0.198s] -- Added test 'xmllint' to check XML markup files
+[0.199s] -- Configuring done
+[0.204s] -- Generating done
+[0.204s] -- Build files have been written to: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target demo01_names[0m
+[0.224s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[0.228s] [01m[K/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/cpp05_names/src/demo01_names.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.229s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.229s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.229s] compilation terminated.
+[0.229s] gmake[2]: *** [CMakeFiles/demo01_names.dir/build.make:76: CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o] Error 1
+[0.229s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_names.dir/all] Error 2
+[0.229s] gmake: *** [Makefile:146: all] Error 2
+[0.231s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp05_names -- -j16 -l16

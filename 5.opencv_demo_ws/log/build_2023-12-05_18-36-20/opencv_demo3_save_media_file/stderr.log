@@ -1,0 +1,7 @@
+[01m[K/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_save_media_file/src/opencv_save_video_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kkeyboard_ascii.h: No such file or directory
+    6 | #include [01;31m[K"keyboard_ascii.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/opencv_save_video_node.dir/build.make:76: CMakeFiles/opencv_save_video_node.dir/src/opencv_save_video_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/opencv_save_video_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

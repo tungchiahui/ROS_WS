@@ -1,0 +1,52 @@
+[35m[1mConsolidate compiler generated dependencies of target show_image_instantiation_node[0m
+[35m[1mConsolidate compiler generated dependencies of target show_image_CUDA[0m
+[35m[1mConsolidate compiler generated dependencies of target show_image_inheritance_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/show_image_CUDA.dir/src/show_image_CUDA.cpp.o[0m
+[ 83%] Built target show_image_inheritance_node
+[ 83%] Built target show_image_instantiation_node
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_show_image/src/show_image_CUDA.cpp:1[m[K:
+[01m[K/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_show_image/src/show_image_CUDA.cpp:[m[K In member function ‘[01m[Kbool OpenCV_Node::Show_Image_GPU_CUDA()[m[K’:
+[01m[K/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_show_image/src/show_image_CUDA.cpp:40:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   40 |     RCLCPP_INFO(this->get_logger(),[01;35m[K"%d"[m[K,[32m[Ksizeof(arr)[m[K);
+      |                                    [01;35m[K^~~~[m[K [32m[K~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Klong unsigned int[m[K
+[01m[K/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1_show_image/src/show_image_CUDA.cpp:40:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   40 |     RCLCPP_INFO(this->get_logger(),"[01;36m[K%d[m[K",sizeof(arr));
+      |                                     [01;36m[K~^[m[K
+      |                                      [01;36m[K|[m[K
+      |                                      [01;36m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable show_image_CUDA[0m
+[100%] Built target show_image_CUDA
+-- Install configuration: ""
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/lib/opencv_demo1_show_image/show_image_instantiation_node
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/lib/opencv_demo1_show_image/show_image_inheritance_node
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/lib/opencv_demo1_show_image/show_image_CUDA
+-- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/lib/opencv_demo1_show_image/show_image_CUDA" to ""
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/ament_index/resource_index/package_run_dependencies/opencv_demo1_show_image
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/ament_index/resource_index/parent_prefix_path/opencv_demo1_show_image
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/environment/path.sh
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/environment/path.dsv
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/local_setup.bash
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/local_setup.sh
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/local_setup.zsh
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/local_setup.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/package.dsv
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/ament_index/resource_index/packages/opencv_demo1_show_image
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/cmake/opencv_demo1_show_imageConfig.cmake
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/cmake/opencv_demo1_show_imageConfig-version.cmake
+-- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1_show_image/share/opencv_demo1_show_image/package.xml

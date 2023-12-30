@@ -1,0 +1,50 @@
+[0.005s] Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[0.022s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.153s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.161s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.232s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.310s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.418s] -- Found base_interfaces_demo: 0.0.0 (/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.419s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.468s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.468s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/cpp01_topic/include>
+[0.468s] -- Configured cppcheck exclude dirs and/or files: 
+[0.469s] -- Added test 'lint_cmake' to check CMake code style
+[0.470s] -- Added test 'uncrustify' to check C / C++ code style
+[0.470s] -- Configured uncrustify additional arguments: 
+[0.470s] -- Added test 'xmllint' to check XML markup files
+[0.471s] -- Configuring done
+[0.479s] -- Generating done
+[0.480s] -- Build files have been written to: /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic
+[0.495s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.500s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[0.508s] [ 75%] Built target demo01_talker_str
+[2.166s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[2.166s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[2.166s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[2.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.166s]                  from [01m[K/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:1[m[K:
+[2.166s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Listener; _Args = {}; _Tp = Listener][m[K’:
+[2.166s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Listener; _Args = {}; _Tp = Listener; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Listener>][m[K’
+[2.166s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = Listener; _Alloc = std::allocator<Listener>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.166s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Listener; _Alloc = std::allocator<Listener>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.166s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Listener>; _Args = {}; _Tp = Listener; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.166s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Listener>; _Args = {}; _Tp = Listener][m[K’
+[2.166s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Listener; _Alloc = std::allocator<Listener>; _Args = {}][m[K’
+[2.166s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Listener; _Args = {}][m[K’
+[2.166s] [01m[K/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:22:44:[m[K   required from here
+[2.166s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[K‘[01m[KListener::Listener()[m[K’ is private within this context
+[2.166s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[2.166s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.166s] [01m[K/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:5:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.166s]     5 |     [01;36m[KListener[m[K():Node("listener_node_cpp")
+[2.166s]       |     [01;36m[K^~~~~~~~[m[K
+[2.205s] gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76: CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] Error 1
+[2.205s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_listener_str.dir/all] Error 2
+[2.206s] gmake: *** [Makefile:146: all] Error 2
+[2.208s] Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/base_interfaces_demo:/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp01_topic -- -j16 -l16

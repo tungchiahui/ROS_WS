@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target opencv_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_node.dir/src/opencv_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable opencv_node[0m
+[100%] Built target opencv_node
+-- Install configuration: ""
+-- Installing: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/lib/opencv_demo1/opencv_node
+-- Set runtime path of "/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/lib/opencv_demo1/opencv_node" to ""
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/ament_index/resource_index/package_run_dependencies/opencv_demo1
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/ament_index/resource_index/parent_prefix_path/opencv_demo1
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/environment/path.sh
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/environment/path.dsv
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/local_setup.bash
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/local_setup.sh
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/local_setup.zsh
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/local_setup.dsv
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/package.dsv
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/ament_index/resource_index/packages/opencv_demo1
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/cmake/opencv_demo1Config.cmake
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/cmake/opencv_demo1Config-version.cmake
+-- Up-to-date: /home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo1/share/opencv_demo1/package.xml

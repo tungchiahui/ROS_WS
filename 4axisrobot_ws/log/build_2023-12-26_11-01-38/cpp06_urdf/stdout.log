@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/cpp06_urdf
+-- Install configuration: ""
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/launch
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/4axis_robot.urdf
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/4axis_robot.csv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/test.urdf
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/rviz
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link3.STL
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link4.STL
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/base_link.STL
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link2.STL
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link1.STL
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/package.xml

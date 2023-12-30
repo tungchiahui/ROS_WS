@@ -1,0 +1,59 @@
+[0.668s] Invoking command in '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic': AMENT_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface LD_LIBRARY_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/prefix_override:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build install --record /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/install.log --single-version-externally-managed
+[0.804s] running egg_info
+[0.804s] creating ../../../build/learning_topic/learning_topic.egg-info
+[0.805s] writing ../../../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[0.805s] writing dependency_links to ../../../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[0.805s] writing entry points to ../../../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[0.805s] writing requirements to ../../../build/learning_topic/learning_topic.egg-info/requires.txt
+[0.805s] writing top-level names to ../../../build/learning_topic/learning_topic.egg-info/top_level.txt
+[0.805s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.806s] reading manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.807s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.807s] running build
+[0.807s] running build_py
+[0.807s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build
+[0.807s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib
+[0.807s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.807s] copying learning_topic/interface_object_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.807s] copying learning_topic/topic_helloworld_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.807s] copying learning_topic/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.807s] copying learning_topic/interface_object_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.807s] copying learning_topic/topic_webcam_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.807s] copying learning_topic/topic_helloworld_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.807s] copying learning_topic/topic_webcam_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic
+[0.808s] running install
+[0.808s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.808s]   warnings.warn(
+[0.808s] running install_lib
+[0.808s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.808s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic/interface_object_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.809s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic/topic_helloworld_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.809s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.809s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic/interface_object_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.809s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic/topic_webcam_pub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.809s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic/topic_helloworld_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.809s] copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build/lib/learning_topic/topic_webcam_sub.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.809s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic/interface_object_sub.py to interface_object_sub.cpython-310.pyc
+[0.809s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_helloworld_pub.py to topic_helloworld_pub.cpython-310.pyc
+[0.809s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic/__init__.py to __init__.cpython-310.pyc
+[0.809s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic/interface_object_pub.py to interface_object_pub.cpython-310.pyc
+[0.809s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_webcam_pub.py to topic_webcam_pub.cpython-310.pyc
+[0.809s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_helloworld_sub.py to topic_helloworld_sub.cpython-310.pyc
+[0.810s] byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_webcam_sub.py to topic_webcam_sub.cpython-310.pyc
+[0.810s] running install_data
+[0.810s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/share/ament_index
+[0.810s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/share/ament_index/resource_index
+[0.810s] creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/share/ament_index/resource_index/packages
+[0.810s] copying resource/learning_topic -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/share/ament_index/resource_index/packages
+[0.810s] copying package.xml -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/share/learning_topic
+[0.810s] running install_egg_info
+[0.811s] Copying ../../../build/learning_topic/learning_topic.egg-info to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info
+[0.812s] running install_scripts
+[0.826s] Installing interface_object_pub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/learning_topic
+[0.826s] Installing interface_object_sub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/learning_topic
+[0.826s] Installing topic_helloworld_pub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/learning_topic
+[0.826s] Installing topic_helloworld_sub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/learning_topic
+[0.826s] Installing topic_webcam_pub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/learning_topic
+[0.826s] Installing topic_webcam_sub script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/learning_topic
+[0.826s] writing list of installed files to '/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/install.log'
+[0.857s] Invoked command in '/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_topic' returned '0': AMENT_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface LD_LIBRARY_PATH=/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/prefix_override:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_topic/lib/python3.10/site-packages:/home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/build install --record /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_topic/install.log --single-version-externally-managed

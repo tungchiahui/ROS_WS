@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/read_camera_video_node.dir/src/read_camera_video_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/read_video_node.dir/src/read_video_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable read_video_node[0m
+[100%] [32m[1mLinking CXX executable read_camera_video_node[0m
+[100%] Built target read_video_node
+[100%] Built target read_camera_video_node
+-- Install configuration: ""
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/lib/opencv_demo2_video_capture/read_video_node
+-- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/lib/opencv_demo2_video_capture/read_video_node" to ""
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/lib/opencv_demo2_video_capture/read_camera_video_node
+-- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/lib/opencv_demo2_video_capture/read_camera_video_node" to ""
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/ament_index/resource_index/package_run_dependencies/opencv_demo2_video_capture
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/ament_index/resource_index/parent_prefix_path/opencv_demo2_video_capture
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/environment/ament_prefix_path.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/environment/ament_prefix_path.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/environment/path.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/environment/path.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/local_setup.bash
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/local_setup.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/local_setup.zsh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/local_setup.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/package.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/ament_index/resource_index/packages/opencv_demo2_video_capture
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/cmake/opencv_demo2_video_captureConfig.cmake
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/cmake/opencv_demo2_video_captureConfig-version.cmake
+-- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo2_video_capture/share/opencv_demo2_video_capture/package.xml

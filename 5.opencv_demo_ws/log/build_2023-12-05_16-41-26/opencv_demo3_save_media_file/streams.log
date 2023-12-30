@@ -1,0 +1,57 @@
+[0.042s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file -- -j16 -l16
+[0.075s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.188s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.218s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.220s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.252s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.297s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.299s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.499s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.580s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.586s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[0.617s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.671s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.672s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo3_save_media_file/include>
+[0.672s] -- Configured cppcheck exclude dirs and/or files: 
+[0.672s] -- Added test 'lint_cmake' to check CMake code style
+[0.673s] -- Added test 'uncrustify' to check C / C++ code style
+[0.673s] -- Configured uncrustify additional arguments: 
+[0.673s] -- Added test 'xmllint' to check XML markup files
+[0.674s] -- Configuring done
+[0.694s] -- Generating done
+[0.695s] -- Build files have been written to: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file
+[0.716s] [35m[1mConsolidate compiler generated dependencies of target opencv_save_image_node[0m
+[0.716s] [35m[1mConsolidate compiler generated dependencies of target opencv_save_image_in_video_node[0m
+[0.723s] [ 16%] [32mBuilding CXX object CMakeFiles/opencv_save_video_node.dir/src/opencv_save_video_node.cpp.o[0m
+[0.729s] [ 50%] [32m[1mLinking CXX executable opencv_save_image_node[0m
+[0.729s] [ 66%] Built target opencv_save_image_in_video_node
+[0.832s] [ 83%] Built target opencv_save_image_node
+[3.274s] [100%] [32m[1mLinking CXX executable opencv_save_video_node[0m
+[3.475s] [100%] Built target opencv_save_video_node
+[3.483s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file -- -j16 -l16
+[3.508s] Invoking command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file
+[3.513s] -- Install configuration: ""
+[3.513s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/lib/opencv_demo3_save_media_file/opencv_save_image_node
+[3.514s] -- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/lib/opencv_demo3_save_media_file/opencv_save_image_node" to ""
+[3.514s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/lib/opencv_demo3_save_media_file/opencv_save_image_in_video_node
+[3.514s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/lib/opencv_demo3_save_media_file/opencv_save_video_node
+[3.514s] -- Set runtime path of "/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/lib/opencv_demo3_save_media_file/opencv_save_video_node" to ""
+[3.514s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/ament_index/resource_index/package_run_dependencies/opencv_demo3_save_media_file
+[3.514s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/ament_index/resource_index/parent_prefix_path/opencv_demo3_save_media_file
+[3.514s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/environment/ament_prefix_path.sh
+[3.514s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/environment/ament_prefix_path.dsv
+[3.514s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/environment/path.sh
+[3.514s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/environment/path.dsv
+[3.514s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/local_setup.bash
+[3.514s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/local_setup.sh
+[3.514s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/local_setup.zsh
+[3.515s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/local_setup.dsv
+[3.515s] -- Installing: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/package.dsv
+[3.515s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/ament_index/resource_index/packages/opencv_demo3_save_media_file
+[3.515s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/cmake/opencv_demo3_save_media_fileConfig.cmake
+[3.515s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/cmake/opencv_demo3_save_media_fileConfig-version.cmake
+[3.515s] -- Up-to-date: /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/install/opencv_demo3_save_media_file/share/opencv_demo3_save_media_file/package.xml
+[3.516s] Invoked command in '/home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/user/mysource/ros2src/5.opencv_demo_ws/build/opencv_demo3_save_media_file

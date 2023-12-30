@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/learning_parameter/learning_parameter.egg-info
+writing ../../../build/learning_parameter/learning_parameter.egg-info/PKG-INFO
+writing dependency_links to ../../../build/learning_parameter/learning_parameter.egg-info/dependency_links.txt
+writing entry points to ../../../build/learning_parameter/learning_parameter.egg-info/entry_points.txt
+writing requirements to ../../../build/learning_parameter/learning_parameter.egg-info/requires.txt
+writing top-level names to ../../../build/learning_parameter/learning_parameter.egg-info/top_level.txt
+writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+reading manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib/learning_parameter
+copying learning_parameter/param_object_detect.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib/learning_parameter
+copying learning_parameter/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib/learning_parameter
+copying learning_parameter/param_declare.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib/learning_parameter
+running install
+running install_lib
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib/learning_parameter/param_object_detect.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib/learning_parameter/__init__.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+copying /home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/build/lib/learning_parameter/param_declare.py -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/param_object_detect.py to param_object_detect.cpython-310.pyc
+byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/param_declare.py to param_declare.cpython-310.pyc
+running install_data
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/share/ament_index
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/share/ament_index/resource_index
+creating /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/share/ament_index/resource_index/packages
+copying resource/learning_parameter -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/share/ament_index/resource_index/packages
+copying package.xml -> /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/share/learning_parameter
+running install_egg_info
+Copying ../../../build/learning_parameter/learning_parameter.egg-info to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing param_declare script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/learning_parameter
+Installing param_object_detect script to /home/tungchiahui/mysource/ros2src/2.example_ws/install/learning_parameter/lib/learning_parameter
+writing list of installed files to '/home/tungchiahui/mysource/ros2src/2.example_ws/build/learning_parameter/install.log'

@@ -1,0 +1,3 @@
+/home/tungchiahui/user/mysource/ros2src/opencv/build/CMakeFiles/main.dir
+/home/tungchiahui/user/mysource/ros2src/opencv/build/CMakeFiles/edit_cache.dir
+/home/tungchiahui/user/mysource/ros2src/opencv/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target opencv_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_node.dir/src/opencv_node.cpp.o[0m
+[01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:11:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Mat[m[K’?
+   11 |   [01;31m[KMat[m[K picture_demo_mat = imread("/home/tungchiahui/图片/xiaoshen.jpg");
+      |   [01;31m[K^~~[m[K
+      |   [32m[Kcv::Mat[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:2[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:810:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat[m[K’ declared here
+  810 | class CV_EXPORTS [01;36m[KMat[m[K
+      |                  [01;36m[K^~~[m[K
+[01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:12:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpicture_demo_mat[m[K’ was not declared in this scope
+   12 |   imshow("xiaoshen", [01;31m[Kpicture_demo_mat[m[K);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimshow[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::imshow[m[K’?
+   12 |   [01;31m[Kimshow[m[K("xiaoshen", picture_demo_mat);
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kcv::imshow[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:2[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:653:17:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::imshow[m[K’ declared here
+  653 | CV_EXPORTS void [01;36m[Kimshow[m[K(const String& winname, const ogl::Texture2D& tex);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:16:3:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+   16 |   [01;31m[KwaitKey[m[K(0);                           // 这句确保窗口一直打开
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kcv::waitKey[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/tungchiahui/mysource/ros2src/5.opencv_demo_ws/src/opencv_demo1/src/opencv_node.cpp:2[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:363:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+  363 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+      |                  [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/opencv_node.dir/build.make:76: CMakeFiles/opencv_node.dir/src/opencv_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/opencv_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
