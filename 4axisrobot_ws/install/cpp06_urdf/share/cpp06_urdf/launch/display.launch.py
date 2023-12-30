@@ -10,7 +10,7 @@ from launch.actions import DeclareLaunchArgument
 def generate_launch_description():
 
     cpp06_urdf_dir = get_package_share_directory("cpp06_urdf")
-    default_model_path = os.path.join(cpp06_urdf_dir,"urdf","4axis_robot.urdf")
+    default_model_path = os.path.join(cpp06_urdf_dir,"urdf/urdf","4axis_robot.urdf")
     default_rviz_path = os.path.join(cpp06_urdf_dir,"rviz","display.rviz")
     model = DeclareLaunchArgument(name="model", default_value=default_model_path)
 

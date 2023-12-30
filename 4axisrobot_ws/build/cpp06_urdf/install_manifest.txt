@@ -1,7 +1,6 @@
 /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/4axis_robot.urdf
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/4axis_robot.csv
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/test.urdf
+/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/4axis_robot.urdf
+/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/4axis_robot.csv
 /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link3.STL
 /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/Link4.STL
 /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/base_link.STL
