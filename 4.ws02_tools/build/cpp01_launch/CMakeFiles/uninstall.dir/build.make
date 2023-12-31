@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tungchiahui/mysource/ros2src/4.ws02_tools/src/cpp01_launch
+CMAKE_SOURCE_DIR = /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/src/cpp01_launch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch
+CMAKE_BINARY_DIR = /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tungchiahui/mysource/ros2src/4.ws02_tools/src/cpp01_launch /home/tungchiahui/mysource/ros2src/4.ws02_tools/src/cpp01_launch /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/src/cpp01_launch /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/src/cpp01_launch /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

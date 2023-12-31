@@ -5,8 +5,8 @@ from launch_ros.actions import Node
 # from launch.actions import ExecuteProcess
 # from launch.substitutions import FindExecutable
 # 参数声明与获取
-# from launch.actions import DeclareLaunchArgument
-# from launch.substitutions import LaunchConfiguration
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration
 # 文件包含相关
 # from launch.actions import IncludeLaunchDescription
 # from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -22,17 +22,42 @@ from ament_index_python.packages import get_package_share_directory
 from launch_ros.parameter_descriptions import ParameterValue
 from launch.substitutions import Command
 
-p_value = ParameterValue(Command(["xacro ",get_package_share_directory("cpp06_urdf") + "/urdf/urdf/demo01_boxrobot.urdf"]))
+import os
+
+cpp06_urdf_dir = get_package_share_directory("cpp06_urdf")
+
+default_model_path = os.path.join(cpp06_urdf_dir,"urdf/urdf","demo01_boxrobot.urdf")
+default_rviz_path = os.path.join(cpp06_urdf_dir,"rviz","urdf.rviz")
+
+
+model = DeclareLaunchArgument(name="model",default_value=default_model_path)
+
+p_value = ParameterValue(Command(["xacro ",LaunchConfiguration("model")]))
 robot_state_pub = Node(
     package="robot_state_publisher",
     executable="robot_state_publisher",
     parameters=[{"robot_description":p_value}]
 )
 
+# 关节信息节点
+# joint_state_pub = Node(
+#     package="joint_state_publisher",
+#     executable="joint_state_publisher"
+# )
+
+# 关节信息节点图形界面(建议)
+joint_state_pub = Node(
+    package="joint_state_publisher_gui",
+    executable="joint_state_publisher_gui"
+)
+
 rviz2 = Node(
     package="rviz2",
-    executable="rviz2"
+    executable="rviz2",
+#    arguments=["-d",get_package_share_directory("cpp06_urdf") + "/rviz/urdf.rviz"]
+    arguments=["-d",default_rviz_path]
+
     )
 
 def generate_launch_description():
-    return LaunchDescription([robot_state_pub,rviz2])
+    return LaunchDescription([model,robot_state_pub,joint_state_pub,rviz2])

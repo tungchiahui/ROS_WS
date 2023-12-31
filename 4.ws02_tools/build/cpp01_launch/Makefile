@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tungchiahui/mysource/ros2src/4.ws02_tools/src/cpp01_launch
+CMAKE_SOURCE_DIR = /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/src/cpp01_launch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch
+CMAKE_BINARY_DIR = /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,8 +77,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch/CMakeFiles /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch/CMakeFiles /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tungchiahui/mysource/ros2src/4.ws02_tools/build/cpp01_launch/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tungchiahui/user/mysource/ros2src/4.ws02_tools/build/cpp01_launch/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

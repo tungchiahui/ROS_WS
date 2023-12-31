@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "cpp01_launch")
 set(cpp01_launch_VERSION "0.0.0")
-set(cpp01_launch_MAINTAINER "tungchiahui <tungchia-hui@foxmail.com>")
+set(cpp01_launch_MAINTAINER "tungchiahui <tungchiahui@gmail.com>")
 set(cpp01_launch_BUILD_DEPENDS "rclcpp")
 set(cpp01_launch_BUILDTOOL_DEPENDS "ament_cmake")
 set(cpp01_launch_BUILD_EXPORT_DEPENDS "rclcpp")
