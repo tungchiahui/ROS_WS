@@ -45,7 +45,7 @@ robot_state_pub = Node(
 #     executable="joint_state_publisher"
 # )
 
-# 关节信息节点图形界面(建议)
+# 关节信息节点图形界面
 joint_state_pub = Node(
     package="joint_state_publisher_gui",
     executable="joint_state_publisher_gui"
