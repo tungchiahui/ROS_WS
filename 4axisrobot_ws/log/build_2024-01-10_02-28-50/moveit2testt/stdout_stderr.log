@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt
+-- Install configuration: ""
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/ament_index/resource_index/package_run_dependencies/moveit2testt
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/ament_index/resource_index/parent_prefix_path/moveit2testt
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/environment/ament_prefix_path.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/environment/ament_prefix_path.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/environment/path.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/environment/path.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/local_setup.bash
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/local_setup.sh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/local_setup.zsh
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/local_setup.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/package.dsv
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/ament_index/resource_index/packages/moveit2testt
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/cmake/moveit2testtConfig.cmake
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/cmake/moveit2testtConfig-version.cmake
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/package.xml
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/demo.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/rsp.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/setup_assistant.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/moveit_rviz.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/move_group.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/spawn_controllers.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/launch/warehouse_db.launch.py
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/moveit.rviz
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/4axis_robot.urdf.xacro
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/4axis_robot.srdf
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/joint_limits.yaml
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/4axis_robot.ros2_control.xacro
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/pilz_cartesian_limits.yaml
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/initial_positions.yaml
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/moveit_controllers.yaml
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/ros2_controllers.yaml
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/config/kinematics.yaml
+-- Installing: /home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/install/moveit2testt/share/moveit2testt/.setup_assistant

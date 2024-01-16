@@ -1,0 +1,9 @@
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/uninstall.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/four_moveit2_uninstall.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/test.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/edit_cache.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/rebuild_cache.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/list_install_components.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/install.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/install/local.dir
+/home/tungchiahui/user/mysource/ros2src/fouraxisrobot_kine_ws/build/four_moveit2/CMakeFiles/install/strip.dir
