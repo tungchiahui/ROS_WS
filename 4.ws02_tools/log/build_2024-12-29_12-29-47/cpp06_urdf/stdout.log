@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf
+-- Install configuration: ""
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo05_exercise.urdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo04_basefootprint.urdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/exercise_demo.pdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/exercise_demo.gv
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_boxrobot.urdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz
+-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz/urdf.rviz

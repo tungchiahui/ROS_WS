@@ -1,0 +1,51 @@
+[0.016s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp02_rosbag -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag
+[0.098s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.306s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.382s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.504s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.507s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.690s] -- Found rosbag2_cpp: 0.26.5 (/opt/ros/jazzy/share/rosbag2_cpp/cmake)
+[0.710s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.712s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.749s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.831s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.831s] -- Configured cppcheck include dirs: 
+[0.831s] -- Configured cppcheck exclude dirs and/or files: 
+[0.832s] -- Added test 'lint_cmake' to check CMake code style
+[0.832s] -- Added test 'uncrustify' to check C / C++ code style
+[0.832s] -- Configured uncrustify additional arguments: 
+[0.833s] -- Added test 'xmllint' to check XML markup files
+[0.835s] -- Configuring done (0.8s)
+[0.839s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.839s]   Cannot find source file:
+[0.839s] 
+[0.839s]     src/demo01_writer.cpp
+[0.839s] 
+[0.839s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.839s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.839s]   .f95 .f03 .hip .ispc
+[0.839s] 
+[0.839s] [0m
+[0.842s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[0.842s]   Cannot find source file:
+[0.842s] 
+[0.842s]     src/demo02_reader.cpp
+[0.842s] 
+[0.842s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.842s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.842s]   .f95 .f03 .hip .ispc
+[0.842s] 
+[0.842s] [0m
+[0.842s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.842s]   No SOURCES given to target: demo01_writer
+[0.843s] 
+[0.843s] [0m
+[0.843s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[0.843s]   No SOURCES given to target: demo02_reader
+[0.843s] 
+[0.843s] [0m
+[0.843s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
