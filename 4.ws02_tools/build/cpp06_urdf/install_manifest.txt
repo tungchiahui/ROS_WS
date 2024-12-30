@@ -7,6 +7,7 @@
 /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
 /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
 /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz/urdf.rviz
+/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/meshes/.gitkeep
 /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
 /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
 /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh

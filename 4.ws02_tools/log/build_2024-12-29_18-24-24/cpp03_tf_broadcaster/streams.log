@@ -1,0 +1,65 @@
+[0.017s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster
+[0.243s] -- The C compiler identification is GNU 13.3.0
+[0.462s] -- The CXX compiler identification is GNU 13.3.0
+[0.567s] -- Detecting C compiler ABI info
+[0.655s] -- Detecting C compiler ABI info - done
+[0.662s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.662s] -- Detecting C compile features
+[0.663s] -- Detecting C compile features - done
+[0.683s] -- Detecting CXX compiler ABI info
+[0.770s] -- Detecting CXX compiler ABI info - done
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.777s] -- Detecting CXX compile features
+[0.777s] -- Detecting CXX compile features - done
+[0.789s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.893s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.990s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.075s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.087s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.212s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.215s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.284s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.326s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.357s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.457s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[1.499s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.633s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.656s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.740s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.740s] -- Configured cppcheck include dirs: 
+[1.740s] -- Configured cppcheck exclude dirs and/or files: 
+[1.741s] -- Added test 'lint_cmake' to check CMake code style
+[1.742s] -- Added test 'uncrustify' to check C / C++ code style
+[1.742s] -- Configured uncrustify additional arguments: 
+[1.743s] -- Added test 'xmllint' to check XML markup files
+[1.745s] -- Configuring done (1.7s)
+[1.756s] -- Generating done (0.0s)
+[1.759s] -- Build files have been written to: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster
+[1.768s] Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster
+[1.769s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster -- -j16 -l16
+[1.797s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_static_tf_broadcaster.dir/src/demo01_static_tf_broadcaster.cpp.o[0m
+[4.932s] [100%] [32m[1mLinking CXX executable demo01_static_tf_broadcaster[0m
+[5.168s] [100%] Built target demo01_static_tf_broadcaster
+[5.175s] Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster -- -j16 -l16
+[5.176s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster
+[5.180s] -- Install configuration: ""
+[5.180s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster
+[5.181s] -- Set non-toolchain portion of runtime path of "/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster" to ""
+[5.182s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[5.182s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[5.182s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[5.183s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[5.184s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[5.184s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[5.185s] Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster
