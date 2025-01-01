@@ -1,0 +1,395 @@
+[0.154s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.154s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff51b5ca000>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff51b543fe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff51b543fe0>>, mixin_verb=('build',))
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.218s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_launch) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_launch' with type 'ros.ament_cmake' and name 'cpp01_launch'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_rosbag) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_rosbag' with type 'ros.ament_cmake' and name 'cpp02_rosbag'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_tf_broadcaster) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp03_tf_broadcaster' with type 'ros.ament_cmake' and name 'cpp03_tf_broadcaster'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_tf_listener) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp04_tf_listener' with type 'ros.ament_cmake' and name 'cpp04_tf_listener'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp06_urdf' with type 'ros.ament_cmake' and name 'cpp06_urdf'
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/jazzy
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp01_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch', 'merge_install': False, 'path': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp01_launch', 'symlink_install': False, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp02_rosbag' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_rosbag' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag', 'merge_install': False, 'path': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp02_rosbag', 'symlink_install': False, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'cpp03_tf_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_tf_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster', 'merge_install': False, 'path': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp03_tf_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp04_tf_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'cpp04_tf_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener', 'merge_install': False, 'path': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp04_tf_listener', 'symlink_install': False, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'cpp06_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf', 'merge_install': False, 'path': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp06_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.365s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp01_launch' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp01_launch'
+[0.371s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp02_rosbag' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp02_rosbag'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp03_tf_broadcaster' with build type 'ament_cmake'
+[0.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp03_tf_broadcaster'
+[0.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp04_tf_listener' with build type 'ament_cmake'
+[0.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp04_tf_listener'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.383s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp06_urdf' with build type 'ament_cmake'
+[0.383s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp06_urdf'
+[0.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch -- -j16 -l16
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag -- -j16 -l16
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster -- -j16 -l16
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener -- -j16 -l16
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf -- -j16 -l16
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf -- -j16 -l16
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch -- -j16 -l16
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch
+[0.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_launch)
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp01_launch
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch' for CMake module files
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch' for CMake config files
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_launch', 'cmake_prefix_path')
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/lib/pkgconfig/cpp01_launch.pc'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/lib/python3.12/site-packages'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/bin'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.sh'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.bash'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.zsh'
+[0.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/colcon-core/packages/cpp01_launch)
+[0.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_launch)
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch' for CMake module files
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch' for CMake config files
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_launch', 'cmake_prefix_path')
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/hook/cmake_prefix_path.sh'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/bin'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/lib/pkgconfig/cpp01_launch.pc'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/lib/python3.12/site-packages'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/bin'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.sh'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.bash'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/cpp01_launch/package.zsh'
+[0.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp01_launch/share/colcon-core/packages/cpp01_launch)
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag -- -j16 -l16
+[0.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_urdf)
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf' for CMake module files
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf' for CMake config files
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_urdf', 'cmake_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.sh'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/bin'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/lib/pkgconfig/cpp06_urdf.pc'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/lib/python3.12/site-packages'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/bin'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.sh'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.bash'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.zsh'
+[0.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/colcon-core/packages/cpp06_urdf)
+[0.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_urdf)
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf' for CMake module files
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf' for CMake config files
+[0.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_urdf', 'cmake_prefix_path')
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.sh'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/bin'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/lib/pkgconfig/cpp06_urdf.pc'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/lib/python3.12/site-packages'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/bin'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.bash'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.zsh'
+[0.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp06_urdf/share/colcon-core/packages/cpp06_urdf)
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener -- -j16 -l16
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster -- -j16 -l16
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster
+[0.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_rosbag)
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag' for CMake module files
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag' for CMake config files
+[0.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_rosbag', 'cmake_prefix_path')
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/hook/cmake_prefix_path.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/hook/cmake_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/hook/cmake_prefix_path.sh'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/bin'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib/pkgconfig/cpp02_rosbag.pc'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib/python3.12/site-packages'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/bin'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.sh'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.bash'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.zsh'
+[0.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/colcon-core/packages/cpp02_rosbag)
+[0.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_rosbag)
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag' for CMake module files
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag' for CMake config files
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_rosbag', 'cmake_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/hook/cmake_prefix_path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/hook/cmake_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/hook/cmake_prefix_path.sh'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/bin'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib/pkgconfig/cpp02_rosbag.pc'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib/python3.12/site-packages'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/bin'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.sh'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.bash'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.zsh'
+[0.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/colcon-core/packages/cpp02_rosbag)
+[0.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_tf_listener)
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener' for CMake module files
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener' for CMake config files
+[0.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_tf_listener', 'cmake_prefix_path')
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/hook/cmake_prefix_path.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/hook/cmake_prefix_path.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/hook/cmake_prefix_path.sh'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/bin'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/pkgconfig/cpp04_tf_listener.pc'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/python3.12/site-packages'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/bin'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.zsh'
+[0.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/colcon-core/packages/cpp04_tf_listener)
+[0.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_tf_listener)
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener' for CMake module files
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener' for CMake config files
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_tf_listener', 'cmake_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/hook/cmake_prefix_path.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/hook/cmake_prefix_path.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/bin'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/pkgconfig/cpp04_tf_listener.pc'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/python3.12/site-packages'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/bin'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.sh'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.bash'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.zsh'
+[0.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/colcon-core/packages/cpp04_tf_listener)
+[0.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_tf_broadcaster)
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster' for CMake module files
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp03_tf_broadcaster
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster' for CMake config files
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_tf_broadcaster', 'cmake_prefix_path')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/hook/cmake_prefix_path.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/hook/cmake_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/hook/cmake_prefix_path.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/bin'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib/pkgconfig/cpp03_tf_broadcaster.pc'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib/python3.12/site-packages'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/bin'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.sh'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.bash'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.zsh'
+[0.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/colcon-core/packages/cpp03_tf_broadcaster)
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_tf_broadcaster)
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster' for CMake module files
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster' for CMake config files
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_tf_broadcaster', 'cmake_prefix_path')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/hook/cmake_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/hook/cmake_prefix_path.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/hook/cmake_prefix_path.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/bin'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib/pkgconfig/cpp03_tf_broadcaster.pc'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/lib/python3.12/site-packages'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/bin'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.sh'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.bash'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.zsh'
+[0.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp03_tf_broadcaster/share/colcon-core/packages/cpp03_tf_broadcaster)
+[0.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.632s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.654s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.654s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.654s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.654s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.656s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[0.656s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/local_setup.ps1'
+[0.657s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/_local_setup_util_ps1.py'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/setup.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/local_setup.sh'
+[0.663s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/_local_setup_util_sh.py'
+[0.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/setup.sh'
+[0.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/local_setup.bash'
+[0.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/setup.bash'
+[0.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/local_setup.zsh'
+[0.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/setup.zsh'

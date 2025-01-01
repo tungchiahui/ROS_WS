@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000437] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000473] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000890] (-) JobUnselected: {'identifier': 'cpp06_urdf'}
+[0.001104] (cpp04_tf_listener) JobQueued: {'identifier': 'cpp04_tf_listener', 'dependencies': OrderedDict()}
+[0.001155] (cpp04_tf_listener) JobStarted: {'identifier': 'cpp04_tf_listener'}
+[0.010968] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'cmake'}
+[0.012141] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'build'}
+[0.012683] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener', '--', '-j16', '-l16'], 'cwd': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tungchiahui', 'GIT_ASKPASS': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tungchiahui', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1445b981-0f7e-4712-867d-bca867309e4d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tungchiahui', 'NAME': 'DESKTOP-HFE4GGK', 'WSL_INTEROP': '/run/WSL/368_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/LLVM/bin:/mnt/c/Users/tung/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Bandizip/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-003249ce13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.080259] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099673] (-) TimerEvent: {}
+[0.199988] (-) TimerEvent: {}
+[0.261263] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300086] (-) TimerEvent: {}
+[0.327969] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.338168] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.353519] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.370388] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400200] (-) TimerEvent: {}
+[0.442532] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.445629] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500327] (-) TimerEvent: {}
+[0.537148] (cpp04_tf_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600408] (-) TimerEvent: {}
+[0.619237] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.657850] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.700548] (-) TimerEvent: {}
+[0.771287] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.4 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.789678] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.791127] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.791203] (cpp04_tf_listener) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.794429] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.800612] (-) TimerEvent: {}
+[0.872268] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.872517] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp04_tf_listener/include>\n'}
+[0.872572] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.873217] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.874115] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.874180] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.874572] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.876219] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.899746] (cpp04_tf_listener) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.900677] (-) TimerEvent: {}
+[0.904564] (cpp04_tf_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener\n'}
+[0.928876] (cpp04_tf_listener) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_message_filter.dir/src/demo02_message_filter.cpp.o\x1b[0m\n'}
+[0.943048] (cpp04_tf_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o\x1b[0m\n'}
+[1.000775] (-) TimerEvent: {}
+[1.101112] (-) TimerEvent: {}
+[1.201383] (-) TimerEvent: {}
+[1.301670] (-) TimerEvent: {}
+[1.401930] (-) TimerEvent: {}
+[1.502243] (-) TimerEvent: {}
+[1.602570] (-) TimerEvent: {}
+[1.702912] (-) TimerEvent: {}
+[1.803204] (-) TimerEvent: {}
+[1.903473] (-) TimerEvent: {}
+[2.003804] (-) TimerEvent: {}
+[2.104089] (-) TimerEvent: {}
+[2.204371] (-) TimerEvent: {}
+[2.304627] (-) TimerEvent: {}
+[2.404888] (-) TimerEvent: {}
+[2.505247] (-) TimerEvent: {}
+[2.605626] (-) TimerEvent: {}
+[2.705919] (-) TimerEvent: {}
+[2.806192] (-) TimerEvent: {}
+[2.906486] (-) TimerEvent: {}
+[3.006784] (-) TimerEvent: {}
+[3.107045] (-) TimerEvent: {}
+[3.207339] (-) TimerEvent: {}
+[3.260284] (cpp04_tf_listener) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_message_filter\x1b[0m\n'}
+[3.307399] (-) TimerEvent: {}
+[3.407648] (-) TimerEvent: {}
+[3.458948] (cpp04_tf_listener) StdoutLine: {'line': b'[ 75%] Built target demo02_message_filter\n'}
+[3.507776] (-) TimerEvent: {}
+[3.608127] (-) TimerEvent: {}
+[3.708379] (-) TimerEvent: {}
+[3.808612] (-) TimerEvent: {}
+[3.908896] (-) TimerEvent: {}
+[4.009251] (-) TimerEvent: {}
+[4.051373] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_tf_listener\x1b[0m\n'}
+[4.109407] (-) TimerEvent: {}
+[4.175950] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] Built target demo01_tf_listener\n'}
+[4.182662] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[4.183302] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'install'}
+[4.188504] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener'], 'cwd': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tungchiahui', 'GIT_ASKPASS': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tungchiahui', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1445b981-0f7e-4712-867d-bca867309e4d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tungchiahui', 'NAME': 'DESKTOP-HFE4GGK', 'WSL_INTEROP': '/run/WSL/368_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/tungchiahui/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/LLVM/bin:/mnt/c/Users/tung/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Bandizip/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-003249ce13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[4.193072] (cpp04_tf_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.194118] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener\n'}
+[4.194912] (cpp04_tf_listener) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""\n'}
+[4.194994] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_message_filter\n'}
+[4.195091] (cpp04_tf_listener) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_message_filter" to ""\n'}
+[4.195327] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener\n'}
+[4.195581] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener\n'}
+[4.195681] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh\n'}
+[4.195808] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv\n'}
+[4.195854] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh\n'}
+[4.195897] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv\n'}
+[4.195940] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash\n'}
+[4.195982] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh\n'}
+[4.196023] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh\n'}
+[4.196070] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv\n'}
+[4.196112] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv\n'}
+[4.196153] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener\n'}
+[4.196196] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake\n'}
+[4.196237] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake\n'}
+[4.196278] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml\n'}
+[4.196983] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[4.209447] (-) TimerEvent: {}
+[4.213943] (cpp04_tf_listener) JobEnded: {'identifier': 'cpp04_tf_listener', 'rc': 0}
+[4.214627] (-) EventReactorShutdown: {}

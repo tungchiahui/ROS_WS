@@ -1,0 +1,24 @@
+[0.025s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag -- -j16 -l16
+[0.120s] [ 50%] Built target demo01_writer
+[0.121s] [100%] Built target demo02_reader
+[0.159s] Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag -- -j16 -l16
+[0.161s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag
+[0.168s] -- Install configuration: ""
+[0.170s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[0.172s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[0.172s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[0.173s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[0.173s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[0.174s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[0.175s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[0.177s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[0.177s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[0.177s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[0.177s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[0.177s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[0.177s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[0.179s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[0.181s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[0.181s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[0.181s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[0.192s] Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp02_rosbag

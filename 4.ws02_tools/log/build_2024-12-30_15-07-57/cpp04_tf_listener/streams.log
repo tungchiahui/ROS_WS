@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener -- -j16 -l16
+[0.079s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.260s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.327s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.445s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.536s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.618s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[0.657s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.770s] -- Found tf2_geometry_msgs: 0.36.4 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.789s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.790s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.790s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.793s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.871s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.871s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp04_tf_listener/include>
+[0.871s] -- Configured cppcheck exclude dirs and/or files: 
+[0.872s] -- Added test 'lint_cmake' to check CMake code style
+[0.873s] -- Added test 'uncrustify' to check C / C++ code style
+[0.873s] -- Configured uncrustify additional arguments: 
+[0.873s] -- Added test 'xmllint' to check XML markup files
+[0.875s] -- Configuring done (0.8s)
+[0.899s] -- Generating done (0.0s)
+[0.903s] -- Build files have been written to: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener
+[0.928s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_message_filter.dir/src/demo02_message_filter.cpp.o[0m
+[0.942s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[3.259s] [ 75%] [32m[1mLinking CXX executable demo02_message_filter[0m
+[3.458s] [ 75%] Built target demo02_message_filter
+[4.050s] [100%] [32m[1mLinking CXX executable demo01_tf_listener[0m
+[4.175s] [100%] Built target demo01_tf_listener
+[4.182s] Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener -- -j16 -l16
+[4.188s] Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener
+[4.192s] -- Install configuration: ""
+[4.193s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[4.194s] -- Set non-toolchain portion of runtime path of "/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""
+[4.194s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_message_filter
+[4.194s] -- Set non-toolchain portion of runtime path of "/home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_message_filter" to ""
+[4.194s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[4.194s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[4.195s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[4.195s] -- Up-to-date: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[4.195s] -- Installing: /home/tungchiahui/source/ROS2_WS/4.ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[4.196s] Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp04_tf_listener

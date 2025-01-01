@@ -887,4 +887,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cpp03_tf_broadcaster_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/demo01_static_tf_broadcaster.dir/DependInfo.cmake"
   "CMakeFiles/demo02_dynamic_tf_broadcaster.dir/DependInfo.cmake"
+  "CMakeFiles/demo03_point_tf_broadcaster.dir/DependInfo.cmake"
   )
