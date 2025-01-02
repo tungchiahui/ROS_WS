@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim -- -j16 -l16
+[0.037s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim -- -j16 -l16
+[0.043s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim
+[0.049s] -- Install configuration: ""
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/rviz
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/world
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/world/house.sdf
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/world/visualize_lidar.sdf
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/launch
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_demo.launch.py
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_world.launch1.py
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_world.launch.py
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/demo_gazebo_sim
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/demo_gazebo_sim
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.sh
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.dsv
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.sh
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.dsv
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.bash
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.sh
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.zsh
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.dsv
+[0.050s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/ament_index/resource_index/packages/demo_gazebo_sim
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig.cmake
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig-version.cmake
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.xml
+[0.055s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim

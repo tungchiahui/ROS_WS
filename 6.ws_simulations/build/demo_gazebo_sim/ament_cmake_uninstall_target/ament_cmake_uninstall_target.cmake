@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/tungchiahui/source/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim")
+  set(install_space "/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/tungchiahui/source/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim/install_manifest.txt")
+set(install_manifest "/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()
