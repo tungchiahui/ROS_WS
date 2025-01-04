@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"worlds/bitmaps/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/stage/worlds/bitmaps",
+			"paths" : 
+			[
+				"worlds/bitmaps/889_05.png",
+				"worlds/bitmaps/SFU_1200x615.png",
+				"worlds/bitmaps/SRI-AIC-kwing.png",
+				"worlds/bitmaps/autolab.png",
+				"worlds/bitmaps/cave.png",
+				"worlds/bitmaps/cave_compact.png",
+				"worlds/bitmaps/cave_filled.png",
+				"worlds/bitmaps/frieburg.png",
+				"worlds/bitmaps/ghost.png",
+				"worlds/bitmaps/hospital.png",
+				"worlds/bitmaps/hospital_section.png",
+				"worlds/bitmaps/human_outline.png",
+				"worlds/bitmaps/mbicp.png",
+				"worlds/bitmaps/rink.png",
+				"worlds/bitmaps/sal2.png",
+				"worlds/bitmaps/simple_rooms.png",
+				"worlds/bitmaps/space_invader.png",
+				"worlds/bitmaps/submarine.png",
+				"worlds/bitmaps/submarine_small.png",
+				"worlds/bitmaps/table.png",
+				"worlds/bitmaps/uoa_robotics_lab.png"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "worlds/bitmaps",
+		"source" : "worlds/bitmaps"
+	}
+}

@@ -1,0 +1,350 @@
+In file included from [01m[K/usr/include/X11/Xlib.h:44[m[K,
+                 from [01m[K/usr/include/FL/x.H:37[m[K,
+                 from [01m[K/usr/include/FL/fl_draw.H:27[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/vehicle.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   48 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+   78 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/X11/Xlib.h:44[m[K,
+                 from [01m[K/usr/include/FL/x.H:37[m[K,
+                 from [01m[K/usr/include/FL/fl_draw.H:27[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/ranger.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   48 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+   78 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K(),
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   [01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   SignalHandlerOptions signal_handler_options = [01;31m[KSignalHandlerOptions[m[K::All);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/X11/Xlib.h:44[m[K,
+                 from [01m[K/usr/include/FL/x.H:37[m[K,
+                 from [01m[K/usr/include/FL/fl_draw.H:27[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/camera.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   48 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::SignalHandlerOptions[m[K’?
+   98 | install_signal_handlers([01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Krclcpp::SignalHandlerOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::SignalHandlerOptions[m[K’ declared here
+   47 | enum class [01;36m[KSignalHandlerOptions[m[K
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/X11/Xlib.h:44[m[K,
+                 from [01m[K/usr/include/FL/x.H:37[m[K,
+                 from [01m[K/usr/include/FL/fl_draw.H:27[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/stage_node.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   48 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   56 |   [01;31m[KNone[m[K,
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+   78 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+   78 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K(),
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   [01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   SignalHandlerOptions signal_handler_options = [01;31m[KSignalHandlerOptions[m[K::All);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+   78 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::SignalHandlerOptions[m[K’?
+   98 | install_signal_handlers([01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Krclcpp::SignalHandlerOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::SignalHandlerOptions[m[K’ declared here
+   47 | enum class [01;36m[KSignalHandlerOptions[m[K
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+   78 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K(),
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   [01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   SignalHandlerOptions signal_handler_options = [01;31m[KSignalHandlerOptions[m[K::All);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::SignalHandlerOptions[m[K’?
+   98 | install_signal_handlers([01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Krclcpp::SignalHandlerOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::SignalHandlerOptions[m[K’ declared here
+   47 | enum class [01;36m[KSignalHandlerOptions[m[K
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+   78 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+   78 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K(),
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   [01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ has not been declared
+   79 |   SignalHandlerOptions signal_handler_options = [01;31m[KSignalHandlerOptions[m[K::All);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::SignalHandlerOptions[m[K’?
+   98 | install_signal_handlers([01;31m[KSignalHandlerOptions[m[K signal_handler_options = SignalHandlerOptions::All);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Krclcpp::SignalHandlerOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::SignalHandlerOptions[m[K’ declared here
+   47 | enum class [01;36m[KSignalHandlerOptions[m[K
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ does not name a type
+  110 | [01;31m[KSignalHandlerOptions[m[K
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+  143 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ does not name a type
+  110 | [01;31m[KSignalHandlerOptions[m[K
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+  143 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K());
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  333 | [01;31m[K}[m[K  // namespace rclcpp
+      | [01;31m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ does not name a type
+  110 | [01;31m[KSignalHandlerOptions[m[K
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSignalHandlerOptions[m[K’ does not name a type
+  110 | [01;31m[KSignalHandlerOptions[m[K
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+  143 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+  143 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K());
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  333 | [01;31m[K}[m[K  // namespace rclcpp
+      | [01;31m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+  143 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+  143 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K());
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  333 | [01;31m[K}[m[K  // namespace rclcpp
+      | [01;31m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ does not name a type
+  143 |   const [01;31m[KInitOptions[m[K & init_options = InitOptions());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInitOptions[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::InitOptions[m[K’?
+  143 |   const InitOptions & init_options = [01;31m[KInitOptions[m[K());
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krclcpp::InitOptions[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::InitOptions[m[K’ declared here
+   28 | class [01;36m[KInitOptions[m[K
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  333 | [01;31m[K}[m[K  // namespace rclcpp
+      | [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:[m[K In member function ‘[01m[Kvirtual bool rclcpp::GenericRate<Clock>::[01;32m[Ksleep[m[K()[m[K’:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep_for[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   98 |     rclcpp::[01;31m[Ksleep_for[m[K(time_to_sleep);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksleep_for[m[K’
+  232 | [01;36m[Ksleep_for[m[K(
+      | [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/thread:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K:
+[01m[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::this_thread::sleep_for[m[K’
+   68 |       [01;36m[Ksleep_for[m[K(const chrono::duration<_Rep, _Period>& __rtime)
+      |       [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:[m[K In member function ‘[01m[Kvirtual bool rclcpp::GenericRate<Clock>::[01;32m[Ksleep[m[K()[m[K’:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep_for[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   98 |     rclcpp::[01;31m[Ksleep_for[m[K(time_to_sleep);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksleep_for[m[K’
+  232 | [01;36m[Ksleep_for[m[K(
+      | [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/thread:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K:
+[01m[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::this_thread::sleep_for[m[K’
+   68 |       [01;36m[Ksleep_for[m[K(const chrono::duration<_Rep, _Period>& __rtime)
+      |       [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:[m[K In member function ‘[01m[Kvirtual bool rclcpp::GenericRate<Clock>::[01;32m[Ksleep[m[K()[m[K’:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep_for[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   98 |     rclcpp::[01;31m[Ksleep_for[m[K(time_to_sleep);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksleep_for[m[K’
+  232 | [01;36m[Ksleep_for[m[K(
+      | [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/thread:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K:
+[01m[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::this_thread::sleep_for[m[K’
+   68 |       [01;36m[Ksleep_for[m[K(const chrono::duration<_Rep, _Period>& __rtime)
+      |       [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:[m[K In member function ‘[01m[Kvirtual bool rclcpp::GenericRate<Clock>::[01;32m[Ksleep[m[K()[m[K’:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep_for[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   98 |     rclcpp::[01;31m[Ksleep_for[m[K(time_to_sleep);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksleep_for[m[K’
+  232 | [01;36m[Ksleep_for[m[K(
+      | [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/thread:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K:
+[01m[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::this_thread::sleep_for[m[K’
+   68 |       [01;36m[Ksleep_for[m[K(const chrono::duration<_Rep, _Period>& __rtime)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/stage_node.cpp:[m[K In static member function ‘[01m[Kstatic int StageNode::[01;32m[Kcallback_update_stage_world[m[K(Stg::World*, StageNode*)[m[K’:
+[01m[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/stage_node.cpp:160:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kok[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kok[m[K’?
+  160 |   if (!rclcpp::[01;31m[Kok[m[K()) {
+      |                [01;31m[K^~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:176:1:[m[K [01;36m[Knote: [m[K‘[01m[Kok[m[K’ declared here
+  176 | [01;36m[Kok[m[K(rclcpp::Context::SharedPtr context = nullptr);
+      | [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:104: CMakeFiles/stage_node.dir/src/ranger.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:118: CMakeFiles/stage_node.dir/src/camera.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:76: CMakeFiles/stage_node.dir/src/stage_node.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:90: CMakeFiles/stage_node.dir/src/vehicle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/stage_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

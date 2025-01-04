@@ -1,0 +1,4 @@
+source;share/mycar_slam_cartographer/local_setup.bash
+source;share/mycar_slam_cartographer/local_setup.dsv
+source;share/mycar_slam_cartographer/local_setup.sh
+source;share/mycar_slam_cartographer/local_setup.zsh

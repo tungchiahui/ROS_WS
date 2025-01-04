@@ -1,0 +1,411 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (-) JobUnselected: {'identifier': 'Stage'}
+[0.000382] (-) JobUnselected: {'identifier': 'demo_gazebo_sim'}
+[0.000452] (-) JobUnselected: {'identifier': 'mycar_description'}
+[0.000476] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict({'Stage': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage'})}
+[0.000522] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[0.007027] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[0.007349] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[0.007771] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/stage_ros2', '--', '-j16', '-l16'], 'cwd': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/stage_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'Dell-G15-5511', 'GIT_ASKPASS': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-20607ddc-2f75-4e62-8fe8-4ba6c3a0a6f8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-d1e86dc6-d0b7-41aa-82d9-fa1d8b759f50.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'PATH': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/bin:/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-d1e86dc6-d0b7-41aa-82d9-fa1d8b759f50.sock","/root/.gnupg/S.gpg-agent","/root/.gnupg/S.keyboxd"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ce8d81a304.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-d1e86dc6-d0b7-41aa-82d9-fa1d8b759f50.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/stage_ros2', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.073448] (stage_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[0.074300] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[0.074553] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[0.075145] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[0.099915] (-) TimerEvent: {}
+[0.200196] (-) TimerEvent: {}
+[0.300453] (-) TimerEvent: {}
+[0.400709] (-) TimerEvent: {}
+[0.500961] (-) TimerEvent: {}
+[0.601277] (-) TimerEvent: {}
+[0.701576] (-) TimerEvent: {}
+[0.801844] (-) TimerEvent: {}
+[0.902198] (-) TimerEvent: {}
+[0.998898] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/X11/Xlib.h:44\x1b[m\x1b[K,\n'}
+[0.999096] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/x.H:37\x1b[m\x1b[K,\n'}
+[0.999171] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/fl_draw.H:27\x1b[m\x1b[K,\n'}
+[0.999220] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64\x1b[m\x1b[K,\n'}
+[0.999269] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14\x1b[m\x1b[K,\n'}
+[0.999318] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[0.999366] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[0.999412] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[0.999457] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.999501] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.999547] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[0.999592] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[0.999637] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[0.999682] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17\x1b[m\x1b[K:\n'}
+[0.999727] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.999790] (stage_ros2) StderrLine: {'line': b'   48 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[0.999850] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.999948] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before numeric constant\n'}
+[1.000001] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[1.000051] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.000097] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/X11/Xlib.h:44\x1b[m\x1b[K,\n'}
+[1.000141] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/x.H:37\x1b[m\x1b[K,\n'}
+[1.000185] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/fl_draw.H:27\x1b[m\x1b[K,\n'}
+[1.000228] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64\x1b[m\x1b[K,\n'}
+[1.000273] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14\x1b[m\x1b[K,\n'}
+[1.000316] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/stage_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.000367] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[1.000415] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[1.000459] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.000503] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[1.000547] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[1.000590] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.000634] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.000678] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17\x1b[m\x1b[K:\n'}
+[1.000724] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.000819] (stage_ros2) StderrLine: {'line': b'   48 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.000869] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.000915] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before numeric constant\n'}
+[1.000974] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[1.001020] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.001075] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/X11/Xlib.h:44\x1b[m\x1b[K,\n'}
+[1.001121] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/x.H:37\x1b[m\x1b[K,\n'}
+[1.001168] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/fl_draw.H:27\x1b[m\x1b[K,\n'}
+[1.001220] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64\x1b[m\x1b[K,\n'}
+[1.001266] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14\x1b[m\x1b[K,\n'}
+[1.001315] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/ranger.cpp:1\x1b[m\x1b[K:\n'}
+[1.001361] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[1.001405] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[1.001449] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.001493] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[1.001537] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[1.001581] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.001625] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.001674] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17\x1b[m\x1b[K:\n'}
+[1.001718] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001762] (stage_ros2) StderrLine: {'line': b'   48 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.001804] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.001848] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before numeric constant\n'}
+[1.001892] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[1.001935] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.002247] (-) TimerEvent: {}
+[1.003960] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/X11/Xlib.h:44\x1b[m\x1b[K,\n'}
+[1.004054] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/x.H:37\x1b[m\x1b[K,\n'}
+[1.004118] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/FL/fl_draw.H:27\x1b[m\x1b[K,\n'}
+[1.004174] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh:64\x1b[m\x1b[K,\n'}
+[1.004225] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:14\x1b[m\x1b[K,\n'}
+[1.004280] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/vehicle.cpp:1\x1b[m\x1b[K:\n'}
+[1.004357] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[1.004436] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[1.004480] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.004524] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[1.004568] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[1.004610] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.004654] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.004697] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/./include/stage_ros2/stage_node.hpp:17\x1b[m\x1b[K:\n'}
+[1.004740] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:48:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004783] (stage_ros2) StderrLine: {'line': b'   48 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.004825] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.004868] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before numeric constant\n'}
+[1.004915] (stage_ros2) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[KNone\x1b[m\x1b[K,\n'}
+[1.004958] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.005002] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.005050] (stage_ros2) StderrLine: {'line': b'   78 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions(),\n'}
+[1.005104] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.005277] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.005375] (stage_ros2) StderrLine: {'line': b'   78 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K(),\n'}
+[1.005464] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.005520] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.005565] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34\x1b[m\x1b[K,\n'}
+[1.005609] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K:\n'}
+[1.005653] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.005702] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.005746] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.005791] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.005842] (stage_ros2) StderrLine: {'line': b'   79 |   \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.005917] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.005961] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.006007] (stage_ros2) StderrLine: {'line': b'   79 |   SignalHandlerOptions signal_handler_options = \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K::All);\n'}
+[1.006058] (stage_ros2) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.006109] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.006152] (stage_ros2) StderrLine: {'line': b'   78 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions(),\n'}
+[1.006199] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.006244] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.006295] (stage_ros2) StderrLine: {'line': b'   98 | install_signal_handlers(\x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.006392] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.006458] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.006505] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.006551] (stage_ros2) StderrLine: {'line': b'   47 | enum class \x1b[01;36m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.006596] (stage_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.006641] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.006687] (stage_ros2) StderrLine: {'line': b'   78 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K(),\n'}
+[1.006729] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.006772] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.006816] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34\x1b[m\x1b[K,\n'}
+[1.006860] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K:\n'}
+[1.006904] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.006951] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.007031] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007083] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.007130] (stage_ros2) StderrLine: {'line': b'   79 |   \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.007192] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007269] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.007314] (stage_ros2) StderrLine: {'line': b'   79 |   SignalHandlerOptions signal_handler_options = \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K::All);\n'}
+[1.007358] (stage_ros2) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007402] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.007449] (stage_ros2) StderrLine: {'line': b'   78 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions(),\n'}
+[1.007494] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007538] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.007592] (stage_ros2) StderrLine: {'line': b'   98 | install_signal_handlers(\x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.007637] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007684] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.007728] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.007773] (stage_ros2) StderrLine: {'line': b'   47 | enum class \x1b[01;36m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.007819] (stage_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007893] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.007940] (stage_ros2) StderrLine: {'line': b'   78 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K(),\n'}
+[1.007987] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008034] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.008083] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34\x1b[m\x1b[K,\n'}
+[1.008129] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K:\n'}
+[1.008175] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.008221] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.008266] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008310] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.008359] (stage_ros2) StderrLine: {'line': b'   79 |   \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.008404] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008450] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.008495] (stage_ros2) StderrLine: {'line': b'   79 |   SignalHandlerOptions signal_handler_options = \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K::All);\n'}
+[1.008544] (stage_ros2) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008589] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.008635] (stage_ros2) StderrLine: {'line': b'   98 | install_signal_handlers(\x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.008680] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008726] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.008772] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.008818] (stage_ros2) StderrLine: {'line': b'   47 | enum class \x1b[01;36m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.008863] (stage_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.009418] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.009466] (stage_ros2) StderrLine: {'line': b'   78 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions(),\n'}
+[1.009512] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.010254] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:78:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.010416] (stage_ros2) StderrLine: {'line': b'   78 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K(),\n'}
+[1.010496] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.010572] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.010648] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:34\x1b[m\x1b[K,\n'}
+[1.010722] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K:\n'}
+[1.010796] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.010870] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.010981] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.011061] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.011137] (stage_ros2) StderrLine: {'line': b'   79 |   \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.011210] (stage_ros2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.011287] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:79:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.011365] (stage_ros2) StderrLine: {'line': b'   79 |   SignalHandlerOptions signal_handler_options = \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K::All);\n'}
+[1.011437] (stage_ros2) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.011509] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:98:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.011585] (stage_ros2) StderrLine: {'line': b'   98 | install_signal_handlers(\x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K signal_handler_options = SignalHandlerOptions::All);\n'}
+[1.011659] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.011732] (stage_ros2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.011804] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:47:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::SignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.011883] (stage_ros2) StderrLine: {'line': b'   47 | enum class \x1b[01;36m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.011958] (stage_ros2) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.019576] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.019752] (stage_ros2) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.019831] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.020247] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.020350] (stage_ros2) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.020423] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.022298] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.022445] (stage_ros2) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.022500] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.024385] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.024466] (stage_ros2) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KSignalHandlerOptions\x1b[m\x1b[K\n'}
+[1.024513] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.024948] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.025003] (stage_ros2) StderrLine: {'line': b'  143 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions());\n'}
+[1.025070] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.025738] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.025793] (stage_ros2) StderrLine: {'line': b'  143 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions());\n'}
+[1.025839] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.025887] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.025937] (stage_ros2) StderrLine: {'line': b'  143 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K());\n'}
+[1.025984] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.026032] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.026093] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.026154] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.026258] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.026306] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.026353] (stage_ros2) StderrLine: {'line': b'  333 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace rclcpp\n'}
+[1.026399] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.026549] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.026614] (stage_ros2) StderrLine: {'line': b'  143 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K());\n'}
+[1.026662] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.026708] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.026756] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.026807] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.026853] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.026932] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.026982] (stage_ros2) StderrLine: {'line': b'  333 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace rclcpp\n'}
+[1.027029] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.027730] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.027877] (stage_ros2) StderrLine: {'line': b'  143 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions());\n'}
+[1.027988] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.028566] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.028688] (stage_ros2) StderrLine: {'line': b'  143 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K());\n'}
+[1.028773] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.028860] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.028945] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.029035] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.029139] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.029229] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.029313] (stage_ros2) StderrLine: {'line': b'  333 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace rclcpp\n'}
+[1.029394] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.029613] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.029700] (stage_ros2) StderrLine: {'line': b'  143 |   const \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K & init_options = InitOptions());\n'}
+[1.029780] (stage_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.030516] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:143:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInitOptions\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.030644] (stage_ros2) StderrLine: {'line': b'  143 |   const InitOptions & init_options = \x1b[01;31m\x1b[KInitOptions\x1b[m\x1b[K());\n'}
+[1.030722] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.030796] (stage_ros2) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\n'}
+[1.030867] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:28:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::InitOptions\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.030962] (stage_ros2) StderrLine: {'line': b'   28 | class \x1b[01;36m\x1b[KInitOptions\x1b[m\x1b[K\n'}
+[1.031039] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.031116] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:333:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.031200] (stage_ros2) StderrLine: {'line': b'  333 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace rclcpp\n'}
+[1.031271] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.102380] (-) TimerEvent: {}
+[1.202728] (-) TimerEvent: {}
+[1.263878] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32\x1b[m\x1b[K,\n'}
+[1.264121] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30\x1b[m\x1b[K,\n'}
+[1.264224] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.264317] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.264411] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.264505] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[1.264597] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[1.264687] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.264772] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.264856] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[1.264941] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool rclcpp::GenericRate<Clock>::\x1b[01;32m\x1b[Ksleep\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.265057] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.265148] (stage_ros2) StderrLine: {'line': b'   98 |     rclcpp::\x1b[01;31m\x1b[Ksleep_for\x1b[m\x1b[K(time_to_sleep);\n'}
+[1.265244] (stage_ros2) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.265327] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32\x1b[m\x1b[K,\n'}
+[1.265416] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30\x1b[m\x1b[K,\n'}
+[1.265509] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.265600] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.265690] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.265780] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[1.265870] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[1.265963] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.266061] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.266154] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[1.266232] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool rclcpp::GenericRate<Clock>::\x1b[01;32m\x1b[Ksleep\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.266307] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.266460] (stage_ros2) StderrLine: {'line': b'   98 |     rclcpp::\x1b[01;31m\x1b[Ksleep_for\x1b[m\x1b[K(time_to_sleep);\n'}
+[1.266550] (stage_ros2) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.266639] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.266727] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.266811] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.266902] (stage_ros2) StderrLine: {'line': b'  232 | \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(\n'}
+[1.266990] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.267092] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.267183] (stage_ros2) StderrLine: {'line': b'  232 | \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(\n'}
+[1.267270] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.267354] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/thread:46\x1b[m\x1b[K,\n'}
+[1.267441] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K:\n'}
+[1.267526] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::this_thread::sleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.267610] (stage_ros2) StderrLine: {'line': b'   68 |       \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(const chrono::duration<_Rep, _Period>& __rtime)\n'}
+[1.267695] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.267780] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/thread:46\x1b[m\x1b[K,\n'}
+[1.267867] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K:\n'}
+[1.267954] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::this_thread::sleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.268041] (stage_ros2) StderrLine: {'line': b'   68 |       \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(const chrono::duration<_Rep, _Period>& __rtime)\n'}
+[1.268142] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.268226] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32\x1b[m\x1b[K,\n'}
+[1.268319] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30\x1b[m\x1b[K,\n'}
+[1.268404] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.268488] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.268571] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.268658] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[1.268745] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[1.268835] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.268931] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.269014] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[1.269141] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool rclcpp::GenericRate<Clock>::\x1b[01;32m\x1b[Ksleep\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.269239] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.269321] (stage_ros2) StderrLine: {'line': b'   98 |     rclcpp::\x1b[01;31m\x1b[Ksleep_for\x1b[m\x1b[K(time_to_sleep);\n'}
+[1.269406] (stage_ros2) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.269484] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.269566] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.269651] (stage_ros2) StderrLine: {'line': b'  232 | \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(\n'}
+[1.269731] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.269812] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/thread:46\x1b[m\x1b[K,\n'}
+[1.269895] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K:\n'}
+[1.269975] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::this_thread::sleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.270062] (stage_ros2) StderrLine: {'line': b'   68 |       \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(const chrono::duration<_Rep, _Period>& __rtime)\n'}
+[1.270161] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.270588] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:32\x1b[m\x1b[K,\n'}
+[1.270713] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:30\x1b[m\x1b[K,\n'}
+[1.270804] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.270902] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.270990] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.271089] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[1.271184] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[1.271270] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.271355] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.271440] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[1.271529] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool rclcpp::GenericRate<Clock>::\x1b[01;32m\x1b[Ksleep\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.271617] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.271706] (stage_ros2) StderrLine: {'line': b'   98 |     rclcpp::\x1b[01;31m\x1b[Ksleep_for\x1b[m\x1b[K(time_to_sleep);\n'}
+[1.271794] (stage_ros2) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.271882] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:98:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.271968] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:232:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.272060] (stage_ros2) StderrLine: {'line': b'  232 | \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(\n'}
+[1.272167] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.272250] (stage_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/thread:46\x1b[m\x1b[K,\n'}
+[1.272330] (stage_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K:\n'}
+[1.272409] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/this_thread_sleep.h:68:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::this_thread::sleep_for\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.272496] (stage_ros2) StderrLine: {'line': b'   68 |       \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(const chrono::duration<_Rep, _Period>& __rtime)\n'}
+[1.272582] (stage_ros2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.302835] (-) TimerEvent: {}
+[1.403124] (-) TimerEvent: {}
+[1.503497] (-) TimerEvent: {}
+[1.603770] (-) TimerEvent: {}
+[1.704044] (-) TimerEvent: {}
+[1.804313] (-) TimerEvent: {}
+[1.904636] (-) TimerEvent: {}
+[2.004911] (-) TimerEvent: {}
+[2.105255] (-) TimerEvent: {}
+[2.205515] (-) TimerEvent: {}
+[2.305836] (-) TimerEvent: {}
+[2.314359] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/stage_node.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic int StageNode::\x1b[01;32m\x1b[Kcallback_update_stage_world\x1b[m\x1b[K(Stg::World*, StageNode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.314526] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/stage_ros2/src/stage_node.cpp:160:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kok\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kok\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.314612] (stage_ros2) StderrLine: {'line': b'  160 |   if (!rclcpp::\x1b[01;31m\x1b[Kok\x1b[m\x1b[K()) {\n'}
+[2.314688] (stage_ros2) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.314755] (stage_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:176:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kok\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.314827] (stage_ros2) StderrLine: {'line': b'  176 | \x1b[01;36m\x1b[Kok\x1b[m\x1b[K(rclcpp::Context::SharedPtr context = nullptr);\n'}
+[2.314898] (stage_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.405942] (-) TimerEvent: {}
+[2.506192] (-) TimerEvent: {}
+[2.606458] (-) TimerEvent: {}
+[2.706726] (-) TimerEvent: {}
+[2.806965] (-) TimerEvent: {}
+[2.907221] (-) TimerEvent: {}
+[3.007489] (-) TimerEvent: {}
+[3.107752] (-) TimerEvent: {}
+[3.208027] (-) TimerEvent: {}
+[3.308308] (-) TimerEvent: {}
+[3.408585] (-) TimerEvent: {}
+[3.508844] (-) TimerEvent: {}
+[3.606780] (stage_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:104: CMakeFiles/stage_node.dir/src/ranger.cpp.o] Error 1\n'}
+[3.606957] (stage_ros2) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.608917] (-) TimerEvent: {}
+[3.709133] (-) TimerEvent: {}
+[3.755384] (stage_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:118: CMakeFiles/stage_node.dir/src/camera.cpp.o] Error 1\n'}
+[3.809222] (-) TimerEvent: {}
+[3.907774] (stage_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:76: CMakeFiles/stage_node.dir/src/stage_node.cpp.o] Error 1\n'}
+[3.909279] (-) TimerEvent: {}
+[4.009466] (-) TimerEvent: {}
+[4.109710] (-) TimerEvent: {}
+[4.209940] (-) TimerEvent: {}
+[4.310212] (-) TimerEvent: {}
+[4.410444] (-) TimerEvent: {}
+[4.510697] (-) TimerEvent: {}
+[4.528593] (stage_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stage_node.dir/build.make:90: CMakeFiles/stage_node.dir/src/vehicle.cpp.o] Error 1\n'}
+[4.528895] (stage_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/stage_node.dir/all] Error 2\n'}
+[4.529070] (stage_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.530840] (stage_ros2) CommandEnded: {'returncode': 2}
+[4.536441] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 2}
+[4.546842] (-) EventReactorShutdown: {}

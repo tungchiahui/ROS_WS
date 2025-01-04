@@ -1,0 +1,92 @@
+[0.006s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_slam_slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.084s] -- The CXX compiler identification is GNU 13.3.0
+[0.094s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.352s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.444s] -- Found slam_toolbox: 2.8.2 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+[0.478s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.491s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.714s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.718s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.779s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.793s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.998s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.999s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.999s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.091s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.092s] -- Found OGRE
+[1.092s] --   static     : OFF
+[1.092s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.092s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.092s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.092s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.093s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.093s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.093s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.093s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.093s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.093s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.093s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.113s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.122s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.220s] -- Found X11: /usr/include   
+[1.220s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.281s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.281s] -- Looking for gethostbyname
+[1.338s] -- Looking for gethostbyname - found
+[1.338s] -- Looking for connect
+[1.394s] -- Looking for connect - found
+[1.394s] -- Looking for remove
+[1.451s] -- Looking for remove - found
+[1.452s] -- Looking for shmat
+[1.508s] -- Looking for shmat - found
+[1.508s] -- Looking for IceConnectionNumber in ICE
+[1.568s] -- Looking for IceConnectionNumber in ICE - found
+[1.581s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.678s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.775s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.775s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.776s] -- Added test 'lint_cmake' to check CMake code style
+[1.776s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.777s] -- Added test 'xmllint' to check XML markup files
+[1.779s] -- Configuring done (1.8s)
+[1.785s] -- Generating done (0.0s)
+[1.787s] -- Build files have been written to: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox
+[1.798s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_slam_slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox
+[1.798s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox -- -j16 -l16
+[1.831s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox -- -j16 -l16
+[1.837s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox
+[1.842s] -- Install configuration: ""
+[1.843s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/launch
+[1.843s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/launch/online_sync_launch.py
+[1.843s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params
+[1.843s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params/mapper_params_online_sync.yaml
+[1.843s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/package_run_dependencies/mycar_slam_slam_toolbox
+[1.843s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/parent_prefix_path/mycar_slam_slam_toolbox
+[1.843s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/ament_prefix_path.sh
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/ament_prefix_path.dsv
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/path.sh
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/path.dsv
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.bash
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.sh
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.zsh
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.dsv
+[1.844s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.dsv
+[1.845s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/packages/mycar_slam_slam_toolbox
+[1.845s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/cmake/mycar_slam_slam_toolboxConfig.cmake
+[1.845s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/cmake/mycar_slam_slam_toolboxConfig-version.cmake
+[1.845s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.xml
+[1.846s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_slam_toolbox

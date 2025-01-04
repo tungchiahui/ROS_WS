@@ -1,0 +1,70 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"assets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/stage/assets",
+			"paths" : 
+			[
+				"assets/blue.png",
+				"assets/death.png",
+				"assets/green.png",
+				"assets/logo.png",
+				"assets/mains.png",
+				"assets/mainspower.png",
+				"assets/question_mark.png",
+				"assets/red.png",
+				"assets/stagelogo.png",
+				"assets/stall-old.png",
+				"assets/stall.png",
+				"assets/rgb.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/stage",
+			"paths" : 
+			[
+				"assets/rgb.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "assets",
+		"source" : "assets"
+	}
+}

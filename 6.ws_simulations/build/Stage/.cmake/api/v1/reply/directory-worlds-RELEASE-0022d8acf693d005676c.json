@@ -1,0 +1,92 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"worlds/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/stage/worlds",
+			"paths" : 
+			[
+				"worlds/amcl-sonar.cfg",
+				"worlds/autolab.cfg",
+				"worlds/camera.cfg",
+				"worlds/everything.cfg",
+				"worlds/lsp_test.cfg",
+				"worlds/mbicp.cfg",
+				"worlds/nd.cfg",
+				"worlds/roomba.cfg",
+				"worlds/simple.cfg",
+				"worlds/test.cfg",
+				"worlds/uoa_robotics_lab.cfg",
+				"worlds/vfh.cfg",
+				"worlds/wavefront-remote.cfg",
+				"worlds/wavefront.cfg",
+				"worlds/wifi.cfg",
+				"worlds/SFU.world",
+				"worlds/autolab.world",
+				"worlds/camera.world",
+				"worlds/circuit.world",
+				"worlds/everything.world",
+				"worlds/fasr.world",
+				"worlds/fasr2.world",
+				"worlds/fasr_plan.world",
+				"worlds/large.world",
+				"worlds/lsp_test.world",
+				"worlds/mbicp.world",
+				"worlds/pioneer_flocking.world",
+				"worlds/pioneer_follow.world",
+				"worlds/pioneer_walle.world",
+				"worlds/roomba.world",
+				"worlds/sensor_noise_demo.world",
+				"worlds/sensor_noise_module_demo.world",
+				"worlds/simple.world",
+				"worlds/uoa_robotics_lab.world",
+				"worlds/wifi.world",
+				"worlds/beacons.inc",
+				"worlds/chatterbox.inc",
+				"worlds/hokuyo.inc",
+				"worlds/irobot.inc",
+				"worlds/map.inc",
+				"worlds/objects.inc",
+				"worlds/pantilt.inc",
+				"worlds/pioneer.inc",
+				"worlds/sick.inc",
+				"worlds/ubot.inc",
+				"worlds/uoa_robotics_lab_models.inc",
+				"worlds/walle.inc",
+				"worlds/cfggen.sh",
+				"worlds/test.sh",
+				"worlds/worldgen.sh"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "worlds",
+		"source" : "worlds"
+	}
+}

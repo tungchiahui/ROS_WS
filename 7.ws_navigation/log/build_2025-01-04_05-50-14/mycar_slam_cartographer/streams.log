@@ -1,0 +1,76 @@
+[0.008s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_slam_cartographer -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.087s] -- The CXX compiler identification is GNU 13.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.171s] -- Detecting CXX compiler ABI info
+[0.237s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.248s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.355s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.586s] -- Found Threads: TRUE  
+[0.913s] -- Found AMD headers in: /usr/include/suitesparse
+[0.914s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[0.915s] -- Found CAMD headers in: /usr/include/suitesparse
+[0.916s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[0.917s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[0.918s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[0.918s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[0.919s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[0.920s] -- Found COLAMD headers in: /usr/include/suitesparse
+[0.920s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[0.921s] -- Found SPQR headers in: /usr/include/suitesparse
+[0.921s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[0.922s] -- Found Config headers in: /usr/include/suitesparse
+[0.923s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[0.926s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[0.926s] -- Looking for shm_open in rt
+[0.982s] -- Looking for shm_open in rt - found
+[0.982s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[0.987s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[0.988s] -- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+[0.994s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[1.002s] -- Found required Ceres dependency: glog
+[1.003s] -- Found required Ceres dependency: gflags
+[1.003s] -- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[1.013s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.098s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.098s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.098s] -- Added test 'lint_cmake' to check CMake code style
+[1.099s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.100s] -- Added test 'xmllint' to check XML markup files
+[1.101s] -- Configuring done (1.1s)
+[1.104s] -- Generating done (0.0s)
+[1.105s] -- Build files have been written to: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer
+[1.112s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_slam_cartographer -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer
+[1.113s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer -- -j16 -l16
+[1.142s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer -- -j16 -l16
+[1.149s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer
+[1.154s] -- Install configuration: ""
+[1.154s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch/cartographer.launch.py
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params/mycar.lua
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/package_run_dependencies/mycar_slam_cartographer
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/parent_prefix_path/mycar_slam_cartographer
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.sh
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.dsv
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.sh
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.dsv
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.bash
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.sh
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.zsh
+[1.155s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.dsv
+[1.156s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.dsv
+[1.156s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/packages/mycar_slam_cartographer
+[1.156s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig.cmake
+[1.156s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig-version.cmake
+[1.156s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.xml
+[1.157s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer
