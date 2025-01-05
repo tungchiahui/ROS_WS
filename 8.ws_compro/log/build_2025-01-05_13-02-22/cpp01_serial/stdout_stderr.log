@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::common::IoContext Serial_Node::io_context[m[K’ is private within this context
+   77 |   node->[01;31m[Kio_context[m[K.run();
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:65:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   65 |     drivers::common::IoContext [01;36m[Kio_context[m[K;
+      |                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:77:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::common::IoContext[m[K’ has no member named ‘[01m[Krun[m[K’
+   77 |   node->io_context.[01;31m[Krun[m[K();
+      |                    [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_uart_send.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

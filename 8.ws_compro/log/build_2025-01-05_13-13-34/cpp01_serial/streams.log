@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[8.240s] [100%] [32m[1mLinking CXX executable demo01_uart_send[0m
+[8.613s] [100%] Built target demo01_uart_send
+[8.640s] Invoked command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4
+[8.662s] Invoking command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial
+[8.678s] -- Install configuration: ""
+[8.678s] -- Installing: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send
+[8.680s] -- Set non-toolchain portion of runtime path of "/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send" to ""
+[8.680s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/ament_index/resource_index/package_run_dependencies/cpp01_serial
+[8.681s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/ament_index/resource_index/parent_prefix_path/cpp01_serial
+[8.681s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.sh
+[8.681s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.dsv
+[8.681s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/path.sh
+[8.681s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/path.dsv
+[8.681s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.bash
+[8.681s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.sh
+[8.682s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.zsh
+[8.682s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.dsv
+[8.682s] -- Installing: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/package.dsv
+[8.682s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/ament_index/resource_index/packages/cpp01_serial
+[8.682s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig.cmake
+[8.682s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig-version.cmake
+[8.682s] -- Up-to-date: /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/package.xml
+[8.685s] Invoked command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial

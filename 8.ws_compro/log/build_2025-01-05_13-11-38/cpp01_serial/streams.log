@@ -1,0 +1,34 @@
+[0.016s] Invoking command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4
+[0.154s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[6.276s] In file included from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:61[m[K,
+[6.276s]                  from [01m[K/usr/include/c++/13/memory:66[m[K,
+[6.276s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[6.276s]                  from [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:1[m[K:
+[6.276s] /usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = drivers::serial_driver::SerialDriver; _Args = {asio::io_context&}][m[K[m[K’:
+[6.276s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = drivers::serial_driver::SerialDriver; _Args = {asio::io_context&}; allocator_type = std::allocator<void>][m[K[m[K’
+[6.276s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {asio::io_context&}; _Tp = drivers::serial_driver::SerialDriver; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[6.276s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = drivers::serial_driver::SerialDriver; _Alloc = std::allocator<void>; _Args = {asio::io_context&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[6.276s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {asio::io_context&}; _Tp = drivers::serial_driver::SerialDriver; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[6.276s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {asio::io_context&}; _Tp = drivers::serial_driver::SerialDriver][m[K[m[K’
+[6.277s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = drivers::serial_driver::SerialDriver; _Args = {asio::io_context&}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = drivers::serial_driver::SerialDriver][m[K[m[K’
+[6.277s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:25:74:[m[K   required from here
+[6.277s] [01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdrivers::serial_driver::SerialDriver::SerialDriver(asio::io_context&)[m[K’
+[6.277s]   119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+[6.277s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.277s] In file included from [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:2[m[K:
+[6.277s] [01m[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:32:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdrivers::serial_driver::SerialDriver::[01;32m[KSerialDriver[m[K(const drivers::common::IoContext&)[m[K’
+[6.277s]    32 |   explicit [01;36m[KSerialDriver[m[K(const IoContext & ctx);
+[6.277s]       |            [01;36m[K^~~~~~~~~~~~[m[K
+[6.277s] [01m[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:32:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kasio::io_context[m[K’ to ‘[01m[Kconst drivers::common::IoContext&[m[K’
+[6.277s]    32 |   explicit SerialDriver([01;36m[Kconst IoContext & ctx[m[K);
+[6.277s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.278s] [01m[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdrivers::serial_driver::SerialDriver::[01;32m[KSerialDriver[m[K(const drivers::serial_driver::SerialDriver&)[m[K’
+[6.278s]    29 | class [01;36m[KSerialDriver[m[K
+[6.278s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[6.278s] [01m[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kasio::io_context[m[K’ to ‘[01m[Kconst drivers::serial_driver::SerialDriver&[m[K’
+[6.278s] [01m[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdrivers::serial_driver::SerialDriver::[01;32m[KSerialDriver[m[K(drivers::serial_driver::SerialDriver&&)[m[K’
+[6.278s] [01m[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kasio::io_context[m[K’ to ‘[01m[Kdrivers::serial_driver::SerialDriver&&[m[K’
+[6.522s] gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
+[6.522s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_uart_send.dir/all] Error 2
+[6.522s] gmake: *** [Makefile:146: all] Error 2
+[6.526s] Invoked command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4

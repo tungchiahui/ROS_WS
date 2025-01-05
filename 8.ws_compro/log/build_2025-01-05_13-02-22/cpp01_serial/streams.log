@@ -1,0 +1,16 @@
+[0.018s] Invoking command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[4.654s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.654s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrivers::common::IoContext Serial_Node::io_context[m[K’ is private within this context
+[4.654s]    77 |   node->[01;31m[Kio_context[m[K.run();
+[4.654s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.654s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:65:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.654s]    65 |     drivers::common::IoContext [01;36m[Kio_context[m[K;
+[4.654s]       |                                [01;36m[K^~~~~~~~~~[m[K
+[4.655s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:77:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::common::IoContext[m[K’ has no member named ‘[01m[Krun[m[K’
+[4.655s]    77 |   node->io_context.[01;31m[Krun[m[K();
+[4.655s]       |                    [01;31m[K^~~[m[K
+[6.276s] gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
+[6.276s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_uart_send.dir/all] Error 2
+[6.276s] gmake: *** [Makefile:146: all] Error 2
+[6.280s] Invoked command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4
