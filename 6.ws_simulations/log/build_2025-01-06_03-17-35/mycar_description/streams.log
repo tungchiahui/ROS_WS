@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description -- -j16 -l16
+[0.041s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description -- -j16 -l16
+[0.041s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description
+[0.048s] -- Install configuration: ""
+[0.048s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/launch
+[0.048s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/launch/display.launch.py
+[0.048s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/launch/mycar_desc_sim.launch.py
+[0.048s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/launch/mycar_desc_sim.launch_xacro.py
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf/urdf
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf/urdf/CyberNaviRobot.csv
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf/urdf/CyberNaviRobot.urdf
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf/urdf/demo1_CyberNaviRobot.urdf
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf/xacro
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf/xacro/car.urdf.xacro
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/urdf/xacro/move_control1.urdf.xacro
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/rviz
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/rviz/.gitkeep
+[0.049s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/meshes
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/meshes/base_link.STL
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/meshes/demo1_base_link.STL
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/meshes/left_front_wheel_link.STL
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/meshes/left_rear_wheel_link.STL
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/meshes/right_front_wheel_link.STL
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/meshes/right_rear_wheel_link.STL
+[0.050s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/ament_index/resource_index/package_run_dependencies/mycar_description
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/ament_index/resource_index/parent_prefix_path/mycar_description
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/environment/ament_prefix_path.sh
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/environment/ament_prefix_path.dsv
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/environment/path.sh
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/environment/path.dsv
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/local_setup.bash
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/local_setup.sh
+[0.051s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/local_setup.zsh
+[0.052s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/local_setup.dsv
+[0.052s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.dsv
+[0.052s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/ament_index/resource_index/packages/mycar_description
+[0.052s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/cmake/mycar_descriptionConfig.cmake
+[0.052s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/cmake/mycar_descriptionConfig-version.cmake
+[0.052s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.xml
+[0.061s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description

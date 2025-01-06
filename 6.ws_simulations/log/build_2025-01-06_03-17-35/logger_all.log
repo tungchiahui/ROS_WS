@@ -1,0 +1,262 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f245370f230>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f245388f740>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f245388f740>>, mixin_verb=('build',))
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.100s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'python'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Stage' with type 'cmake' and name 'Stage'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_gazebo_sim' with type 'ros.ament_cmake' and name 'demo_gazebo_sim'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycar_description' with type 'ros.ament_cmake' and name 'mycar_description'
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/jazzy
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_first' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_force_configure' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'ament_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.172s] DEBUG:colcon.colcon_core.verb:Building package 'Stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage', 'merge_install': False, 'path': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/Stage', 'symlink_install': False, 'test_result_base': None}
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.172s] DEBUG:colcon.colcon_core.verb:Building package 'demo_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim', 'merge_install': False, 'path': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/demo_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_target' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] DEBUG:colcon.colcon_core.verb:Building package 'mycar_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description', 'merge_install': False, 'path': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/mycar_description', 'symlink_install': False, 'test_result_base': None}
+[0.173s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/Stage'
+[0.175s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/demo_gazebo_sim' with build type 'ament_cmake'
+[0.178s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/demo_gazebo_sim'
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/mycar_description' with build type 'ament_cmake'
+[0.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/src/mycar_description'
+[0.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage': /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage -- -j16 -l16
+[0.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim -- -j16 -l16
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description -- -j16 -l16
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim -- -j16 -l16
+[0.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim
+[0.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description -- -j16 -l16
+[0.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description
+[0.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_gazebo_sim)
+[0.231s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim' for CMake module files
+[0.232s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim' for CMake config files
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim
+[0.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_gazebo_sim', 'cmake_prefix_path')
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.ps1'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.dsv'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.sh'
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/bin'
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/lib/pkgconfig/demo_gazebo_sim.pc'
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/lib/python3.12/site-packages'
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/bin'
+[0.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.ps1'
+[0.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv'
+[0.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.sh'
+[0.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.bash'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.zsh'
+[0.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/colcon-core/packages/demo_gazebo_sim)
+[0.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_gazebo_sim)
+[0.236s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim' for CMake module files
+[0.237s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim' for CMake config files
+[0.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_gazebo_sim', 'cmake_prefix_path')
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.ps1'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.sh'
+[0.238s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/bin'
+[0.238s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/lib/pkgconfig/demo_gazebo_sim.pc'
+[0.238s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/lib/python3.12/site-packages'
+[0.238s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/bin'
+[0.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.ps1'
+[0.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv'
+[0.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.sh'
+[0.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.bash'
+[0.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/demo_gazebo_sim/package.zsh'
+[0.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/demo_gazebo_sim/share/colcon-core/packages/demo_gazebo_sim)
+[0.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_description)
+[0.240s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description' for CMake module files
+[0.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description
+[0.241s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description' for CMake config files
+[0.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_description', 'cmake_prefix_path')
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.ps1'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.dsv'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.sh'
+[0.242s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/bin'
+[0.242s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/lib/pkgconfig/mycar_description.pc'
+[0.242s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/lib/python3.12/site-packages'
+[0.242s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/bin'
+[0.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.ps1'
+[0.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.dsv'
+[0.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.sh'
+[0.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.bash'
+[0.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.zsh'
+[0.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/colcon-core/packages/mycar_description)
+[0.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_description)
+[0.244s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description' for CMake module files
+[0.244s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description' for CMake config files
+[0.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_description', 'cmake_prefix_path')
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.ps1'
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.dsv'
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.sh'
+[0.245s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/bin'
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/lib/pkgconfig/mycar_description.pc'
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/lib/python3.12/site-packages'
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/bin'
+[0.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.ps1'
+[0.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.dsv'
+[0.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.sh'
+[0.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.bash'
+[0.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/mycar_description/package.zsh'
+[0.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/mycar_description/share/colcon-core/packages/mycar_description)
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage' returned '0': /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage -- -j16 -l16
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage': /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage
+[0.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Stage)
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage' for CMake module files
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage' for CMake config files
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'cmake_prefix_path')
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/cmake_prefix_path.ps1'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/cmake_prefix_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/cmake_prefix_path.sh'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib'
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'ld_library_path_lib')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/ld_library_path_lib.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/ld_library_path_lib.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/ld_library_path_lib.sh'
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/bin'
+[0.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'path')
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/path.ps1'
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage' returned '0': /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/path.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/path.sh'
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/pkgconfig/Stage.pc'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/python3.12/site-packages'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/bin'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'pythonscriptspath')
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/pythonscriptspath.ps1'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/pythonscriptspath.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/hook/pythonscriptspath.sh'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/package.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/package.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/package.sh'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/package.bash'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/Stage/package.zsh'
+[0.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/colcon-core/packages/Stage)
+[0.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.321s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.324s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.326s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.326s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/local_setup.ps1'
+[0.327s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/_local_setup_util_ps1.py'
+[0.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/setup.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/local_setup.sh'
+[0.329s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/_local_setup_util_sh.py'
+[0.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/setup.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/local_setup.bash'
+[0.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/setup.bash'
+[0.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/local_setup.zsh'
+[0.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/setup.zsh'
