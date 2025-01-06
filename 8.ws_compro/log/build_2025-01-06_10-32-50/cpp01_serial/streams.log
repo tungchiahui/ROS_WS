@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[4.751s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:[m[K In lambda function:
+[4.751s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:91:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_ptr<drivers::common::IoContext> Serial_Node::io_context_[m[K’ is private within this context
+[4.751s]    91 |     node->[01;31m[Kio_context_[m[K->run();
+[4.751s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[4.751s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:78:47:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.751s]    78 |   std::shared_ptr<drivers::common::IoContext> [01;36m[Kio_context_[m[K;
+[4.751s]       |                                               [01;36m[K^~~~~~~~~~~[m[K
+[4.752s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:91:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<drivers::common::IoContext, __gnu_cxx::_S_atomic, false, false>::element_type = class drivers::common::IoContext[m[K’ {aka ‘[01m[Kclass drivers::common::IoContext[m[K’} has no member named ‘[01m[Krun[m[K’
+[4.752s]    91 |     node->io_context_->[01;31m[Krun[m[K();
+[4.752s]       |                        [01;31m[K^~~[m[K
+[4.754s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.754s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_ptr<drivers::common::IoContext> Serial_Node::io_context_[m[K’ is private within this context
+[4.754s]    97 |   node->[01;31m[Kio_context_[m[K->stop();
+[4.754s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.754s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:78:47:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.754s]    78 |   std::shared_ptr<drivers::common::IoContext> [01;36m[Kio_context_[m[K;
+[4.754s]       |                                               [01;36m[K^~~~~~~~~~~[m[K
+[4.755s] [01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:97:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<drivers::common::IoContext, __gnu_cxx::_S_atomic, false, false>::element_type = class drivers::common::IoContext[m[K’ {aka ‘[01m[Kclass drivers::common::IoContext[m[K’} has no member named ‘[01m[Kstop[m[K’
+[4.755s]    97 |   node->io_context_->[01;31m[Kstop[m[K();
+[4.755s]       |                      [01;31m[K^~~~[m[K
+[6.436s] gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
+[6.436s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_uart_send.dir/all] Error 2
+[6.436s] gmake: *** [Makefile:146: all] Error 2
+[6.440s] Invoked command in '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j4 -l4

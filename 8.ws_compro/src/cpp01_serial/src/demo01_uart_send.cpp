@@ -24,8 +24,9 @@ public:
     // 初始化串口
     try
     {
+      io_context_ = std::make_shared<drivers::common::IoContext>();
       // 初始化 serial_port_
-      serial_port_ = std::make_shared<drivers::serial_driver::SerialDriver>(io_context);
+      serial_port_ = std::make_shared<drivers::serial_driver::SerialDriver>(*io_context_);
       serial_port_->init_port(device_name, config);
       
       RCLCPP_INFO(this->get_logger(), "Using device: %s", serial_port_->port().get()->device_name().c_str());
@@ -50,17 +51,20 @@ public:
     // 设置发送定时器
     send_timer_ = this->create_wall_timer(
         std::chrono::milliseconds(500),
-        std::bind(&Serial_Node::send_message, this));
+        std::bind(&Serial_Node::send_message_timer_callback, this));
   }
 
+
+  std::shared_ptr<drivers::common::IoContext> io_context_;
+
 private:
-  void send_message()
+  void send_message_timer_callback()
   {
     // 发送一串字符串
     const std::string message = "Hello from ROS 2!\n";
     std::vector<uint8_t> data(message.begin(), message.end());
     // std::vector<uint8_t> hex_data = {0x48, 0x65, 0x6C, 0x6C, 0x6F}; // "Hello" in ASCII
-    RCLCPP_INFO(this->get_logger(), "定时器运行中");
+    RCLCPP_INFO(this->get_logger(), "Timer Running");
     auto port = serial_port_->port();
 
     if (port->is_open())
@@ -74,7 +78,6 @@ private:
     }
   }
 
-  drivers::common::IoContext io_context;
   std::shared_ptr<drivers::serial_driver::SerialDriver> serial_port_;
   rclcpp::TimerBase::SharedPtr send_timer_;
 };
@@ -85,7 +88,18 @@ int main(int argc, char **argv)
 
   auto node = std::make_shared<Serial_Node>();
 
+  // 启动 IoContext 的事件循环
+  std::thread io_thread([&node]() {
+    node->io_context_->ios().run();
+  });
+
   rclcpp::spin(node);
+
+  // 停止 IoContext
+  node->io_context_->waitForExit();
+  if (io_thread.joinable()) {
+    io_thread.join();
+  }
 
   rclcpp::shutdown();
   return 0;

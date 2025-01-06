@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000739] (cpp01_serial) JobQueued: {'identifier': 'cpp01_serial', 'dependencies': OrderedDict()}
+[0.000950] (cpp01_serial) JobStarted: {'identifier': 'cpp01_serial'}
+[0.013060] (cpp01_serial) JobProgress: {'identifier': 'cpp01_serial', 'progress': 'cmake'}
+[0.014019] (cpp01_serial) JobProgress: {'identifier': 'cpp01_serial', 'progress': 'build'}
+[0.014793] (cpp01_serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial', '--', '-j4', '-l4'], 'cwd': '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tungchiahui', 'SSH_CLIENT': '192.168.31.221 57894 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/tungchiahui/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/tungchiahui/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'HOME': '/home/tungchiahui', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-de4b168b-9117-4ace-a789-6f17e50d0618.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/tungchiahui/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/tungchiahui/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tungchiahui', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/tungchiahui/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-ec65c9459b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/build/cpp01_serial', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.31.221 57894 192.168.31.10 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/install/cpp01_serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100062] (-) TimerEvent: {}
+[0.144428] (cpp01_serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o\x1b[0m\n'}
+[0.200186] (-) TimerEvent: {}
+[0.300580] (-) TimerEvent: {}
+[0.400958] (-) TimerEvent: {}
+[0.501341] (-) TimerEvent: {}
+[0.604627] (-) TimerEvent: {}
+[0.705033] (-) TimerEvent: {}
+[0.805439] (-) TimerEvent: {}
+[0.908508] (-) TimerEvent: {}
+[1.009214] (-) TimerEvent: {}
+[1.109726] (-) TimerEvent: {}
+[1.210806] (-) TimerEvent: {}
+[1.313498] (-) TimerEvent: {}
+[1.413962] (-) TimerEvent: {}
+[1.514437] (-) TimerEvent: {}
+[1.614835] (-) TimerEvent: {}
+[1.715231] (-) TimerEvent: {}
+[1.815627] (-) TimerEvent: {}
+[1.915986] (-) TimerEvent: {}
+[2.016367] (-) TimerEvent: {}
+[2.116713] (-) TimerEvent: {}
+[2.217068] (-) TimerEvent: {}
+[2.317429] (-) TimerEvent: {}
+[2.417789] (-) TimerEvent: {}
+[2.518157] (-) TimerEvent: {}
+[2.618515] (-) TimerEvent: {}
+[2.718889] (-) TimerEvent: {}
+[2.819261] (-) TimerEvent: {}
+[2.919651] (-) TimerEvent: {}
+[3.020018] (-) TimerEvent: {}
+[3.120398] (-) TimerEvent: {}
+[3.220761] (-) TimerEvent: {}
+[3.321153] (-) TimerEvent: {}
+[3.421558] (-) TimerEvent: {}
+[3.521945] (-) TimerEvent: {}
+[3.622329] (-) TimerEvent: {}
+[3.722711] (-) TimerEvent: {}
+[3.823057] (-) TimerEvent: {}
+[3.923473] (-) TimerEvent: {}
+[4.023916] (-) TimerEvent: {}
+[4.124342] (-) TimerEvent: {}
+[4.224835] (-) TimerEvent: {}
+[4.325467] (-) TimerEvent: {}
+[4.425966] (-) TimerEvent: {}
+[4.526329] (-) TimerEvent: {}
+[4.626707] (-) TimerEvent: {}
+[4.727093] (-) TimerEvent: {}
+[4.827496] (-) TimerEvent: {}
+[4.927875] (-) TimerEvent: {}
+[5.028286] (-) TimerEvent: {}
+[5.128662] (-) TimerEvent: {}
+[5.229023] (-) TimerEvent: {}
+[5.329379] (-) TimerEvent: {}
+[5.429749] (-) TimerEvent: {}
+[5.530109] (-) TimerEvent: {}
+[5.630476] (-) TimerEvent: {}
+[5.730825] (-) TimerEvent: {}
+[5.831211] (-) TimerEvent: {}
+[5.931591] (-) TimerEvent: {}
+[6.031952] (-) TimerEvent: {}
+[6.132321] (-) TimerEvent: {}
+[6.225003] (cpp01_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_tempbuf.h:61\x1b[m\x1b[K,\n'}
+[6.225404] (cpp01_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:66\x1b[m\x1b[K,\n'}
+[6.225539] (cpp01_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[6.225633] (cpp01_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:1\x1b[m\x1b[K:\n'}
+[6.225734] (cpp01_serial) StderrLine: {'line': b'/usr/include/c++/13/bits/stl_construct.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::\x1b[01;32m\x1b[K_Construct\x1b[m\x1b[K(_Tp*, _Args&& ...) \x1b[35m\x1b[K[with _Tp = drivers::serial_driver::SerialDriver; _Args = {shared_ptr<drivers::common::IoContext>&}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.225827] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/alloc_traits.h:661:19:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<void> >::\x1b[01;32m\x1b[Kconstruct\x1b[m\x1b[K(allocator_type&, _Up*, _Args&& ...) \x1b[35m\x1b[K[with _Up = drivers::serial_driver::SerialDriver; _Args = {std::shared_ptr<drivers::common::IoContext>&}; allocator_type = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.225920] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::\x1b[01;32m\x1b[K_Sp_counted_ptr_inplace\x1b[m\x1b[K(_Alloc, _Args&& ...) \x1b[35m\x1b[K[with _Args = {std::shared_ptr<drivers::common::IoContext>&}; _Tp = drivers::serial_driver::SerialDriver; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.226008] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::\x1b[01;32m\x1b[K__shared_count\x1b[m\x1b[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) \x1b[35m\x1b[K[with _Tp = drivers::serial_driver::SerialDriver; _Alloc = std::allocator<void>; _Args = {std::shared_ptr<drivers::common::IoContext>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.226105] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::\x1b[01;32m\x1b[K__shared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {std::shared_ptr<drivers::common::IoContext>&}; _Tp = drivers::serial_driver::SerialDriver; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.226193] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:464:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::\x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {std::shared_ptr<drivers::common::IoContext>&}; _Tp = drivers::serial_driver::SerialDriver]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.226302] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...) \x1b[35m\x1b[K[with _Tp = drivers::serial_driver::SerialDriver; _Args = {shared_ptr<drivers::common::IoContext>&}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = drivers::serial_driver::SerialDriver]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.226427] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:29:76:\x1b[m\x1b[K   required from here\n'}
+[6.226515] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_construct.h:119:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::SerialDriver(std::shared_ptr<drivers::common::IoContext>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.226601] (cpp01_serial) StderrLine: {'line': b'  119 |       \x1b[01;31m\x1b[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[6.226682] (cpp01_serial) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.226776] (cpp01_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:2\x1b[m\x1b[K:\n'}
+[6.226863] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:32:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::\x1b[01;32m\x1b[KSerialDriver\x1b[m\x1b[K(const drivers::common::IoContext&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.226948] (cpp01_serial) StderrLine: {'line': b'   32 |   explicit \x1b[01;36m\x1b[KSerialDriver\x1b[m\x1b[K(const IoContext & ctx);\n'}
+[6.227035] (cpp01_serial) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.227113] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:32:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<drivers::common::IoContext>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst drivers::common::IoContext&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.227202] (cpp01_serial) StderrLine: {'line': b'   32 |   explicit SerialDriver(\x1b[01;36m\x1b[Kconst IoContext & ctx\x1b[m\x1b[K);\n'}
+[6.227283] (cpp01_serial) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.227380] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::\x1b[01;32m\x1b[KSerialDriver\x1b[m\x1b[K(const drivers::serial_driver::SerialDriver&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.227469] (cpp01_serial) StderrLine: {'line': b'   29 | class \x1b[01;36m\x1b[KSerialDriver\x1b[m\x1b[K\n'}
+[6.227549] (cpp01_serial) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.227628] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<drivers::common::IoContext>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst drivers::serial_driver::SerialDriver&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.227710] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::\x1b[01;32m\x1b[KSerialDriver\x1b[m\x1b[K(drivers::serial_driver::SerialDriver&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.227804] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<drivers::common::IoContext>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.232389] (-) TimerEvent: {}
+[6.332659] (-) TimerEvent: {}
+[6.432996] (-) TimerEvent: {}
+[6.475659] (cpp01_serial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1\n'}
+[6.476033] (cpp01_serial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_uart_send.dir/all] Error 2\n'}
+[6.476359] (cpp01_serial) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.479561] (cpp01_serial) CommandEnded: {'returncode': 2}
+[6.497612] (cpp01_serial) JobEnded: {'identifier': 'cpp01_serial', 'rc': 2}
+[6.509456] (-) EventReactorShutdown: {}
