@@ -1,9 +1,0 @@
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/uninstall.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/mycar_description_uninstall.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/test.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/edit_cache.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/rebuild_cache.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/list_install_components.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/install.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/install/local.dir
-/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/mycar_description/CMakeFiles/install/strip.dir
