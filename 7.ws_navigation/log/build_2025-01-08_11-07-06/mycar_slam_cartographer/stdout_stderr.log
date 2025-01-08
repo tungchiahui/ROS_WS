@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer
+-- Install configuration: ""
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch/cartographer.launch.py
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params/mycar.lua
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/package_run_dependencies/mycar_slam_cartographer
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/parent_prefix_path/mycar_slam_cartographer
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.dsv
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.sh
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.dsv
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.bash
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.sh
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.zsh
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.dsv
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.dsv
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/packages/mycar_slam_cartographer
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig.cmake
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig-version.cmake
+-- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.xml

@@ -1,0 +1,40 @@
+<robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro">
+ 
+    <!-- 传动实现:用于连接控制器与关节 -->
+    <xacro:macro name="joint_trans" params="joint_name">
+        <!-- Transmission is important to link the joints and the controller -->
+        <transmission name="${joint_name}_trans">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="${joint_name}">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="${joint_name}_motor">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+                <mechanicalReduction>1</mechanicalReduction>
+            </actuator>
+        </transmission>
+    </xacro:macro>
+ 
+    <!-- 每一个驱动轮都需要配置传动装置 -->
+    <xacro:joint_trans joint_name="left_front_wheel_joint" />
+    <xacro:joint_trans joint_name="left_rear_wheel_joint" />
+    <xacro:joint_trans joint_name="right_front_wheel_joint" />
+    <xacro:joint_trans joint_name="right_rear_wheel_joint" />
+ 
+    <!-- 麦轮控制器 -->
+    <gazebo>
+        <plugin name="mecanum_controller" filename="libgazebo_ros_planar_move.so">
+            <commandTopic>cmd_vel</commandTopic>
+            <odometryTopic>odom</odometryTopic>
+            <odometryFrame>odom</odometryFrame>
+            <leftFrontJoint>left_front_wheel_joint</leftFrontJoint>
+            <rightFrontJoint>right_front_wheel_joint</rightFrontJoint>
+            <leftRearJoint>left_rear_wheel_link</leftRearJoint>
+            <rightRearJoint>right_rear_wheel_joint</rightRearJoint>
+            <odometryRate>100</odometryRate>
+            <robotBaseFrame>base_footprint</robotBaseFrame>
+            <broadcastTF>1</broadcastTF>
+        </plugin>
+    </gazebo>
+ 
+</robot>

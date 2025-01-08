@@ -1,0 +1,141 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/ctrl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/fasr.so"
+			],
+			"targetId" : "fasr::@9bee9553c6af5f7157eb",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/sink.so"
+			],
+			"targetId" : "sink::@9bee9553c6af5f7157eb",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/source.so"
+			],
+			"targetId" : "source::@9bee9553c6af5f7157eb",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/wander.so"
+			],
+			"targetId" : "wander::@9bee9553c6af5f7157eb",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/pioneer_flocking.so"
+			],
+			"targetId" : "pioneer_flocking::@9bee9553c6af5f7157eb",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/rasterize.so"
+			],
+			"targetId" : "rasterize::@9bee9553c6af5f7157eb",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/lasernoise.so"
+			],
+			"targetId" : "lasernoise::@9bee9553c6af5f7157eb",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/dynamic.so"
+			],
+			"targetId" : "dynamic::@9bee9553c6af5f7157eb",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"examples/ctrl/fasr2.so"
+			],
+			"targetId" : "fasr2::@9bee9553c6af5f7157eb",
+			"targetIndex" : 4,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/ctrl",
+		"source" : "examples/ctrl"
+	}
+}

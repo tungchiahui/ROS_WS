@@ -1,0 +1,129 @@
+[0.013s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage': /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage -- -j16 -l16
+[0.068s] [ 57%] Built target stage
+[0.098s] [ 61%] Built target sink
+[0.098s] [ 64%] Built target source
+[0.099s] [ 67%] Built target pioneer_flocking
+[0.101s] [ 71%] Built target wander
+[0.101s] [ 74%] Built target fasr
+[0.101s] [ 77%] Built target rasterize
+[0.108s] [ 81%] Built target expand_swarm
+[0.108s] [ 84%] Built target stagebinary
+[0.110s] [ 89%] Built target fasr2
+[0.111s] [ 93%] Built target dynamic
+[0.112s] [ 96%] Built target expand_pioneer
+[0.113s] [100%] Built target lasernoise
+[0.129s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage' returned '0': /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage -- -j16 -l16
+[0.131s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage': /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage
+[0.138s] -- Install configuration: "RELEASE"
+[0.138s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/pkgconfig/stage.pc
+[0.139s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/cmake/Stage/stage-config.cmake
+[0.139s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/cmake/Stage/stage-config-version.cmake
+[0.139s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/bin/stage
+[0.139s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/libstage.so.4.3.0
+[0.139s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/libstage.so
+[0.139s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/include/Stage-4.3/stage.hh
+[0.139s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/fasr.so
+[0.140s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/sink.so
+[0.140s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/source.so
+[0.140s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/wander.so
+[0.140s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/pioneer_flocking.so
+[0.141s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/rasterize.so
+[0.141s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/lasernoise.so
+[0.141s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/dynamic.so
+[0.141s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/fasr2.so
+[0.142s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/blue.png
+[0.142s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/death.png
+[0.142s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/green.png
+[0.142s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/logo.png
+[0.142s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/mains.png
+[0.142s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/mainspower.png
+[0.142s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/question_mark.png
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/red.png
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/stagelogo.png
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/stall-old.png
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/stall.png
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/assets/rgb.txt
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/rgb.txt
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/amcl-sonar.cfg
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/autolab.cfg
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/camera.cfg
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/everything.cfg
+[0.143s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/lsp_test.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/mbicp.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/nd.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/roomba.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/simple.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/test.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/vfh.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wavefront-remote.cfg
+[0.144s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wavefront.cfg
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi.cfg
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/SFU.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/autolab.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/camera.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/circuit.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/everything.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/fasr.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/fasr2.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/fasr_plan.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/large.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/lsp_test.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/mbicp.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/pioneer_flocking.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/pioneer_follow.world
+[0.145s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/pioneer_walle.world
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/roomba.world
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/sensor_noise_demo.world
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/sensor_noise_module_demo.world
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/simple.world
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/uoa_robotics_lab.world
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi.world
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/beacons.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/chatterbox.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/hokuyo.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/irobot.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/map.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/objects.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/pantilt.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/pioneer.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/sick.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/ubot.inc
+[0.146s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[0.147s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/walle.inc
+[0.147s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/cfggen.sh
+[0.147s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/test.sh
+[0.147s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/worldgen.sh
+[0.147s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/expand_swarm.so
+[0.148s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/lib/Stage-4.3/expand_pioneer.so
+[0.148s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/889_05.png
+[0.148s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[0.148s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[0.148s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/autolab.png
+[0.148s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/cave.png
+[0.148s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/cave_compact.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/cave_filled.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/frieburg.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/ghost.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/hospital.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/hospital_section.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/human_outline.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/mbicp.png
+[0.149s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/rink.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/sal2.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/space_invader.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/submarine.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/submarine_small.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/table.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[0.150s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/commando.world
+[0.151s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/hosp_wifi.world
+[0.151s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[0.151s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/wifi.world
+[0.151s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/wifi_itu.world
+[0.151s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world
+[0.151s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/wifi_ray.world
+[0.152s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/wifi_simple.world
+[0.152s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/install/Stage/share/stage/worlds/wifi/map.inc
+[0.152s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage' returned '0': /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/Stage

@@ -1,0 +1,51 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"worlds/wifi/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/stage/worlds/wifi",
+			"paths" : 
+			[
+				"worlds/wifi/commando.world",
+				"worlds/wifi/hosp_wifi.world",
+				"worlds/wifi/hosp_wifi_5.world",
+				"worlds/wifi/wifi.world",
+				"worlds/wifi/wifi_itu.world",
+				"worlds/wifi/wifi_logdistance.world",
+				"worlds/wifi/wifi_ray.world",
+				"worlds/wifi/wifi_simple.world",
+				"worlds/wifi/map.inc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "worlds/wifi",
+		"source" : "worlds/wifi"
+	}
+}

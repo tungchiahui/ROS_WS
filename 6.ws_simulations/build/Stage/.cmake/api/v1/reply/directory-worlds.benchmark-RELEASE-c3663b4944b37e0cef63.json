@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"worlds/benchmark/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"worlds/benchmark/expand_swarm.so"
+			],
+			"targetId" : "expand_swarm::@1a6822d6749951a0f70b",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/Stage-4.3",
+			"paths" : 
+			[
+				"worlds/benchmark/expand_pioneer.so"
+			],
+			"targetId" : "expand_pioneer::@1a6822d6749951a0f70b",
+			"targetIndex" : 1,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "worlds/benchmark",
+		"source" : "worlds/benchmark"
+	}
+}

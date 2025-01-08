@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_slam_cartographer -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.148s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.209s] -- Detecting CXX compile features - done
+[0.211s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.310s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.382s] -- Looking for pthread.h
+[0.431s] -- Looking for pthread.h - found
+[0.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.477s] -- Found Threads: TRUE  
+[0.483s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.486s] -- Found required Ceres dependency: glog
+[0.487s] -- Found required Ceres dependency: gflags
+[0.487s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.494s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.553s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.554s] -- Added test 'lint_cmake' to check CMake code style
+[0.554s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.555s] -- Added test 'xmllint' to check XML markup files
+[0.556s] -- Configuring done
+[0.558s] -- Generating done
+[0.560s] -- Build files have been written to: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer
+[0.563s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_slam_cartographer -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer
+[0.564s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer -- -j16 -l16
+[0.587s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer -- -j16 -l16
+[0.592s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer
+[0.597s] -- Install configuration: ""
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/launch/cartographer.launch.py
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/params/mycar.lua
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/package_run_dependencies/mycar_slam_cartographer
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/parent_prefix_path/mycar_slam_cartographer
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.sh
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/ament_prefix_path.dsv
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.sh
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/environment/path.dsv
+[0.597s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.bash
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.sh
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.zsh
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/local_setup.dsv
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.dsv
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/ament_index/resource_index/packages/mycar_slam_cartographer
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig.cmake
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/cmake/mycar_slam_cartographerConfig-version.cmake
+[0.598s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_slam_cartographer/share/mycar_slam_cartographer/package.xml
+[0.599s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_slam_cartographer

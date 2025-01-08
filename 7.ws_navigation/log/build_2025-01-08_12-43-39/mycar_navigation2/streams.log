@@ -1,0 +1,60 @@
+[0.007s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_navigation2 -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.135s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.137s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.350s] -- Found navigation2: 1.1.17 (/opt/ros/humble/share/navigation2/cmake)
+[0.351s] -- Found nav2_common: 1.1.17 (/opt/ros/humble/share/nav2_common/cmake)
+[0.352s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.403s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.403s] -- Added test 'lint_cmake' to check CMake code style
+[0.404s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.404s] -- Added test 'xmllint' to check XML markup files
+[0.405s] -- Configuring done
+[0.408s] -- Generating done
+[0.410s] -- Build files have been written to: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2
+[0.413s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/src/mycar_navigation2 -DCMAKE_INSTALL_PREFIX=/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2
+[0.414s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2 -- -j16 -l16
+[0.438s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2 -- -j16 -l16
+[0.444s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2
+[0.448s] -- Install configuration: ""
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/launch
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/launch/nav2.launch.py
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/launch/bringup.launch.py
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params/bt.yaml
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params/planner.yaml
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params/controller.yaml
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params/behavior.yaml
+[0.448s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params/waypoint.yaml
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params/velocity.yaml
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/params/smootherr.yaml
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/bts
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/bts/bt_planner_controller_behavior.xml
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/bts/bt_planner_controller_behavior_poses.xml
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/ament_index/resource_index/package_run_dependencies/mycar_navigation2
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/ament_index/resource_index/parent_prefix_path/mycar_navigation2
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/environment/ament_prefix_path.sh
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/environment/ament_prefix_path.dsv
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/environment/path.sh
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/environment/path.dsv
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/local_setup.bash
+[0.449s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/local_setup.sh
+[0.450s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/local_setup.zsh
+[0.450s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/local_setup.dsv
+[0.450s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/package.dsv
+[0.450s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/ament_index/resource_index/packages/mycar_navigation2
+[0.450s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/cmake/mycar_navigation2Config.cmake
+[0.450s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/cmake/mycar_navigation2Config-version.cmake
+[0.450s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_navigation2/share/mycar_navigation2/package.xml
+[0.451s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_navigation2

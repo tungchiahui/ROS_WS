@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server -- -j16 -l16
+[0.052s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server -- -j16 -l16
+[0.055s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server
+[0.057s] -- Install configuration: ""
+[0.057s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/launch
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/launch/map_server.launch.py
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/ament_index/resource_index/package_run_dependencies/mycar_map_server
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/ament_index/resource_index/parent_prefix_path/mycar_map_server
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/environment/path.sh
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/environment/path.dsv
+[0.058s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/local_setup.bash
+[0.059s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/local_setup.sh
+[0.059s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/local_setup.zsh
+[0.059s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/local_setup.dsv
+[0.059s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/package.dsv
+[0.059s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/ament_index/resource_index/packages/mycar_map_server
+[0.059s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/cmake/mycar_map_serverConfig.cmake
+[0.060s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/cmake/mycar_map_serverConfig-version.cmake
+[0.060s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/install/mycar_map_server/share/mycar_map_server/package.xml
+[0.068s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/7.ws_navigation/build/mycar_map_server
