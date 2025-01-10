@@ -11,9 +11,22 @@ find_package(rclcpp REQUIRED)
 find_package(serial_driver REQUIRED)
 
 add_executable(demo01_uart_send src/demo01_uart_send.cpp)
+add_executable(demo02_uart_receive src/demo02_uart_receive.cpp)
+add_executable(demo03_uart src/demo03_uart.cpp)
+
 target_include_directories(demo01_uart_send PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+
+target_include_directories(demo02_uart_receive PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+
+target_include_directories(demo03_uart PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+
+
 target_compile_features(demo01_uart_send PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
   demo01_uart_send
@@ -21,7 +34,27 @@ ament_target_dependencies(
   "serial_driver"
 )
 
+target_compile_features(demo02_uart_receive PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  demo02_uart_receive
+  "rclcpp"
+  "serial_driver"
+)
+
+target_compile_features(demo03_uart PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  demo03_uart
+  "rclcpp"
+  "serial_driver"
+)
+
 install(TARGETS demo01_uart_send
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS demo02_uart_receive
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS demo03_uart
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

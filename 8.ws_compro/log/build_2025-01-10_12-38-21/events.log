@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (cpp01_serial) JobQueued: {'identifier': 'cpp01_serial', 'dependencies': OrderedDict()}
+[0.000302] (cpp01_serial) JobStarted: {'identifier': 'cpp01_serial'}
+[0.005019] (cpp01_serial) JobProgress: {'identifier': 'cpp01_serial', 'progress': 'cmake'}
+[0.005362] (cpp01_serial) JobProgress: {'identifier': 'cpp01_serial', 'progress': 'build'}
+[0.005804] (cpp01_serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial', '--', '-j16', '-l16'], 'cwd': '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'Dell-G15-5511'), ('GIT_ASKPASS', '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2747facc-8e81-4bf1-93fc-3ffb0a114a6e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-3ffa7f6b-4b72-40cd-86b6-7ff033f309d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-3ffa7f6b-4b72-40cd-86b6-7ff033f309d2.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-83102eff10.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-3ffa7f6b-4b72-40cd-86b6-7ff033f309d2.sock'), ('AMENT_PREFIX_PATH', '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial:/opt/ros/humble')]), 'shell': False}
+[0.034756] (cpp01_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_uart_receive\x1b[0m\n'}
+[0.043984] (cpp01_serial) StdoutLine: {'line': b'[ 50%] Built target demo01_uart_send\n'}
+[0.050608] (cpp01_serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_uart_receive.dir/src/demo02_uart_receive.cpp.o\x1b[0m\n'}
+[0.099880] (-) TimerEvent: {}
+[0.200165] (-) TimerEvent: {}
+[0.300433] (-) TimerEvent: {}
+[0.400713] (-) TimerEvent: {}
+[0.500967] (-) TimerEvent: {}
+[0.601288] (-) TimerEvent: {}
+[0.701651] (-) TimerEvent: {}
+[0.802024] (-) TimerEvent: {}
+[0.902356] (-) TimerEvent: {}
+[1.002678] (-) TimerEvent: {}
+[1.102995] (-) TimerEvent: {}
+[1.203342] (-) TimerEvent: {}
+[1.303619] (-) TimerEvent: {}
+[1.403940] (-) TimerEvent: {}
+[1.504270] (-) TimerEvent: {}
+[1.604536] (-) TimerEvent: {}
+[1.704919] (-) TimerEvent: {}
+[1.805198] (-) TimerEvent: {}
+[1.905476] (-) TimerEvent: {}
+[1.939048] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo02_uart_receive.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Serial_Node::async_receive_message()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.939227] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo02_uart_receive.cpp:54:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KSerial_Node::async_receive_message()::<lambda(const std::vector<unsigned char, std::allocator<unsigned char> >&)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::Functor\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::vector<unsigned char, std::allocator<unsigned char> >&, const long unsigned int&)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.939285] (cpp01_serial) StderrLine: {'line': b'   54 |     \x1b[01;31m\x1b[Kport->async_receive([this](const std::vector<uint8_t> &data)\x1b[m\x1b[K\n'}
+[1.939325] (cpp01_serial) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939362] (cpp01_serial) StderrLine: {'line': b'   55 | \x1b[01;31m\x1b[K    {\x1b[m\x1b[K\n'}
+[1.939399] (cpp01_serial) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~\x1b[m\x1b[K                   \n'}
+[1.939436] (cpp01_serial) StderrLine: {'line': b'   56 | \x1b[01;31m\x1b[K        if (!data.empty())\x1b[m\x1b[K\n'}
+[1.939472] (cpp01_serial) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939507] (cpp01_serial) StderrLine: {'line': b'   57 | \x1b[01;31m\x1b[K        {\x1b[m\x1b[K\n'}
+[1.939543] (cpp01_serial) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K               \n'}
+[1.939580] (cpp01_serial) StderrLine: {'line': b'   58 | \x1b[01;31m\x1b[K            // \xe5\xa4\x84\xe7\x90\x86\xe6\x8e\xa5\xe6\x94\xb6\xe5\x88\xb0\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\x1b[m\x1b[K\n'}
+[1.939635] (cpp01_serial) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939672] (cpp01_serial) StderrLine: {'line': b'   59 | \x1b[01;31m\x1b[K            std::string received_message(data.begin(), data.end());\x1b[m\x1b[K\n'}
+[1.939708] (cpp01_serial) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939752] (cpp01_serial) StderrLine: {'line': b'   60 | \x1b[01;31m\x1b[K            RCLCPP_INFO(this->get_logger(), "Received: %s", received_message.c_str());\x1b[m\x1b[K\n'}
+[1.939798] (cpp01_serial) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939835] (cpp01_serial) StderrLine: {'line': b'   61 | \x1b[01;31m\x1b[K        }\x1b[m\x1b[K\n'}
+[1.939871] (cpp01_serial) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K               \n'}
+[1.939907] (cpp01_serial) StderrLine: {'line': b'   62 | \x1b[01;31m\x1b[K        // \xe7\xbb\xa7\xe7\xbb\xad\xe7\x9b\x91\xe5\x90\xac\xe6\x96\xb0\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\x1b[m\x1b[K\n'}
+[1.939942] (cpp01_serial) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.939976] (cpp01_serial) StderrLine: {'line': b'   63 | \x1b[01;31m\x1b[K        async_receive_message();\x1b[m\x1b[K\n'}
+[1.940011] (cpp01_serial) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.940046] (cpp01_serial) StderrLine: {'line': b'   64 | \x1b[01;31m\x1b[K    }\x1b[m\x1b[K\n'}
+[1.940080] (cpp01_serial) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~\x1b[m\x1b[K                   \n'}
+[1.940115] (cpp01_serial) StderrLine: {'line': b'   65 | \x1b[01;31m\x1b[K    )\x1b[m\x1b[K;\n'}
+[1.940152] (cpp01_serial) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~\x1b[m\x1b[K                   \n'}
+[1.940186] (cpp01_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:22\x1b[m\x1b[K,\n'}
+[1.940228] (cpp01_serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo02_uart_receive.cpp:2\x1b[m\x1b[K:\n'}
+[1.940265] (cpp01_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/serial_driver/serial_port.hpp:216:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid drivers::serial_driver::SerialPort::async_receive(drivers::serial_driver::Functor)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.940303] (cpp01_serial) StderrLine: {'line': b'  216 |   void async_receive(\x1b[01;36m\x1b[KFunctor func\x1b[m\x1b[K);\n'}
+[1.940338] (cpp01_serial) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.005582] (-) TimerEvent: {}
+[2.105853] (-) TimerEvent: {}
+[2.206133] (-) TimerEvent: {}
+[2.304785] (cpp01_serial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_uart_receive.dir/build.make:76: CMakeFiles/demo02_uart_receive.dir/src/demo02_uart_receive.cpp.o] Error 1\n'}
+[2.305020] (cpp01_serial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_uart_receive.dir/all] Error 2\n'}
+[2.305482] (cpp01_serial) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.306200] (-) TimerEvent: {}
+[2.307173] (cpp01_serial) CommandEnded: {'returncode': 2}
+[2.314930] (cpp01_serial) JobEnded: {'identifier': 'cpp01_serial', 'rc': 2}
+[2.325445] (-) EventReactorShutdown: {}

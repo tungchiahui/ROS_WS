@@ -1,0 +1,4 @@
+Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial': /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j16 -l16
+Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '0': /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j16 -l16
+Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial': /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial
+Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '0': /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial

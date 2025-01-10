@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "serial_driver/serial_driver.hpp"
+#include <string>
 
 class Serial_Node : public rclcpp::Node
 {
@@ -40,25 +41,29 @@ public:
       return;
     }
 
-    // 设置发送定时器
-    send_timer_ = this->create_wall_timer(
-        std::chrono::milliseconds(500),
+        // 设置发送定时器
+    transmit_timer_ = this->create_wall_timer(
+        std::chrono::milliseconds(5000),
         std::bind(&Serial_Node::send_message_timer_callback, this));
+
+    async_receive_message();   //进入异步接收
   }
 
+
 private:
+
   void send_message_timer_callback()
   {
     // 发送一串字符串
-    const std::string message = "Hello from ROS 2!\n";
-    std::vector<uint8_t> data(message.begin(), message.end());
+    const std::string transmitted_message = "Hello from ROS 2!\n";
+    transmit_data_buffer = std::vector<uint8_t>(transmitted_message.begin(), transmitted_message.end());
     // std::vector<uint8_t> hex_data = {0x48, 0x65, 0x6C, 0x6C, 0x6F}; // "Hello" in ASCII
     auto port = serial_driver_->port();
 
     try
     {
-      size_t bytes_sent_size = port->send(data);
-      RCLCPP_INFO(this->get_logger(), "Sent: %s (%ld bytes)", message.c_str(), bytes_sent_size);
+      size_t bytes_transmit_size = port->send(transmit_data_buffer);
+      RCLCPP_INFO(this->get_logger(), "Transmitted: %s (%ld bytes)", transmitted_message.c_str(), bytes_transmit_size);
     }
     catch(const std::exception &ex)
     {
@@ -66,9 +71,30 @@ private:
     }
   }
 
+  void async_receive_message()  //创建一个函数更方便重新调用
+  {
+    auto port = serial_driver_->port();
+
+    // 设置接收回调函数
+    port->async_receive([this](const std::vector<uint8_t> &data,const size_t &size) 
+    {
+        if (size > 0)
+        {
+            // 处理接收到的数据
+            std::string received_message(data.begin(), data.begin() + size);
+            RCLCPP_INFO(this->get_logger(), "Received: %s (%ld bytes)", received_message.c_str(),size);
+        }
+        // 继续监听新的数据
+        async_receive_message();
+    }
+    );
+  }
+
   std::shared_ptr<drivers::serial_driver::SerialDriver> serial_driver_;
   std::shared_ptr<drivers::common::IoContext> io_context_;
-  rclcpp::TimerBase::SharedPtr send_timer_;
+  rclcpp::TimerBase::SharedPtr transmit_timer_;
+  std::vector<uint8_t> transmit_data_buffer = std::vector<uint8_t>(1024); // 发送缓冲区
+  std::vector<uint8_t> receive_data_buffer = std::vector<uint8_t>(1024);  // 接收缓冲区
 };
 
 int main(int argc, char **argv)

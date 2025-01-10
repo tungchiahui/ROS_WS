@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j16 -l16
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[2.548s] [100%] [32m[1mLinking CXX executable demo01_uart_send[0m
+[2.648s] [100%] Built target demo01_uart_send
+[2.655s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial -- -j16 -l16
+[2.661s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial
+[2.665s] -- Install configuration: ""
+[2.665s] -- Installing: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send
+[2.665s] -- Set runtime path of "/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send" to ""
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/ament_index/resource_index/package_run_dependencies/cpp01_serial
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/ament_index/resource_index/parent_prefix_path/cpp01_serial
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.sh
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.dsv
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/path.sh
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/environment/path.dsv
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.bash
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.sh
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.zsh
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/local_setup.dsv
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/package.dsv
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/ament_index/resource_index/packages/cpp01_serial
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig.cmake
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig-version.cmake
+[2.666s] -- Up-to-date: /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/install/cpp01_serial/share/cpp01_serial/package.xml
+[2.667s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/8.ws_compro/build/cpp01_serial

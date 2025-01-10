@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "Findserial_driver.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "serial_driver", but CMake did not find one.
+
+  Could not find a package configuration file provided by "serial_driver"
+  with any of the following names:
+
+    serial_driverConfig.cmake
+    serial_driver-config.cmake
+
+  Add the installation prefix of "serial_driver" to CMAKE_PREFIX_PATH or set
+  "serial_driver_DIR" to a directory containing one of the above files.  If
+  "serial_driver" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
