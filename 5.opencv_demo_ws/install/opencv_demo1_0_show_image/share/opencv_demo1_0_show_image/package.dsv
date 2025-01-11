@@ -1,8 +1,0 @@
-source;share/opencv_demo1_0_show_image/hook/cmake_prefix_path.ps1
-source;share/opencv_demo1_0_show_image/hook/cmake_prefix_path.dsv
-source;share/opencv_demo1_0_show_image/hook/cmake_prefix_path.sh
-source;share/opencv_demo1_0_show_image/local_setup.bash
-source;share/opencv_demo1_0_show_image/local_setup.dsv
-source;share/opencv_demo1_0_show_image/local_setup.ps1
-source;share/opencv_demo1_0_show_image/local_setup.sh
-source;share/opencv_demo1_0_show_image/local_setup.zsh

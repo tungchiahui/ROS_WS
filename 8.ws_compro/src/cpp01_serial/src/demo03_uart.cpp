@@ -55,7 +55,7 @@ private:
   void send_message_timer_callback()
   {
     // 发送一串字符串
-    const std::string transmitted_message = "Hello from ROS 2!\n";
+    const std::string transmitted_message = "Hello from ROS 2!";
     transmit_data_buffer = std::vector<uint8_t>(transmitted_message.begin(), transmitted_message.end());
     // std::vector<uint8_t> hex_data = {0x48, 0x65, 0x6C, 0x6C, 0x6F}; // "Hello" in ASCII
     auto port = serial_driver_->port();

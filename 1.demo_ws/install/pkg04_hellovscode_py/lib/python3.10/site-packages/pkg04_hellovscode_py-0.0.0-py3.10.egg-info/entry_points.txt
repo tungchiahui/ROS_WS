@@ -1,3 +1,0 @@
-[console_scripts]
-hellovscode = pkg04_hellovscode_py.hellovscode:main
-

@@ -1,9 +1,0 @@
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/uninstall.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/moveit2testt_uninstall.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/test.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/edit_cache.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/rebuild_cache.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/list_install_components.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/install.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/install/local.dir
-/home/tungchiahui/user/mysource/ros2src/4axisrobot_ws/build/moveit2testt/CMakeFiles/install/strip.dir

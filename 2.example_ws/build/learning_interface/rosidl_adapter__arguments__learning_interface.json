@@ -1,9 +1,0 @@
-{
-  "package_name": "learning_interface",
-  "non_idl_tuples": [
-    "/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface:msg/ObjectPosition.msg",
-    "/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface:srv/AddTwoInts.srv",
-    "/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface:srv/GetObjectPosition.srv",
-    "/home/tungchiahui/mysource/ros2src/2.example_ws/src/ros2_21_tutorials/learning_interface:action/MoveCircle.action"
-  ]
-}
