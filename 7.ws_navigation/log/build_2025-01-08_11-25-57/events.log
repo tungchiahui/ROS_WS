@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000243] (-) JobUnselected: {'identifier': 'mycar_localization'}
-[0.000335] (-) JobUnselected: {'identifier': 'mycar_map_server'}
-[0.000372] (-) JobUnselected: {'identifier': 'mycar_slam_cartographer'}
-[0.000387] (-) JobUnselected: {'identifier': 'mycar_slam_slam_toolbox'}
-[0.000481] (-) EventReactorShutdown: {}

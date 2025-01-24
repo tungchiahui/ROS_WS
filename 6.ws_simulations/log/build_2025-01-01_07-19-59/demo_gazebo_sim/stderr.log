@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/tungchiahui/UserFloder/mysource/ROS2_WS/6.ws_simulations/src/demo_gazebo_sim/rviz":
-  No such file or directory.
-
-[0m

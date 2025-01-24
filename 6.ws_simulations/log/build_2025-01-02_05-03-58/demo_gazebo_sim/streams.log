@@ -1,6 +1,0 @@
-[0.007s] Invoking command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim -- -j16 -l16
-[0.014s] [0mCMake Error: The current CMakeCache.txt directory /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim/CMakeCache.txt is different than the directory /home/tungchiahui/UserFloder/mysource/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.021s] [0mCMake Error: The source directory "/home/tungchiahui/UserFloder/mysource/ROS2_WS/6.ws_simulations/src/demo_gazebo_sim" does not exist.
-[0.021s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.022s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.024s] Invoked command in '/home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/UserFloder/mysource/ROS/ROS2_WS/6.ws_simulations/build/demo_gazebo_sim -- -j16 -l16
