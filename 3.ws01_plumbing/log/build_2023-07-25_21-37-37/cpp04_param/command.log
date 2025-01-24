@@ -1,2 +1,0 @@
-Invoking command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp04_param -- -j16 -l16
-Invoked command in '/home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tungchiahui/mysource/ros2src/3.ws01_plumbing/build/cpp04_param -- -j16 -l16

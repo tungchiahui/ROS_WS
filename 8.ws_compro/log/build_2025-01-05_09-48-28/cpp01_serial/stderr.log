@@ -1,7 +1,0 @@
-[01m[K/home/tungchiahui/mysource/ROS2_WS/8.ws_compro/src/cpp01_serial/src/demo01_uart_send.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kserial_driver.hpp: No such file or directory
-    2 | #include [01;31m[K"serial_driver.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_uart_send.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

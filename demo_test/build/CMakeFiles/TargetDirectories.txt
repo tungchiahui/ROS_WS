@@ -1,5 +1,0 @@
-/home/tungchiahui/mysource/ros2src/demo_test/build/CMakeFiles/edit_cache.dir
-/home/tungchiahui/mysource/ros2src/demo_test/build/CMakeFiles/rebuild_cache.dir
-/home/tungchiahui/mysource/ros2src/demo_test/build/src/CMakeFiles/main.dir
-/home/tungchiahui/mysource/ros2src/demo_test/build/src/CMakeFiles/edit_cache.dir
-/home/tungchiahui/mysource/ros2src/demo_test/build/src/CMakeFiles/rebuild_cache.dir

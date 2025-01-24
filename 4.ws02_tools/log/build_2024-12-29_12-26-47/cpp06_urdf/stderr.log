@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/tungchiahui/source/ROS2_WS/4.ws02_tools/src/cpp06_urdf/meshes": No
-  such file or directory.
-
-[0m

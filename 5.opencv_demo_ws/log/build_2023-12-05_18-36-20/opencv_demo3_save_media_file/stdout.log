@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target opencv_save_video_node[0m
-[ 66%] Built target opencv_save_image_in_video_node
-[ 66%] Built target opencv_save_image_node
-[ 83%] [32mBuilding CXX object CMakeFiles/opencv_save_video_node.dir/src/opencv_save_video_node.cpp.o[0m

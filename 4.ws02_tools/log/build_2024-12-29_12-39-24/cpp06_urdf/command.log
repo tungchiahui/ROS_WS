@@ -1,4 +1,0 @@
-Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf -- -j16 -l16
-Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf -- -j16 -l16
-Invoking command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf
-Invoked command in '/home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tungchiahui/source/ROS2_WS/4.ws02_tools/build/cpp06_urdf

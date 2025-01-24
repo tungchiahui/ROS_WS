@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/main.dir/__/main.cpp.o CMakeFiles/main.dir/testFunc.cpp.o -o ../../bin/main 
