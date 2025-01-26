@@ -1,0 +1,34 @@
+model {
+  file: "model.sdf"
+}
+name: "Markings_Desk_Caddy"
+description: "Markings Desk Caddy"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Markings"
+}
+annotations {
+  key: "gtin"
+  value: "00082272816251"
+}
+annotations {
+  key: "sku"
+  value: "00082272816251"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+}
