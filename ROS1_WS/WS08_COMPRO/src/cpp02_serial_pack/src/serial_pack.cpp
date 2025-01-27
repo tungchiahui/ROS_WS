@@ -2,7 +2,6 @@
 #include <cstdint>
 #include <string.h> // For memcpy
 #include "ros/ros.h"
-#include "serial_driver/serial_driver.hpp"
 
 
 //包类对象
@@ -27,12 +26,12 @@ bool SERIAL::RX::Data_Apply(void)
 	return true;
 }
 
-std::vector<uint8_t> data_buffer;
+std::vector<uint8_t> tx_data_buffer;
 bool SERIAL::TX::Serial_Transmit(uint8_t *pData, uint16_t Size)
 {
     for(int16_t i = 0;i < Size;i++)
     {
-        data_buffer.push_back(pData[i]);
+        tx_data_buffer.push_back(pData[i]);
     }
     return true;
 }
