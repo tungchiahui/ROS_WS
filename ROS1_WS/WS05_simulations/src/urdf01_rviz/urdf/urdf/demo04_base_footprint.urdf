@@ -1,0 +1,19 @@
+<robot name="mycar">
+    <!-- 设置 base_footprint  -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001" />
+            </geometry>
+        </visual>
+    </link>
+
+    <!-- 添加底盘 -->
+
+
+    <!-- 添加驱动轮 -->
+
+
+    <!-- 添加万向轮(支撑轮) -->
+
+</robot>
