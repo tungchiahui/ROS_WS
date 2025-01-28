@@ -1,0 +1,15 @@
+<launch>
+
+    <!-- 运行地图服务器，并且加载设置的地图(amcl已经包含)-->
+    <!-- <include file="$(find nav_demo)/launch/nav03_map_server.launch" /> -->
+
+    <!-- 启动AMCL节点 -->
+    <include file="$(find nav_demo)/launch/nav06_amcl.launch" />
+
+    <!-- 运行move_base节点 -->
+    <include file="$(find nav_demo)/launch/nav07_path.launch" />
+
+    <!-- 运行rviz(amcl已经包含) -->
+    <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find nav_demo)/rviz/nav.rviz" /> -->
+
+</launch>
