@@ -7,4 +7,10 @@ global_costmap:
   publish_frequency: 1.0 #代价地图的发布频率
   transform_tolerance: 0.5 #等待坐标变换发布信息的超时时间
 
+  #膨胀半径，扩展在碰撞区域以外的代价区域，使得机器人规划路径避开障碍物
+  inflation_radius: 0.2
+  #代价比例系数，越大则代价值越小
+  cost_scaling_factor: 3.0
+
+
   static_map: true # 是否使用一个地图或者地图服务器来初始化全局代价地图，如果不使用静态地图，这个参数为false.
