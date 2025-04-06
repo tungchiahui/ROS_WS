@@ -1,49 +1,30 @@
-#include "rclcpp/rclcpp.hpp"
+#include <cstdio>
 #include "opencv2/opencv.hpp"
 
-
-class OpenCV_Node: public rclcpp::Node
-{
-  public:
-    OpenCV_Node();
-    bool Save_Image(void);
-    void AlphaMat(cv::Mat *mat);
-};
+void AlphaMat(cv::Mat *mat);
 
 int main(int argc, char ** argv)
 {
-  rclcpp::init(argc,argv);
+  (void)argc;
+  (void)argv;
 
-  auto opencv_node__ = std::make_shared<OpenCV_Node>();
-  rclcpp::spin(opencv_node__);
-
-  rclcpp::shutdown();
-
-  return 0;
-}
-
-OpenCV_Node::OpenCV_Node():Node("opencv_node")
-{
-  this->Save_Image();
-}
-
-bool OpenCV_Node::Save_Image(void)
-{
   cv::Mat mat__(480,640,CV_8UC4);
-  this->AlphaMat(&mat__);
+  AlphaMat(&mat__);
   std::vector<int> compression_params;
   compression_params.push_back(cv::IMWRITE_PNG_COMPRESSION);   //PNG图像压缩标志
   compression_params.push_back(9);   //设置最高压缩质量
   if(cv::imwrite("./src/opencv_demo3_0_save_media_file/save_files/save_image_test1.png",mat__,compression_params) == false)
   {
-    RCLCPP_INFO(this->get_logger(),"保存成PNG图像失败");
-    return false;
+    printf("保存成PNG图像失败");
+    return 1;
   }
-  RCLCPP_INFO(this->get_logger(),"保存成PNG图像成功");
-  return true;
+  printf("保存成PNG图像成功");
+  return 0;
+
 }
 
-void OpenCV_Node::AlphaMat(cv::Mat *mat)
+
+void AlphaMat(cv::Mat *mat)
 {
   CV_Assert(mat->channels() == 4);  //如果通道不等于4，那么抛出异常
   for(int i = 0;i < mat->rows;i++)   //行

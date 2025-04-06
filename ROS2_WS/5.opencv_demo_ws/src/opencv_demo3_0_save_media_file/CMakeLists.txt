@@ -16,6 +16,7 @@ find_package(image_transport REQUIRED)
 add_executable(opencv_save_image_node src/opencv_save_image_node.cpp)
 add_executable(opencv_save_image_in_video_node src/opencv_save_image_in_video_node.cpp)
 add_executable(opencv_save_video_node src/opencv_save_video_node.cpp)
+add_executable(opencv_save_XMLandYMAL src/opencv_save_XMLandYMAL.cpp)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/opencv_demo3_0_save_media_file)  #添加自己的头文件
 
@@ -49,12 +50,22 @@ ament_target_dependencies(
   "cv_bridge"
   "image_transport"
 )
+ament_target_dependencies(
+  opencv_save_XMLandYMAL
+  "rclcpp"
+  "OpenCV"
+  "sensor_msgs"
+  "cv_bridge"
+  "image_transport"
+)
 
 install(TARGETS opencv_save_image_node
   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS opencv_save_image_in_video_node
   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS opencv_save_video_node
+  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS opencv_save_XMLandYMAL
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
