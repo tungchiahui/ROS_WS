@@ -24,13 +24,16 @@ def generate_launch_description():
     robot_name_in_model = 'fishbot'
     package_name = 'fishbot_description'
     urdf_name = "fishbot_gazebo.urdf"
+    world_name = "fishbot.world"
 
     pkg_share = get_package_share_directory(f"{package_name}")
     urdf_model_path = os.path.join(pkg_share, f'urdf/urdf/{urdf_name}')
+    gazebo_world_path = os.path.join(pkg_share, f'world/{world_name}')
+    default_rviz_config_path = os.path.join(pkg_share, 'rviz/rviz2.rviz')
 
     # Start Gazebo server
     start_gazebo_cmd = ExecuteProcess(
-        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
+        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so',gazebo_world_path],
         output='screen')
         
     # Launch the robot
@@ -38,6 +41,22 @@ def generate_launch_description():
         package='gazebo_ros', 
         executable='spawn_entity.py',
         arguments=['-entity', robot_name_in_model,  '-file', urdf_model_path ], output='screen')
+    
+    # Start Robot State publisher
+    start_robot_state_publisher_cmd = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        arguments=[urdf_model_path]
+    )
+
+    # Launch RViz
+    start_rviz_cmd = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        arguments=['-d', default_rviz_config_path]
+        )
 
 
-    return LaunchDescription([start_gazebo_cmd,spawn_entity_cmd])
+    return LaunchDescription([start_gazebo_cmd,spawn_entity_cmd,start_robot_state_publisher_cmd,start_rviz_cmd])
