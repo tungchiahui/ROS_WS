@@ -1,0 +1,6 @@
+<robot name="fishbot" xmlns:xacro="http://wiki.ros.org/xacro">
+    <xacro:include filename="$(find fishbot_description)/urdf/urdf/fishbot_gazebo.urdf" />
+    <xacro:include filename="$(find fishbot_description)/urdf/xacro/gazebo/move_control.urdf.xacro" />
+    <xacro:include filename="$(find fishbot_description)/urdf/xacro/gazebo/imu.urdf.xacro" />
+    <xacro:include filename="$(find fishbot_description)/urdf/xacro/gazebo/laser.urdf.xacro" />
+</robot>

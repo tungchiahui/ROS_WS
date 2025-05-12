@@ -1,4 +1,4 @@
 <robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro">
-    <xacro:include filename="../urdf/CyberNaviRobot.urdf" />
-    <xacro:include filename="move_control.urdf.xacro" />
+    <xacro:include filename="$(find mycar_description)/urdf/urdf/CyberNaviRobot.urdf" />
+    <xacro:include filename="$(find mycar_description)/urdf/xacro/gazebo/move_control.urdf.xacro" />
 </robot>
