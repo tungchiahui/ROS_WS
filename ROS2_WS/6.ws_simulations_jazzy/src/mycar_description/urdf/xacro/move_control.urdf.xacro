@@ -1,0 +1,38 @@
+<robot name="car" xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 运动控制插件 -->
+    <gazebo>
+        <!-- Jazzy 迁移开始：DiffDrive 插件从 ignition-gazebo-* / ignition::gazebo 改为 gz-sim-* / gz::sim。 -->
+        <plugin
+            filename="gz-sim-diff-drive-system"
+            name="gz::sim::systems::DiffDrive">
+            <left_joint>left_front2baselink</left_joint>
+            <left_joint>left_back2baselink</left_joint>
+            <right_joint>right_front2baselink</right_joint>
+            <right_joint>right_back2baselink</right_joint>
+            <!-- wheel_separation轮距 是左右轮中心线之间的距离：0.06 - (-0.06) = 0.12m -->
+            <wheel_separation>0.12</wheel_separation>
+            <wheel_radius>0.025</wheel_radius>
+            <odom_publish_frequency>50</odom_publish_frequency>
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_footprint</child_frame_id>
+            <topic>/cmd_vel</topic>
+            <max_linear_acceleration>10</max_linear_acceleration>
+            <min_linear_acceleration>-10</min_linear_acceleration>
+            <max_angular_acceleration>10</max_angular_acceleration>
+            <min_angular_acceleration>-10</min_angular_acceleration>
+            <max_linear_velocity>0.5</max_linear_velocity>
+            <min_linear_velocity>-0.5</min_linear_velocity>
+            <max_angular_velocity>1</max_angular_velocity>
+            <min_angular_velocity>-1</min_angular_velocity>
+        </plugin>
+        <!-- Jazzy 迁移结束：DiffDrive 插件已改为 Gazebo Harmonic 写法。 -->
+    </gazebo>
+    <!-- 关节状态发布 -->
+    <gazebo>
+        <!-- Jazzy 迁移开始：JointStatePublisher 插件从 ignition-gazebo-* / ignition::gazebo 改为 gz-sim-* / gz::sim。 -->
+        <plugin filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+        </plugin>
+        <!-- Jazzy 迁移结束：JointStatePublisher 插件已改为 Gazebo Harmonic 写法。 -->
+    </gazebo>
+</robot>

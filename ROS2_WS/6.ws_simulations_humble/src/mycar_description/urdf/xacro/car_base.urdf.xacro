@@ -1,0 +1,147 @@
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- PI 值 -->
+    <xacro:property name="PI" value="3.1416"/>
+    <!-- 定义车辆参数 -->
+    <!-- 车体长宽高 -->
+    <xacro:property name="base_link_x" value="0.2"/>
+    <xacro:property name="base_link_y" value="0.12"/>
+    <xacro:property name="base_link_z" value="0.07"/>
+    <!-- 离地间距 -->
+    <xacro:property name="distance" value="0.015"/>
+    <!-- 车轮半径 宽度 -->
+    <xacro:property name="wheel_radius" value="0.025"/>
+    <xacro:property name="wheel_length" value="0.02"/>
+
+    <!-- Gazebo 新增开始：Gazebo 物理参数，用于给 link 生成 inertial -->
+    <xacro:property name="base_footprint_radius" value="0.001"/>
+    <xacro:property name="base_footprint_mass" value="0.001"/>
+    <xacro:property name="base_link_mass" value="1.0"/>
+    <xacro:property name="wheel_mass" value="0.05"/>
+    <xacro:property name="wheel_mu1" value="1.0"/>
+    <xacro:property name="wheel_mu2" value="0.05"/>
+    <!-- Gazebo 新增结束：Gazebo 物理参数 -->
+
+    <!-- Gazebo 新增开始：球体惯性宏，给 base_footprint 使用 -->
+    <xacro:macro name="sphere_inertial" params="mass radius">
+        <inertial>
+            <mass value="${mass}"/>
+            <inertia
+                ixx="${2.0 / 5.0 * mass * radius * radius}" ixy="0.0" ixz="0.0"
+                iyy="${2.0 / 5.0 * mass * radius * radius}" iyz="0.0"
+                izz="${2.0 / 5.0 * mass * radius * radius}"/>
+        </inertial>
+    </xacro:macro>
+    <!-- Gazebo 新增结束：球体惯性宏 -->
+
+    <!-- Gazebo 新增开始：长方体惯性宏，给 base_link 使用 -->
+    <xacro:macro name="box_inertial" params="mass x y z">
+        <inertial>
+            <mass value="${mass}"/>
+            <inertia
+                ixx="${mass / 12.0 * (y * y + z * z)}" ixy="0.0" ixz="0.0"
+                iyy="${mass / 12.0 * (x * x + z * z)}" iyz="0.0"
+                izz="${mass / 12.0 * (x * x + y * y)}"/>
+        </inertial>
+    </xacro:macro>
+    <!-- Gazebo 新增结束：长方体惯性宏 -->
+
+    <!-- Gazebo 新增开始：圆柱车轮惯性宏，给四个轮子使用 -->
+    <xacro:macro name="wheel_inertial" params="mass radius length">
+        <inertial>
+            <mass value="${mass}"/>
+            <inertia
+                ixx="${mass / 12.0 * (3.0 * radius * radius + length * length)}" ixy="0.0" ixz="0.0"
+                iyy="${mass / 2.0 * radius * radius}" iyz="0.0"
+                izz="${mass / 12.0 * (3.0 * radius * radius + length * length)}"/>
+        </inertial>
+    </xacro:macro>
+    <!-- Gazebo 新增结束：圆柱车轮惯性宏 -->
+
+    <!-- 定义颜色 -->
+    <material name="yellow">
+        <color rgba="0.7 0.7 0 0.8" />
+    </material>
+    <material name="red">
+        <color rgba="0.8 0.1 0.1 0.8" />
+    </material>
+    <material name="gray">
+        <color rgba="0.2 0.2 0.2 0.95" />
+      </material>
+    <!-- 定义 base_footprint -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <!-- Codex 修改：把原来的固定 0.001 改成上面新增的参数 -->
+                <sphere radius="${base_footprint_radius}"/>
+            </geometry>
+        </visual>
+        <!-- Gazebo 新增：base_footprint 的惯性，避免 Gazebo 转 SDF 时丢弃根 link -->
+        <xacro:sphere_inertial mass="${base_footprint_mass}" radius="${base_footprint_radius}"/>
+    </link>
+
+    <!-- 定义 base_link -->
+    <link name="base_link">
+        <visual>
+            <!-- 形状 -->
+            <geometry>
+                <box size="${base_link_x} ${base_link_y} ${base_link_z}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="yellow"/>
+        </visual>
+        <!-- Gazebo 新增开始：base_link 碰撞体，Gazebo 物理仿真需要 collision -->
+        <collision>
+            <geometry>
+                <box size="${base_link_x} ${base_link_y} ${base_link_z}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <!-- Gazebo 新增结束：base_link 碰撞体 -->
+        <!-- Gazebo 新增：base_link 惯性，Gazebo 物理仿真需要 inertial -->
+        <xacro:box_inertial mass="${base_link_mass}" x="${base_link_x}" y="${base_link_y}" z="${base_link_z}"/>
+    </link>
+    <joint name="baselink2basefootprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 ${distance + base_link_z / 2}"/>
+    </joint>
+    <!-- 车轮宏定义 -->
+    <xacro:macro name="wheel_func" params="wheel_name is_front is_left" >
+        <link name="${wheel_name}_wheel">
+            <visual>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+                </geometry>
+                <origin xyz="0 0 0" rpy="${PI / 2} 0 0" />
+                <material name="gray"/>
+            </visual>
+            <!-- Gazebo 新增开始：车轮碰撞体，四个轮子都会通过这个宏生成 -->
+            <collision>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+                </geometry>
+                <origin xyz="0 0 0" rpy="${PI / 2} 0 0" />
+            </collision>
+            <!-- Gazebo 新增结束：车轮碰撞体 -->
+            <!-- Gazebo 新增：车轮惯性，四个轮子都会通过这个宏生成 -->
+            <xacro:wheel_inertial mass="${wheel_mass}" radius="${wheel_radius}" length="${wheel_length}"/>
+        </link>
+        <joint name="${wheel_name}2baselink" type="continuous">
+            <parent link="base_link"  />
+            <child link="${wheel_name}_wheel" />
+            <origin xyz="${(base_link_x / 2 - wheel_radius) * is_front} ${base_link_y / 2 * is_left} ${(base_link_z / 2 + distance - wheel_radius) * -1}" rpy="0 0 0" />
+            <axis xyz="0 1 0" />
+        </joint>
+        <!-- Gazebo 新增：四轮差速原地转弯需要轮胎横向滑移；降低 mu2 可以减少 Gazebo 中的卡顿和抖动 -->
+        <gazebo reference="${wheel_name}_wheel">
+            <mu1>${wheel_mu1}</mu1>
+            <mu2>${wheel_mu2}</mu2>
+            <fdir1>1 0 0</fdir1>
+        </gazebo>
+    </xacro:macro>
+    <!-- 车轮宏调用 -->
+    <xacro:wheel_func wheel_name="left_front" is_front="1" is_left="1" />
+    <xacro:wheel_func wheel_name="left_back" is_front="-1" is_left="1" />
+    <xacro:wheel_func wheel_name="right_front" is_front="1" is_left="-1" />
+    <xacro:wheel_func wheel_name="right_back" is_front="-1" is_left="-1" />
+</robot>

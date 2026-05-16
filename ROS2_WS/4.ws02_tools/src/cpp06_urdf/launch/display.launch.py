@@ -46,18 +46,19 @@ robot_state_pub = Node(
 # )
 
 # 关节信息节点图形界面
-joint_state_pub = Node(
-    package="joint_state_publisher_gui",
-    executable="joint_state_publisher_gui"
-)
-
-rviz2 = Node(
-    package="rviz2",
-    executable="rviz2",
-#    arguments=["-d",get_package_share_directory("cpp06_urdf") + "/rviz/urdf.rviz"]
-    arguments=["-d",default_rviz_path]
-
-    )
+# joint_state_pub = Node(
+#     package="joint_state_publisher_gui",
+#     executable="joint_state_publisher_gui"
+# )
+#
+# rviz2 = Node(
+#     package="rviz2",
+#     executable="rviz2",
+# #    arguments=["-d",get_package_share_directory("cpp06_urdf") + "/rviz/urdf.rviz"]
+#     arguments=["-d",default_rviz_path]
+#
+#     )
 
 def generate_launch_description():
-    return LaunchDescription([model,robot_state_pub,joint_state_pub,rviz2])
+    # return LaunchDescription([model,robot_state_pub,joint_state_pub,rviz2])
+    return LaunchDescription([model,robot_state_pub])

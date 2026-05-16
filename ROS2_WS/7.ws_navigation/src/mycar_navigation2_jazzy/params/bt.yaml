@@ -1,0 +1,24 @@
+
+/**:
+  ros__parameters:
+    use_sim_time: True
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: /odom
+    bt_loop_duration: 10
+    default_server_timeout: 20
+    # 从这开始修改: 对照 /opt/ros/jazzy/share/nav2_bringup/params/nav2_params.yaml 的 bt_navigator
+    wait_for_service_timeout: 1000
+    action_server_result_timeout: 900.0
+    navigators: ["navigate_to_pose", "navigate_through_poses"]
+    navigate_to_pose:
+      plugin: "nav2_bt_navigator::NavigateToPoseNavigator"
+    navigate_through_poses:
+      plugin: "nav2_bt_navigator::NavigateThroughPosesNavigator"
+    # Jazzy 会自动加载 Nav2 内置 BT 插件；没有自定义 BT 插件时不要传空列表。
+    # plugin_lib_names:
+    #   - your_custom_bt_plugin
+    error_code_names:
+      - compute_path_error_code
+      - follow_path_error_code
+    # 从这结束

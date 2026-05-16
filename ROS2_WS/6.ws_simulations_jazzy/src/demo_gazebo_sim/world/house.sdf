@@ -1,0 +1,346 @@
+<sdf version='1.10'>
+  <world name='empty'>
+    <physics name='1ms' type='ignored'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <!-- Jazzy 迁移开始：系统插件文件名从 ignition-gazebo-* 改为 gz-sim-*。 -->
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
+    <!-- Jazzy 迁移结束：Physics、UserCommands、SceneBroadcaster、Contact 插件已改为 Gazebo Harmonic 写法。 -->
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+    <model name='ground_plane'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>100</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0 0 0 0 -0 0</pose>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='box'>
+      <pose>5.05017 0 0.5 -0 0 3e-05</pose>
+      <link name='box_link'>
+        <inertial>
+          <inertia>
+            <ixx>16.666</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>16.666</iyy>
+            <iyz>0</iyz>
+            <izz>16.666</izz>
+          </inertia>
+          <mass>100</mass>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='box_collision'>
+          <geometry>
+            <box>
+              <size>0.1 5 1</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='box_visual'>
+          <geometry>
+            <box>
+              <size>0.1 5 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+            <specular>1 1 1 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 -0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>true</static>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='box_0'>
+      <pose>-5.05003 -7.8e-05 0.5 -0 -0 1.8e-05</pose>
+      <link name='box_link'>
+        <inertial>
+          <inertia>
+            <ixx>16.666</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>16.666</iyy>
+            <iyz>0</iyz>
+            <izz>16.666</izz>
+          </inertia>
+          <mass>100</mass>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='box_collision'>
+          <geometry>
+            <box>
+              <size>0.1 5 1</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='box_visual'>
+          <geometry>
+            <box>
+              <size>0.1 5 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+            <specular>1 1 1 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 -0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>true</static>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='box_1'>
+      <pose>0.000162 -2.53144 0.499999 0 -0 -0.001876</pose>
+      <link name='box_link'>
+        <inertial>
+          <inertia>
+            <ixx>16.666</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>16.666</iyy>
+            <iyz>0</iyz>
+            <izz>16.666</izz>
+          </inertia>
+          <mass>100</mass>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='box_collision'>
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='box_visual'>
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+            <specular>1 1 1 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 -0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>true</static>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='box_2'>
+      <pose>0.00012 2.51517 0.499999 0 -0 -0.00303</pose>
+      <link name='box_link'>
+        <inertial>
+          <inertia>
+            <ixx>16.666</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>16.666</iyy>
+            <iyz>0</iyz>
+            <izz>16.666</izz>
+          </inertia>
+          <mass>100</mass>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='box_collision'>
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='box_visual'>
+          <geometry>
+            <box>
+              <size>10 0.1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+            <specular>1 1 1 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 -0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>true</static>
+      <self_collide>false</self_collide>
+    </model>
+    <!-- Jazzy 迁移说明开始：下面是本机 file:// 模型目录，ign_models 只是文件夹名，不属于 Gazebo API，因此保留不改。 -->
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/bed</uri>
+      <name>Bed</name>
+      <pose>2.11564 -0.080355 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet</name>
+      <pose>-1.69505 1.99357 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_1</name>
+      <pose>-1.71706 1.10132 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_2</name>
+      <pose>-1.74096 0.206747 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_3</name>
+      <pose>-1.76908 -0.654114 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_4</name>
+      <pose>-3.54096 -1.97391 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_4_1</name>
+      <pose>-3.51784 -1.10026 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_4_1_1</name>
+      <pose>-3.44853 2.02068 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_4_1_1_1</name>
+      <pose>-3.499 -0.197449 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_3_1</name>
+      <pose>-0.465147 -0.678914 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_3_1_1</name>
+      <pose>-1.12325 -0.88551 0 0 0 -0.016899</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_3_1_2</name>
+      <pose>-0.445223 0.182127 0 0 0 -1.59625</pose>
+    </include>
+    <include>
+      <uri>file:///home/tungchiahui/UserFolder/MySource/ROS_WS/ign_models/WhiteCabinet</uri>
+      <name>WhiteCabinet_3_1_2_1</name>
+      <pose>-0.422109 1.02215 0 0 0 -1.59625</pose>
+    </include>
+    <!-- Jazzy 迁移说明结束：如果以后重命名本机模型目录，需要同步修改这些 file:// 路径。 -->
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 -0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.1 -0.9</direction>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <linear>0.01</linear>
+        <constant>0.90000000000000002</constant>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+  </world>
+</sdf>

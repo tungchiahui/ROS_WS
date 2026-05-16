@@ -7,7 +7,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
 
-    use_sim_time_arg = DeclareLaunchArgument('use_sim_time', default_value = 'True')
+    use_sim_time_arg = DeclareLaunchArgument('use_sim_time', default_value = 'false')
 
     cartographer_node = Node(
         package = 'cartographer_ros',
@@ -23,7 +23,7 @@ def generate_launch_description():
         package = 'cartographer_ros',
         executable = 'cartographer_occupancy_grid_node',
         parameters = [
-            {'use_sim_time': True},
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
             {'resolution': 0.05}],
     )
 
