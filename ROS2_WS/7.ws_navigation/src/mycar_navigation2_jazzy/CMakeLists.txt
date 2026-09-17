@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-# 从这开始修改: Jazzy 使用独立功能包名，避免和 Humble 版本安装到同一个 share 目录
 project(mycar_navigation2_jazzy)
-# 从这结束
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)

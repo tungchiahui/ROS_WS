@@ -2,7 +2,6 @@
   This Behavior Tree replans the global path periodically at 1 Hz through an array of poses continuously
    and it also has recovery actions specific to planning / control as well as general system issues.
 -->
-<!-- 从这开始修改: 对照 Jazzy 官方 navigate_through_poses_w_replanning_and_recovery.xml -->
 <root BTCPP_format="4" main_tree_to_execute="MainTree">
   <BehaviorTree ID="MainTree">
     <RecoveryNode number_of_retries="6" name="NavigateRecovery">
@@ -50,4 +49,3 @@
     </RecoveryNode>
   </BehaviorTree>
 </root>
-<!-- 从这结束 -->

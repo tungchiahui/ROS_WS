@@ -27,9 +27,7 @@ def generate_launch_description():
 
     slam_toolbox_pkg = get_package_share_directory("mycar_slam_slam_toolbox")
     cartographer_pkg = get_package_share_directory("mycar_slam_cartographer")
-    # 从这开始修改: Jazzy auto_slam 引用 mycar_navigation2_jazzy，而不是 Humble 版本包
     nav2_pkg = get_package_share_directory("mycar_navigation2_jazzy")
-    # 从这结束
 
     slam_toolbox_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(

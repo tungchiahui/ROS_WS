@@ -3,7 +3,6 @@
   recovery actions specific to planning / control as well as general system issues.
   This will be continuous if a kinematically valid planner is selected.
 -->
-<!-- 从这开始修改: 对照 Jazzy 官方 navigate_to_pose_w_replanning_and_recovery.xml -->
 <root BTCPP_format="4" main_tree_to_execute="MainTree">
   <BehaviorTree ID="MainTree">
     <RecoveryNode number_of_retries="6" name="NavigateRecovery">
@@ -48,4 +47,3 @@
     </RecoveryNode>
   </BehaviorTree>
 </root>
-<!-- 从这结束 -->

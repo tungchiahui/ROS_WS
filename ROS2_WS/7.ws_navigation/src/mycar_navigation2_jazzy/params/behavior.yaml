@@ -1,6 +1,5 @@
 /**:
   ros__parameters:
-    # 从这开始修改: 对照 Jazzy 官方 behavior_server 参数名和 pluginlib 类名
     local_costmap_topic: local_costmap/costmap_raw
     global_costmap_topic: global_costmap/costmap_raw
     local_footprint_topic: local_costmap/published_footprint
@@ -26,4 +25,3 @@
     max_rotational_vel: 1.0
     min_rotational_vel: 0.4
     rotational_acc_lim: 3.2
-    # 从这结束

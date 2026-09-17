@@ -16,9 +16,7 @@ def generate_launch_description():
     )
 
     amcl_pkg = get_package_share_directory("mycar_localization")
-    # 从这开始修改: Jazzy bringup 引用 mycar_navigation2_jazzy，而不是 Humble 版本包
     nav2_pkg = get_package_share_directory("mycar_navigation2_jazzy")
-    # 从这结束
 
     amcl_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(

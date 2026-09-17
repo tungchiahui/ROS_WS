@@ -20,10 +20,7 @@ def generate_launch_description():
     )
 
     use_sim_time = LaunchConfiguration('use_sim_time')
-
-    # 从这开始修改: Jazzy launch 读取 mycar_navigation2_jazzy 自己安装出来的配置
     current_pkg = get_package_share_directory("mycar_navigation2_jazzy")
-    # 从这结束
 
     bt_params_file = os.path.join(current_pkg, "params", "bt.yaml")
     planner_params_file = os.path.join(current_pkg, "params", "planner.yaml")
