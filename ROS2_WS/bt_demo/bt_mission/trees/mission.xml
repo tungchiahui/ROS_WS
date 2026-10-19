@@ -1,0 +1,26 @@
+<root main_tree_to_execute="MainTree">
+    <include path="navigation.xml"/>
+
+    <BehaviorTree ID="MainTree">
+        <Sequence name="transport_job">
+            <Fallback name="ensure_battery">
+                <BatteryOK level="{battery}"/>
+                <ChargeBattery level="{battery}"/>
+            </Fallback>
+
+            <Fallback name="run_or_report_failure">
+                <Sequence>
+                    <SubTree ID="NavigateLeg"
+                             target="pickup_goal" reached="pickup_reached"/>
+                    <SubTree ID="NavigateLeg"
+                             target="dropoff_goal" reached="dropoff_reached"/>
+                    <ReportMission pickup="{pickup_reached}"
+                                   dropoff="{dropoff_reached}"/>
+                </Sequence>
+                <ForceFailure>
+                    <ReportFailure/>
+                </ForceFailure>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+</root>
