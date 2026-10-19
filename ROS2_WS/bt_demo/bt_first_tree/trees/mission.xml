@@ -1,0 +1,9 @@
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence name="mission_sequence">
+            <CheckBattery name="check_battery"/>
+            <SelectGoal name="select_goal" goal="{mission_goal}"/>
+            <PrintGoal name="print_goal" goal="{mission_goal}"/>
+        </Sequence>
+    </BehaviorTree>
+</root>

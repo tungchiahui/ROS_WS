@@ -1,0 +1,12 @@
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence name="goal_pipeline">
+            <CalculateGoal start="{robot_pose}"
+                           distance="{travel_distance}"
+                           goal="{mission_goal}"/>
+            <OffsetGoal goal="{mission_goal}" offset_x="0.5"/>
+            <PrintGoal name="computed" target="{mission_goal}"/>
+            <PrintGoal name="literal" target="2.0;3.0;1.57"/>
+        </Sequence>
+    </BehaviorTree>
+</root>
