@@ -106,13 +106,19 @@ public:
         // 每个节点实例分别保留尝试次数，用于模拟先失败、后成功。
         ++attempt_;
         std::cout << "[NavigateToGoal] start goal=" << goal_
-                  << ", attempt=" << attempt_ << '\n';
+                  << ", attempt=" << attempt_
+                  << ", completed_ticks=" << completed_ticks_ << '\n';
         return BT::NodeStatus::RUNNING;
     }
 
     BT::NodeStatus onRunning() override
     {
-        if (++completed_ticks_ < required_ticks_)
+        ++completed_ticks_;
+        std::cout << "[NavigateToGoal] check goal=" << goal_
+                  << ", attempt=" << attempt_
+                  << ", completed_ticks=" << completed_ticks_
+                  << '/' << required_ticks_ << '\n';
+        if (completed_ticks_ < required_ticks_)
         {
             return BT::NodeStatus::RUNNING;
         }
@@ -201,11 +207,19 @@ int main()
         blackboard->set("dropoff_goal", std::string("unloading_area"));
         auto tree = factory.createTreeFromFile(BT_XML_PATH, blackboard);
 
+        int root_tick = 1;
+        std::cout << "[main] tick=" << root_tick << " begin\n";
         BT::NodeStatus result = tree.tickRoot();
+        std::cout << "[main] tick=" << root_tick
+                  << " -> " << BT::toStr(result) << '\n';
         while (result == BT::NodeStatus::RUNNING)
         {
             tree.sleep(std::chrono::milliseconds(100));
+            ++root_tick;
+            std::cout << "[main] tick=" << root_tick << " begin\n";
             result = tree.tickRoot();
+            std::cout << "[main] tick=" << root_tick
+                      << " -> " << BT::toStr(result) << '\n';
         }
         std::cout << "Tree result: " << BT::toStr(result) << '\n';
         if (result == BT::NodeStatus::SUCCESS)
