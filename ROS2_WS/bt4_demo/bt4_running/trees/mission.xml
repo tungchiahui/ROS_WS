@@ -1,0 +1,8 @@
+<root BTCPP_format="4" main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <ReactiveSequence>
+            <NavigationAllowed allowed="{navigation_allowed}"/>
+            <NavigateToGoal goal="loading_area" ticks="3"/>
+        </ReactiveSequence>
+    </BehaviorTree>
+</root>
