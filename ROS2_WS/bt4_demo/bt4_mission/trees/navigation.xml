@@ -1,0 +1,8 @@
+<root BTCPP_format="4">
+    <BehaviorTree ID="NavigateLeg">
+        <RetryUntilSuccessful num_attempts="2">
+            <NavigateToGoal goal="{target}" reached_goal="{reached}"
+                            ticks="2" fail_attempts="1"/>
+        </RetryUntilSuccessful>
+    </BehaviorTree>
+</root>

@@ -104,7 +104,7 @@ private:
 int main()
 {
     // 先用 false 跑通；改为 true 后，在第二次根 tick 后禁止继续导航。（用于测试onHalted()触发）
-    const bool cancel_after_two_ticks = false;
+    const bool cancel_after_two_ticks = true;
 
     try
     {
@@ -129,10 +129,17 @@ int main()
                 break;
             }
 
+            // if (cancel_after_two_ticks && tick_count == 2)
+            // {
+            //     blackboard->set("navigation_allowed", false);
+            //     std::cout << "[main] navigation is no longer allowed\n";
+            // }
             if (cancel_after_two_ticks && tick_count == 2)
             {
-                blackboard->set("navigation_allowed", false);
-                std::cout << "[main] navigation is no longer allowed\n";
+                std::cout << "[main] stop requested\n";
+                tree.haltTree();
+                std::cout << "Tree halted: " << BT::toStr(tree.rootNode()->status()) << '\n';
+                return 3;
             }
             // 等待放在主循环中，节点回调本身不长时间阻塞。
             tree.sleep(std::chrono::milliseconds(100));
