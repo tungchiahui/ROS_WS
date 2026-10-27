@@ -1,0 +1,13 @@
+<root BTCPP_format="4" main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence>
+            <Script code="finished:=false; cancelled:=false"/>
+            <NavigateToGoal goal="loading_area" ticks="3"
+                            _while="navigation_allowed"
+                            _onSuccess="finished=true"
+                            _onHalted="cancelled=true"/>
+            <ScriptCondition code="finished"/>
+            <ReportArrival/>
+        </Sequence>
+    </BehaviorTree>
+</root>
